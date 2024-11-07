@@ -17,4 +17,16 @@ class StylicoController extends Controller
     public function newaccountPostView(){
         return view('newaccount');
     }
+
+    public function updateaccountPostView() {
+        return view('updateaccount');
+    }
+
+    public function errormassegeView() {
+        return view('errormassege');
+    }
+
+    public function updatepasswordView() {
+        return view('updatepassword');
+    }
 }
