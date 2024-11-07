@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class ProductdController extends Controller
 {
-    //
+    public function orderhistory() {
+        return view('orderhistory');
+    }
 }
