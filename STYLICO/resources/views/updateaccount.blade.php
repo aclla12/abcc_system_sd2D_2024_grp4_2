@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <h2>STYLICO</h2>
 <h2>Update Account</h2>
 
@@ -22,3 +30,5 @@
 <p><input type="radio" name="gender" value="other">OTHER</p>
 <button type = "submit" value = "update">update</button>
 </form>
+</body>
+</html>

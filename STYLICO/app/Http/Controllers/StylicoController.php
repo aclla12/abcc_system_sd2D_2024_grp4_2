@@ -29,4 +29,8 @@ class StylicoController extends Controller
     public function updatepasswordView() {
         return view('updatepassword');
     }
+
+    public function homepageView() {
+        return view('homepage');
+    }
 }
