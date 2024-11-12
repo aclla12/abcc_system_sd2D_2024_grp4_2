@@ -1,0 +1,11 @@
+
+
+body {
+    background-color: #b0bec5; /* グレー系の背景色 */
+    font-family: Arial, sans-serif; /* フォント */
+    color: #5d4037; /* テキストカラー */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a;
