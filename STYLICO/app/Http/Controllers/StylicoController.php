@@ -17,9 +17,9 @@ class StylicoController extends Controller
     public function newaccountPostView(){
         return view('newaccount');
     }
-
-    public function updateaccountPostView() {
-        return view('updateaccount');
+    
+    public function homepagePostView() {
+        return view('home');
     }
 
     public function errormassegeView() {
@@ -30,7 +30,10 @@ class StylicoController extends Controller
         return view('updatepassword');
     }
 
-    public function homepageView() {
-        return view('homepage');
+    public function updateaccountPostView() {
+        return view('updateaccount');
     }
+
+
+    
 }
