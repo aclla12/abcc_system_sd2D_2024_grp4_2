@@ -1,69 +1,111 @@
+/* 全体設定 */
 body {
-    background-color: #b0bec5; /* グレー系の背景色 */
-    font-family: Arial, sans-serif; /* フォント */
-    color: #5d4037; /* テキストカラー */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #d9d9d9; /* 背景色：やや灰色い無彩色 */
+    color: #000000; /* 全体の文字色：黒 */
+    font-family: Arial, sans-serif;
 }
-.card {
-    background-color: #d7ccc8; /* カードの背景色 */
-    width: 300px; /* カードの幅 */
+
+/* サインアップフォーム */
+.sign-up-form, .update-account-form {
+    background-color: #a48c8c; /* 背景色：やや灰色い赤系の色 */
     padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* 影をつけて立体感を演出 */
-    text-align: center;
+    border-radius: 8px;
+    color: #000000;
 }
-.card h1 {
+
+.sign-up-form h1, .update-account-form h1 {
+    color: #725959; /* タイトルの色：暗い灰みの赤系の色 */
     font-size: 24px;
-    color: #6d4c41; /* 落ち着いた茶色 */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.sign-up-form label, .update-account-form label {
+    display: block;
+    margin-top: 10px;
+    color: #725959; /* 見出しの文字色 */
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #725959; /* 枠線：暗い灰みの赤系の色 */
+    border-radius: 4px;
+}
+
+button.sign-up-button, button.update-button {
+    background-color: #725959; /* ボタンの背景色：暗い灰みの赤系の色 */
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     font-weight: bold;
 }
-.button {
-    background-color: #795548; /* 茶色 */
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
+
+button.sign-up-button:hover, button.update-button:hover {
+    background-color: #5e4a4a; /* ホバー時のボタン色を少し濃く */
+}
+
+/* ホームページ */
+.home-page {
+    background-color: #a48c8c; /* 背景色：やや灰色い赤系の色 */
+    padding: 20px;
+}
+
+.home-page h1 {
+    color: #725959; /* ホームページのタイトル色 */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    color: #757575; /* メニュー項目色：とても暗い無彩色 */
+    margin: 0 10px;
+}
+
+.menu-item:hover {
+    color: #000000; /* ホバー時に黒に変更 */
+}
+
+/* お気に入り画面 */
+.favorite-item {
+    background-color: #d9d9d9; /* 背景色：やや灰色い無彩色 */
+    padding: 20px;
+    border: 1px solid #a48c8c; /* 枠線：やや灰色い赤系の色 */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.favorite-item h2 {
+    color: #725959; /* タイトル色：暗い灰みの赤系 */
+}
+
+.heart-icon {
+    color: #ff0000; /* ハートの色：赤 */
+}
+
+.tab {
+    color: #a48c8c; /* タブの文字色 */
+    background-color: #d9d9d9; /* タブの背景色 */
+    padding: 5px 10px;
+    border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
-    width: 100%;
-    margin: 10px 0;
-    transition: background-color 0.3s ease;
 }
 
-.button:hover {
-    background-color: #5d4037; /* ホバー時に少し濃い色 */
+.tab.active {
+    background-color: #a48c8c; /* アクティブなタブの背景色 */
+    color: #ffffff;
 }
-.input-field {
-    width: 100%;
+
+/* その他 */
+footer {
+    background-color: #a48c8c;
+    color: #000000;
+    text-align: center;
     padding: 10px;
-    border: 1px solid #bdbdbd; /* 薄いグレー */
-    border-radius: 5px;
-    margin-bottom: 15px;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-.label {
-    font-size: 14px;
-    color: #6d4c41; /* 落ち着いた色 */
-    display: block;
-    margin-bottom: 5px;
-}
-.checkbox-label {
-    font-size: 14px;
-    color: #5d4037;
-    display: inline-block;
 }
 
-.link {
-    color: #5d4037;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.link:hover {
-    text-decoration: underline;
+footer p {
+    margin: 0;
 }
