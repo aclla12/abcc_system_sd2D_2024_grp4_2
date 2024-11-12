@@ -8,7 +8,7 @@
 <body>
 <h2>STYLICO</h2>
 <h2>Login.</h2>
-<form action="{{ route('homepage') }}" method = "post">
+<form action="{{ route('home' )}}" method="post">
     @csrf
 <h5>ログインID</h5>
 <input type = "text" name = "loginid" >

@@ -10,4 +10,4 @@ Route::get('/', function () {return view('welcome');});
 Route::get('shoki', [StylicoController::class,'getView'])->name('shoki');
 Route::post('login', [StylicoController::class,'loginPostView'])->name('login');
 Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
-Route::post('homepage', [StylicoController::class, 'homepageView'])->name('homepage');
+Route::post('home', [StylicoController::class, 'homepagePostView'])->name('home');

@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>STYLICO</h2>
-<h5>Home Page</h5>
+<h2>Home Page</h2>
 
 <!-- {{ route('') }} -->
 <form action = "#" method = "post">
