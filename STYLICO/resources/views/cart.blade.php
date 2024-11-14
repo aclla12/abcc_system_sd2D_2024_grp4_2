@@ -15,5 +15,16 @@
     <p><h6>数量: DBから数量</h6></p>
     
     <button type = "submit">支払いへ進む</button>
+
+    MENU <form action="homepage" method = "post">
+    @csrf
+        <button type = "submit">🏠</button>
+            <form action="mypage" method = "post">
+                <button type = "submit">☺</button>
+                    <form action="#" method = "post">
+                        <button type = "submit">🛒</button>
+                    </form>
+            </form>
+    </form>
 </body>
 </html>
