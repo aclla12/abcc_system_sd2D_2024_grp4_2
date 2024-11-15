@@ -13,6 +13,6 @@ Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name
 Route::post('home', [StylicoController::class, 'homepagePostView'])->name('home');
 Route::post('mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 Route::post('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
-
+Route::get('/dates',[StylicoController::class,'showDates']);
 
 
