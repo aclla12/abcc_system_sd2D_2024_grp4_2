@@ -60,7 +60,7 @@
 </form><br><br>
 
 
-<form action="#" method = "post">@csrf
+<form action={{ route('mypage') }} method = "post">@csrf
     <p><button type = "submit">MY PAGE☺</button></p>
 </form>
 
