@@ -19,7 +19,6 @@ class StylicoController extends Controller
     }
     
     public function homepagePostView() {
-        // dd('a');
         return view('home');
     }
 

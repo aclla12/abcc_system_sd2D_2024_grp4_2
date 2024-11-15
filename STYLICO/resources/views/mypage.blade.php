@@ -40,5 +40,16 @@
 <button type = "submit" >DELETE ACCOUNT</button>
 </form>
 
+MENU <form action="homepage" method = "post">
+    @csrf
+        <button type = "submit">🏠</button>
+            <form action="mypage" method = "post">
+                <button type = "submit">👤</button>
+                    <form action="#" method = "post">
+                        <button type = "submit">🛒</button>
+                    </form>
+            </form>
+    </form>
+
 </body>
 </html>

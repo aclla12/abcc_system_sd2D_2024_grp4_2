@@ -12,7 +12,7 @@ Route::post('login', [StylicoController::class,'loginPostView'])->name('login');
 Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
 Route::post('home', [StylicoController::class, 'homepagePostView'])->name('home');
 Route::post('mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
-Route::post('updateaccount', [StylicoController::class, 'updateaccoountPostView'])->name('updateaccount');
+Route::post('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
 
 
 

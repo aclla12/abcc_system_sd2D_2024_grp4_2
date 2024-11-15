@@ -16,11 +16,11 @@
     
     <button type = "submit">支払いへ進む</button>
 
-    MENU <form action="homepage" method = "post">
+    MENU <form action={{route('homepage')}} method = "post">
     @csrf
         <button type = "submit">🏠</button>
             <form action="mypage" method = "post">
-                <button type = "submit">☺</button>
+                <button type = "submit">👤</button>
                     <form action="#" method = "post">
                         <button type = "submit">🛒</button>
                     </form>
