@@ -14,7 +14,7 @@ Route::post('home', [StylicoController::class, 'homepagePostView'])->name('home'
 Route::post('mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 Route::post('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
 Route::post('payment',[StylicoController::class, 'paymentPostView'])->name('payment');
-Route::post('cart',[StylicoController::class, 'cartPostView'])->name('cart');
-Route::get('/dates',[StylicoController::class,'showDates'])->name('dates');
-
+Route::get('dates',[StylicoController::class,'showDates'])->name('dates');
+Route::get('mysize', [StylicoController::class, 'edit'])->name('mysize.edit');
+Route::post('mysize', [StylicoController::class, 'update'])->name('mysize.update');
 
