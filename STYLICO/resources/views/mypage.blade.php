@@ -40,12 +40,16 @@
 <button type = "submit" >DELETE ACCOUNT</button>
 </form>
 
-MENU <form action="homepage" method = "post">
+MENU <form action={{ route('home') }} method = "post">
     @csrf
         <button type = "submit">🏠</button>
-            <form action="mypage" method = "post">
+        </form>
+            <form action={{ route('mypage') }} method = "post">
+                @csrf
                 <button type = "submit">👤</button>
-                    <form action="#" method = "post">
+            </form>
+                    <form action={{ route('cart') }} method = "post">
+                        @csrf
                         <button type = "submit">🛒</button>
                     </form>
             </form>

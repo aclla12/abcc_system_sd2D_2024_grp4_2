@@ -10,7 +10,7 @@
 <h2>Update Password</h2><br>
 <h4>新しいパスワードを設定してください</h4><br>
 
-<form action="#" method = "post">
+<form action={{ route('login')}} method = "post">
     @csrf
 
 <p>EMAIL(ログインID)</p>
