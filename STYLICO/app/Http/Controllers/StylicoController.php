@@ -39,6 +39,10 @@ class StylicoController extends Controller
         return view('updateaccount');
     }
 
+    public function paymentPostView(){
+        return view('payment');
+    }
+
     public function datetimeView(){
         $dates =[];
         $starDate=Carbon::today();
