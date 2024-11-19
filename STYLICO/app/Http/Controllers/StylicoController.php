@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 class StylicoController extends Controller
 {
@@ -38,6 +39,14 @@ class StylicoController extends Controller
         return view('updateaccount');
     }
 
+    public function datetimeView(){
+        $dates =[];
+        $starDate=Carbon::today();
 
+        for($i=0; $i<4; $i++){
+            $dates[]=$starDate->copy()->addDays($i);
+        }
+        return view('datetime');
+    }
     
 }
