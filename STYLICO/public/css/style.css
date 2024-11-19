@@ -1,5 +1,5 @@
 /* 初期画面 */
-body{
+.shoki{
 position: relative;
 width: 430px;
 height: 932px;
@@ -37,10 +37,10 @@ top: 116px;
 
 border: 1px solid #A48C8C;
 transform: rotate(0.15deg);
-}
 
-/* Group 33 新規作成　茶色のボタン */  
-.button1{
+
+/* Group 33 */
+
 position: absolute;
 width: 341px;
 height: 63px;
@@ -49,7 +49,7 @@ top: 498px;
 
 
 
-/* Rectangle 10　　ボタンの形 */
+/* Rectangle 10 */
 
 position: absolute;
 width: 341px;
@@ -63,7 +63,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
 
 
-/* 新規作成 　茶色のボタン*/
+/* 新規作成 */
+
 position: absolute;
 width: 140px;
 height: 37px;
@@ -78,10 +79,11 @@ line-height: 16px;
 /* または50% */
 
 color: #FFFFFF;
-}
 
-/* Group 38 ログイン　茶色のボタン*/
-.button2{
+
+
+/* Group 38 */
+
 position: absolute;
 width: 341px;
 height: 63px;
@@ -120,10 +122,11 @@ line-height: 16px;
 /* または50% */
 
 color: #FFFFFF;
-}
+
+
 
 /* WELCOME! */
-.welcom{
+
 position: absolute;
 width: 292px;
 height: 29px;
@@ -145,16 +148,16 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* ログイン画面 */
-.body2{
+.login{
 position: relative;
 width: 430px;
 height: 932px;
 
 background: #D0CECE;
-}
 
-/* Group 7 パスワードをお忘れの方*/
-.text1{
+
+/* Group 7 */
+
 position: absolute;
 width: 267.89px;
 height: 29.7px;
@@ -181,7 +184,7 @@ line-height: 16px;
 color: #000000;
 
 transform: rotate(-0.33deg);
-}
+
 
 /* ＿＿＿＿＿＿＿＿＿＿＿＿ */
 
@@ -667,8 +670,10 @@ top: 10.29%;
 bottom: 10.29%;
 
 background: #A48C8C;
-/* 新規登録画面 */
+}
 
+/* 新規登録画面 */
+.newacount{
 position: relative;
 width: 437px;
 height: 932px;
@@ -1549,8 +1554,10 @@ top: 10.29%;
 bottom: 10.29%;
 
 background: #A48C8C;
-/* ホームページ */
+}
 
+/* ホームページ */
+.home{
 position: relative;
 width: 437px;
 height: 932px;
@@ -2397,8 +2404,10 @@ left: 264px;
 top: 588px;
 
 background: url(image.png);
-/* マイページ */
+}
 
+/* マイページ */
+.mypage{
 position: relative;
 width: 437px;
 height: 932px;
@@ -2955,8 +2964,10 @@ top: 12.5%;
 bottom: 62.5%;
 
 background: #000000;
-/* TOPS一覧表示 */
+}
 
+/* TOPS一覧表示 */
+.tops{
 position: relative;
 width: 437px;
 height: 932px;
@@ -3269,8 +3280,10 @@ left: 238px;
 top: 583px;
 
 background: url(image.png);
-/* カート内容表示画面 */
+}
 
+/* カート内容表示画面 */
+.cart{
 position: relative;
 width: 437px;
 height: 944px;
@@ -3794,8 +3807,19 @@ top: 0%;
 bottom: 6.25%;
 
 background: #000000;
-/* 決済確認画面 */
 
+
+/* Frame 1 */
+
+position: absolute;
+width: 14px;
+height: 19px;
+left: 111px;
+top: 121px;
+}
+
+/* 決済確認画面 */
+.payment{
 position: relative;
 width: 437px;
 height: 944px;
@@ -4667,8 +4691,10 @@ top: 630px;
 background: #FFFFFF;
 border: 1px solid #725959;
 border-radius: 5px;
-/* パスワード再設定画面 */
+}
 
+/* パスワード再設定画面 */
+.updatepassword{
 position: relative;
 width: 437px;
 height: 932px;
@@ -4983,8 +5009,10 @@ color: #FFFFFF;
 flex: none;
 order: 0;
 flex-grow: 0;
-/* マイサイズ変更画面 */
+}
 
+/* マイサイズ変更画面 */
+.mysize{
 position: relative;
 width: 437px;
 height: 932px;
@@ -5473,9 +5501,10 @@ line-height: 16px;
 /* または50% */
 
 color: #FFFFFF;
+}
 
 /* 登録内容更新画面 */
-
+.updateaccount{
 position: relative;
 width: 437px;
 height: 932px;
@@ -6366,8 +6395,10 @@ top: 10.29%;
 bottom: 10.29%;
 
 background: #A48C8C;
-/* お気に入り画面 */
+}
 
+/* お気に入り画面 */
+.favoriteitem{
 position: relative;
 width: 437px;
 height: 932px;
@@ -6779,8 +6810,10 @@ top: -0.01%;
 bottom: 6.25%;
 
 background: #FF0000;
-/* 注文履歴表示画面 */
+}
 
+/* 注文履歴表示画面 */
+.orderhistory{
 position: relative;
 width: 437px;
 height: 932px;
@@ -7257,8 +7290,10 @@ left: 26px;
 top: 663px;
 
 background: url(image.png);
-/* エラーメッセージ */
+}
 
+/* エラーメッセージ */
+.errormesage{
 position: relative;
 width: 430px;
 height: 932px;
@@ -7468,7 +7503,10 @@ color: #A48C8C;
 
 border: 1px solid #725959;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-/* 日時指定画面 */
+}
+
+ /* 日時指定画面 */
+.dayselct{
 
 position: relative;
 width: 430px;
@@ -8076,8 +8114,11 @@ line-height: 16px;
 
 color: #F1F1F1;
 
-/* 決済完了画面 */
 
+}
+
+/* 決済完了画面 */
+.paymentfinish{
 position: relative;
 width: 430px;
 height: 932px;
@@ -8299,8 +8340,10 @@ color: #A48C8C;
 
 border: 1px solid #725959;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-/* アカウント削除画面 */
+}
 
+/* アカウント削除画面 */
+.deleteacount{
 position: relative;
 width: 430px;
 height: 932px;
@@ -8450,4 +8493,4 @@ line-height: 16px;
 /* または123% */
 
 color: #A48C8C;
-
+}
