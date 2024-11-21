@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProductdController extends Controller
+class ProductController extends Controller
 {
     public function orderhistory() {
         return view('orderhistory');

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\StylicoController;
+use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {return view('welcome');});
 
@@ -17,4 +18,6 @@ Route::post('payment',[StylicoController::class, 'paymentPostView'])->name('paym
 Route::get('dates',[StylicoController::class,'showDates'])->name('dates');
 Route::get('mysize', [StylicoController::class, 'edit'])->name('mysize.edit');
 Route::post('mysize', [StylicoController::class, 'update'])->name('mysize.update');
+Route::post('cart', [ProductController::class,'cartPostView'])->name('cart');
+
 
