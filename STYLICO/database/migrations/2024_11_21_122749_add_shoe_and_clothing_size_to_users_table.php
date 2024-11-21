@@ -12,7 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->float('height')->nullable();//身長
+            $table->float('weight')->nullable();//体重
+            $table->float('shoe_size')->nullable(); // 靴のサイズ
+            $table->string('clothing_size')->nullable(); // 洋服のサイズ
         });
     }
 
@@ -22,7 +25,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->dropColumn(['height','weight','shoe_size', 'clothing_size']);
         });
-    }
+    }//動かすときに[php artisan migrate]これをする
 };
