@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>STYLICO</h2>
-    <h2>JEWELRY</h2>
+    <h2>PERFUME</h2>
 
     <form action="#" method = "post">
         @csrf
