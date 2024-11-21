@@ -19,7 +19,7 @@
 <button type = "submit" >FAVORITE ITEM</button>
 </form>
 
-<form action={{ route('orderhistory') }} method = "post">
+<form action= "#">
 @csrf
 <button type = "submit" >ORDER HISTORY</button>
 </form>
