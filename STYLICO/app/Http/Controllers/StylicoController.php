@@ -25,7 +25,11 @@ class StylicoController extends Controller
     }
 
     public function mypagePostView(){
-        return view('mypage');
+        return view('mypage.post');
+    }
+
+    public function mypagegetView(){
+        return view('mypage.get');
     }
 
     public function errormassegeView() {

@@ -19,11 +19,13 @@
 <button type = "submit" >FAVORITE ITEM</button>
 </form>
 
-<form action="#">
+<form action={{ route('orderhistory') }} method = "post">
+@csrf
 <button type = "submit" >ORDER HISTORY</button>
 </form>
 
-<form action="#">
+<form action={{ route('mysize.edit') }} method = "get">
+@csrf
 <button type = "submit" >MY SIZE</button>
 </form>
 
