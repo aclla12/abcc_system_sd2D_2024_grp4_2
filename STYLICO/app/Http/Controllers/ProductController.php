@@ -6,8 +6,12 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function orderhistory() {
+    public function orderhistoryView() {
         return view('orderhistory');
+    }
+
+    public function cartView(){
+        return view('cart');
     }
 
     public function jewelry() {
