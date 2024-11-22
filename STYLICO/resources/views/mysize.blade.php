@@ -50,7 +50,7 @@
                     <label for="clothing_size">普段の洋服のサイズ：</label>
                     <input type="text" id="clothing_size" name="clothing_size" value="{{ old('clothing_size', $user->clothing_size ?? '') }}" placeholder="例: L">
                 </div>
+                <h3>上記の情報でマイサイズを変更します</h3>
+                <input type="submit" value="確定"><br><br>
             </form>
-    <h3>上記の情報でマイサイズを変更します</h3>
-<input type="submit" value="確定"><br><br>
 </body>
