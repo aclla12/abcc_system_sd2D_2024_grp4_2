@@ -36,7 +36,7 @@
                 @csrf
                 <div class="form-group">
                     <label for="height">身長：</label>
-                    <input type="number" id="height" name="height" value="{{ old('height', $user->height) }}" placeholder="例: 180">
+                    <input type="number" id="height" name="height" value="{{ old('height', $user->height ?? '') }}" placeholder="例: 180">
                 </div>
                 <div class="form-group">
                     <label for="weight">体重：</label>

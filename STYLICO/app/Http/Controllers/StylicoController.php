@@ -50,7 +50,7 @@ class StylicoController extends Controller
         return view('datetime');
     }
 
-    public function edit()
+    public function mysize()
     {
         $user = Auth::user();
         return view('mysize', compact('user'));
