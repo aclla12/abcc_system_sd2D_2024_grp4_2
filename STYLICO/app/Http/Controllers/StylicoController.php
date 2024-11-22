@@ -40,6 +40,10 @@ class StylicoController extends Controller
         return view('updateaccount');
     }
 
+    public function paymentcompletedpostView() {
+        return view('paymentcompleted');
+    }
+
     public function datetimeView(){
         $dates =[];
         $starDate=Carbon::today();
@@ -67,4 +71,5 @@ class StylicoController extends Controller
         $user->weight = $request->input('weight');
         return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
     }
+
 }

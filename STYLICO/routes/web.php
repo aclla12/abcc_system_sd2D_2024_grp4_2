@@ -30,3 +30,4 @@ Route::post('shirt', [ProductController::class, 'shirtView'])->name('shirt.post'
 Route::post('bottom', [ProductController::class, 'bottomView'])->name('bottom.post');
 Route::post('shoes', [ProductController::class, 'shoesView'])->name('shoes.post');
 Route::post('bag', [ProductController::class, 'bagView'])->name('bag.post');
+Route::post('paymentcompleted', [StylicoController::class, 'paymentcompleted'])->name('paymentcompleted.post');
