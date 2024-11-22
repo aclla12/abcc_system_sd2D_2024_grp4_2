@@ -40,15 +40,15 @@
                 </div>
                 <div class="form-group">
                     <label for="weight">体重：</label>
-                    <input type="number" id="weight" name="weight" value="{{ old('weight', $user->weight) }}" placeholder="例: 70">
+                    <input type="number" id="weight" name="weight" value="{{ old('weight', $user->weight ?? '') }}" placeholder="例: 70">
                 </div>
                 <div class="form-group">
                     <label for="shoe_size">靴のサイズ：</label>
-                    <input type="number" id="shoe_size" name="shoe_size" value="{{ old('shoe_size', $user->shoe_size) }}" placeholder="例: 28">
+                    <input type="number" id="shoe_size" name="shoe_size" value="{{ old('shoe_size', $user->shoe_size ?? '') }}" placeholder="例: 28">
                 </div>
                 <div class="form-group">
                     <label for="clothing_size">普段の洋服のサイズ：</label>
-                    <input type="text" id="clothing_size" name="clothing_size" value="{{ old('clothing_size', $user->clothing_size) }}" placeholder="例: L">
+                    <input type="text" id="clothing_size" name="clothing_size" value="{{ old('clothing_size', $user->clothing_size ?? '') }}" placeholder="例: L">
                 </div>
             </form>
     <h3>上記の情報でマイサイズを変更します</h3>
