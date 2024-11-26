@@ -44,6 +44,10 @@ class StylicoController extends Controller
         return view('paymentcompleted');
     }
 
+    public function deleteaccountView(Request $request) {
+        return view('deleteaccount');
+    }
+
     public function datetimeView(){
         $dates =[];
         $starDate=Carbon::today();
