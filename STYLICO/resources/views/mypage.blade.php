@@ -38,7 +38,7 @@
 <button type = "submit" >LOGOUT</button>
 </form>
 
-<form action="#">
+<form action={{ route('deleteaccount') }} method = "post">
 <button type = "submit" >DELETE ACCOUNT</button>
 </form>
 
