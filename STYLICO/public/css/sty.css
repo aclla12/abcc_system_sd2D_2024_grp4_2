@@ -1,0 +1,44 @@
+body{
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;   
+}
+
+h2.logo{
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 131px;
+    top: 78px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+
+    color: #A48C8C;
+    -webkit-text-stroke: 1px #1D1B20;
+}
+
+.button1{
+     
+    position: relative;
+    background-color: #725959;
+    border: #725959;
+    color: #FFFFFF;
+    text-align: center;
+    width: 341px;
+    height: 63px;
+    left: 48px;
+    top: 300px;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+}

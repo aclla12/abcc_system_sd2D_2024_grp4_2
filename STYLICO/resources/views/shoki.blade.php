@@ -6,19 +6,19 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
     
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
 </head>
 <body>
-<h2>STYLICO</h2>
+<h2 class="logo">STYLICO</h2>
 <h1>WELCOME!</h1>
 <br>
 <form action= {{route('newaccount')}} method="post">
     @csrf
-<input type = "submit" name = "newaccount" value = "新規作成"> <br><br>
+<input type = "submit" class="button1" name = "newaccount" value = "新規作成"> <br><br>
 </form>
 <form action= {{ route('login') }} method="post">
     @csrf
-<input type = "submit" name = "login" value = "ログイン">
+<input type = "submit" class="button1" name = "login" value = "ログイン">
 </form>
 </body>
 </html>
