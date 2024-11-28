@@ -10,7 +10,7 @@
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>Login.</h2>
+<h2 class="title">Login.</h2>
 <form action={{ route('home') }} method="post">
     @csrf
 <h5>ログインID</h5>

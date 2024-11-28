@@ -11,7 +11,7 @@
 </head>
 <body>
     <h2 class="logo">STYLICO</h2>
-    <h2>Payment</h2>
+    <h2 class="title">Payment</h2>
 
     <form action= "#" method = "post">
     <p><h4>- お届け日時 -</h4></p>
