@@ -6,11 +6,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/favorite.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>Favorite Item</h2>
+<h2 class="title">Favorite Item</h2>
 
 <fieldset>
     画像画像画像画像    

@@ -6,11 +6,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/orderhistory.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>Order History</h2>
+<h2 class="title">Order History</h2>
 <h3>- 発送前 -</h3>
 
 <fieldset>

@@ -6,11 +6,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-    
+    <link rel="stylesheet" href="{{ asset('css/updateaccount.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>Update Account</h2>
+<h2 class="title">Update Account</h2>
 
 <form action= {{route('login')}} method = "post">
     @csrf

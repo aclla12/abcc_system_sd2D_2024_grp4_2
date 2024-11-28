@@ -59,7 +59,7 @@ class StylicoController extends Controller
         return view('paymentcompleted');
     }
 
-    public function deleteaccountView(Request $request) {
+    public function deleteaccountView() {
         return view('deleteaccount');
     }
 

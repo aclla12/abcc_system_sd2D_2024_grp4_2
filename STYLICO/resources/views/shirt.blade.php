@@ -7,11 +7,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/shirt.css') }}" />
 </head>
 <body>
     <h2 class="logo">STYLICO</h2>
-    <h2>SHIRT</h2>
+    <h2 class="title">SHIRT</h2>
 
     <form action="#" method = "post">
         @csrf

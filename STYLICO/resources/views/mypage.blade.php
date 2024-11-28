@@ -6,11 +6,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/mypage.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>My Page</h2>
+<h2 class="title">My Page</h2>
 <h3>ACCOUNT</h3>
 <h5>NAME : </h5>
 <h5>ADDRESS : </h5>
@@ -41,7 +41,7 @@
 <button type = "submit" >LOGOUT</button>
 </form>
 
-<form action={{ route('deleteaccount') }} method = "post">
+<form action="{{ route('deleteaccount') }}" method = "post">
 <button type = "submit" >DELETE ACCOUNT</button>
 </form>
 

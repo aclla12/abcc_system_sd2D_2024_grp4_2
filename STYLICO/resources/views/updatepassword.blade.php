@@ -6,11 +6,11 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-    
+    <link rel="stylesheet" href="{{ asset('css/updatepassword.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>Update Password</h2><br>
+<h2 class="title">Update Password</h2><br>
 <h4>新しいパスワードを設定してください</h4><br>
 
 <form action={{ route('login')}} method = "post">
