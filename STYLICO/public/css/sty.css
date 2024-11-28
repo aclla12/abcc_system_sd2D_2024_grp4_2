@@ -10,7 +10,7 @@ body{
 }
 
 h2.logo{
-    position: absolute;
+    position: relative;
     width: 169px;
     height: 23px;
     left: 131px;
