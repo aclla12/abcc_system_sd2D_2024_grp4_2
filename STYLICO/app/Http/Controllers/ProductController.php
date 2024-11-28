@@ -11,7 +11,8 @@ class ProductController extends Controller
     }
 
     public function cartView(){
-        return view('cart');
+        $count = 
+        return view('cart',['count' => $count]);
     }
 
     public function jewelry() {
