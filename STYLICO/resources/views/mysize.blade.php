@@ -10,7 +10,7 @@
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>Update My Size</h2>
+<h2 class="title">Update My Size</h2>
 <div class="container">
     <h3>-現在の登録情報-</h3>
         <div class="section">

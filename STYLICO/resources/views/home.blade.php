@@ -10,7 +10,7 @@
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>Home Page</h2>
+<h2 class="title">Home Page</h2>
 
 
 <form action = "#" method = "post">

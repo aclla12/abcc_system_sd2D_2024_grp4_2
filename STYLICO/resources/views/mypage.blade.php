@@ -10,7 +10,7 @@
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2>My Page</h2>
+<h2 class="title">My Page</h2>
 <h3>ACCOUNT</h3>
 <h5>NAME : </h5>
 <h5>ADDRESS : </h5>
