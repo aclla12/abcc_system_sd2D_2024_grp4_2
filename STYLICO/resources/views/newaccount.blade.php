@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/newaccount.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
@@ -22,7 +22,7 @@
 <h5>YYYY/MM/DD</h5>
 <p><input type="text" name="birthday"></p>
 <h5>ADDRESS</h5>
-<p><input type="text" name="addnum1"> - <input type="text" name="addnum2"></p>
+<p><input type="text" name="addnum"></p>
 <p><textarea name="address" rows="4" cols="50"></textarea></p>
 <h5>NUMBER</h5>
 <p><input type="text" name="number"></p>
