@@ -4,13 +4,12 @@ body{
     width: 430px;
     height: 932px;
     
-    background: #D0CECE;  
-    
+    background: #D0CECE; 
     
 }
 
 h2.logo{
-    position: absolute;
+    position: relative;
     width: 169px;
     height: 23px;
     left: 131px;
@@ -24,4 +23,23 @@ h2.logo{
 
     color: #A48C8C;
     -webkit-text-stroke: 1px #1D1B20;
+}
+h2.title{
+    position: absolute;
+    width: 199px;
+    height: 39px;
+    left: 30px;
+    top: 152px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    -webkit-text-stroke: 1px #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

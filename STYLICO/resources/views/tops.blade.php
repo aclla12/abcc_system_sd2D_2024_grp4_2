@@ -11,7 +11,7 @@
 </head>
 <body>
     <h2 class="logo">STYLICO</h2>
-    <h2>TOPS</h2>
+    <h2 class="title">TOPS</h2>
 
     <form action="#" method = "post">
         @csrf

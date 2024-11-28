@@ -1,0 +1,8504 @@
+body{
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;
+}
+/* 初期画面 */
+.shoki{
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+     
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 131px;
+    top: 78px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 16px;
+    top: 116px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Group 33 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: 48px;
+    top: 498px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: calc(50% - 341px/2 + 3.5px);
+    top: 498px;
+    
+    background: #725959;
+    border: 1px solid #725959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 新規作成 */
+    
+    position: absolute;
+    width: 140px;
+    height: 37px;
+    left: 152px;
+    top: 524px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 38 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: 48px;
+    top: 624px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: calc(50% - 341px/2 + 3.5px);
+    top: 624px;
+    
+    background: #725959;
+    border: 1px solid #725959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* ログイン */
+    
+    position: absolute;
+    width: 138px;
+    height: 37px;
+    left: 152px;
+    top: 650px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* WELCOME! */
+    
+    position: absolute;
+    width: 292px;
+    height: 29px;
+    left: 69px;
+    top: 285px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 16px;
+    /* または40% */
+    text-align: center;
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    /* ログイン画面 */
+    .login{
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Group 7 */
+    
+    position: absolute;
+    width: 267.89px;
+    height: 29.7px;
+    left: 25px;
+    top: 753px;
+    
+    
+    
+    /* パスワードを忘れた方へ→ */
+    
+    position: absolute;
+    width: 267.74px;
+    height: 26.13px;
+    left: 25px;
+    top: 754.56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    transform: rotate(-0.33deg);
+    
+    
+    /* ＿＿＿＿＿＿＿＿＿＿＿＿ */
+    
+    position: absolute;
+    width: 267.74px;
+    height: 26.13px;
+    left: 25px;
+    top: 756.56px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    transform: rotate(-0.33deg);
+    
+    
+    /* ログインID */
+    
+    position: absolute;
+    width: 177px;
+    height: 29px;
+    left: 37px;
+    top: 241px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    /* または67% */
+    
+    color: #725959;
+    
+    
+    
+    /* Rectangle 4 */
+    
+    position: absolute;
+    width: 380px;
+    height: 58px;
+    left: calc(50% - 380px/2);
+    top: 288px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 10px;
+    
+    
+    /* パスワード */
+    
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 38px;
+    top: 383px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    /* または67% */
+    
+    color: #725959;
+    
+    
+    
+    /* Rectangle 1 */
+    
+    position: absolute;
+    width: 380px;
+    height: 57px;
+    left: calc(50% - 380px/2);
+    top: 430px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 10px;
+    
+    
+    /* Group 9 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: 25px;
+    top: 545px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: calc(50% - 380px/2);
+    top: 545px;
+    
+    background: #282437;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* ログイン */
+    
+    position: absolute;
+    width: 135px;
+    height: 32px;
+    left: 147px;
+    top: 571px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #F1F1F1;
+    
+    
+    
+    /* Component 1 */
+    
+    position: absolute;
+    width: 281px;
+    height: 37px;
+    left: 25px;
+    top: 658px;
+    
+    
+    
+    /* Group 4 */
+    
+    position: absolute;
+    visibility: hidden;
+    left: 0%;
+    right: 0%;
+    top: 59.34%;
+    bottom: 0%;
+    
+    
+    
+    /* checkbox_with_label */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 59.34%;
+    bottom: 0%;
+    
+    
+    
+    /* checkbox */
+    
+    width: 24px;
+    height: 24px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* Rectangle 2 */
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FFFFFF;
+    border-radius: 4px;
+    
+    
+    /* Rectangle 1 (Stroke) */
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #000000;
+    
+    
+    /* Vector 1 (Stroke) */
+    
+    position: absolute;
+    left: 14.58%;
+    right: 16.67%;
+    top: 25%;
+    bottom: 22.41%;
+    
+    background: #000000;
+    
+    
+    /* チェックボックス */
+    
+    width: 240px;
+    height: 20px;
+    
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* ボックスの高さと同一、または20px */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* Group 5 */
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 59.34%;
+    
+    
+    
+    /* checkbox_with_label */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 59.34%;
+    
+    
+    
+    /* checkbox */
+    
+    width: 24px;
+    height: 24px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* Rectangle 2 */
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #FFFFFF;
+    border-radius: 4px;
+    
+    
+    /* Rectangle 1 (Stroke) */
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #000000;
+    
+    
+    /* Vector 1 (Stroke) */
+    
+    position: absolute;
+    visibility: hidden;
+    left: 14.58%;
+    right: 16.67%;
+    top: 25%;
+    bottom: 22.41%;
+    
+    background: #000000;
+    
+    
+    /* チェックボックス */
+    
+    width: 240px;
+    height: 20px;
+    
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* ボックスの高さと同一、または20px */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* Group 27 */
+    
+    position: absolute;
+    width: 397px;
+    height: 49.01px;
+    left: 17px;
+    top: 67px;
+    
+    
+    
+    /* Line 2 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 17px;
+    top: 115px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 132px;
+    top: 67px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Login. */
+    
+    position: absolute;
+    width: 310px;
+    height: 42px;
+    left: 59px;
+    top: 162px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 16px;
+    /* または44% */
+    text-align: center;
+    
+    color: #A48C8C;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 44px;
+    left: 50px;
+    top: 910px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Group 32 */
+    
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    left: 349px;
+    top: 441px;
+    
+    
+    
+    /* Group 30 */
+    
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    left: 349px;
+    top: 441px;
+    
+    
+    
+    /* eye-slash */
+    
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    left: 349px;
+    top: 441px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 32.57%;
+    right: -0.01%;
+    top: 15.62%;
+    bottom: 29.76%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 28.11%;
+    right: 28.11%;
+    top: 28.11%;
+    bottom: 28.12%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0%;
+    right: 32.56%;
+    top: 29.76%;
+    bottom: 15.63%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 10.29%;
+    right: 10.28%;
+    top: 10.29%;
+    bottom: 10.29%;
+    
+    background: #A48C8C;
+    }
+    
+    /* 新規登録画面 */
+    .newacount{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Rectangle 31 */
+    
+    position: absolute;
+    width: 407px;
+    height: 694px;
+    left: 15px;
+    top: 173px;
+    
+    background: #D9D9D9;
+    
+    
+    /* Group 25 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 67px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 67px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 112px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Sign - Up */
+    
+    position: absolute;
+    width: 180px;
+    height: 29px;
+    left: 30px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 44px;
+    left: 54px;
+    top: 910px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* EMAIL (ログインID)* */
+    
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 24px;
+    top: 194px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* PASSWORD* */
+    
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 25px;
+    top: 259px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* NAME* */
+    
+    position: absolute;
+    width: 69px;
+    height: 24px;
+    left: 31px;
+    top: 323px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* YYYY/MM/DD* */
+    
+    position: absolute;
+    width: 142px;
+    height: 24px;
+    left: 30px;
+    top: 389px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* ADDRESS* */
+    
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 30px;
+    top: 459px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* NUMBER* */
+    
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 30px;
+    top: 604px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* GENDER */
+    
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 30px;
+    top: 678px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* Rectangle 36 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 417px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 39 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 636px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 19 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 218px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 32 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 283px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 33 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 347px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Group 32 */
+    
+    position: absolute;
+    width: 389px;
+    height: 105px;
+    left: 25px;
+    top: 491px;
+    
+    
+    
+    /* - */
+    
+    position: absolute;
+    width: 12px;
+    height: 29px;
+    left: 122px;
+    top: 493px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* ボックスの高さと同一 */
+    
+    color: #725959;
+    
+    
+    
+    /* Rectangle 38 */
+    
+    position: absolute;
+    width: 389px;
+    height: 62px;
+    left: 25px;
+    top: 534px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 35 */
+    
+    position: absolute;
+    width: 88px;
+    height: 34px;
+    left: 25px;
+    top: 491px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 37 */
+    
+    position: absolute;
+    width: 121px;
+    height: 34px;
+    left: 143px;
+    top: 491px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 70px;
+    height: 32px;
+    left: 30px;
+    top: 716px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 38px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 32px;
+    top: 752px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 64px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 84px;
+    height: 32px;
+    left: 31px;
+    top: 788px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 52px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* button */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 101px;
+    height: 50px;
+    left: 284px;
+    top: 796px;
+    
+    background: #725959;
+    border-radius: 6px;
+    
+    
+    /* Button */
+    
+    width: 53px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* ボックスの高さと同一、または112% */
+    
+    /* Default/White */
+    color: #FFFFFF;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* ex) 123abc@gmail.com */
+    
+    position: absolute;
+    width: 332px;
+    height: 27px;
+    left: 32px;
+    top: 222px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex) 麻生　太郎 */
+    
+    position: absolute;
+    width: 332px;
+    height: 27px;
+    left: 37px;
+    top: 351px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex) 2000/01/01 */
+    
+    position: absolute;
+    width: 332px;
+    height: 27px;
+    left: 37px;
+    top: 422px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)830 */
+    
+    position: absolute;
+    width: 63px;
+    height: 27px;
+    left: 38px;
+    top: 494px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)福岡県福岡市博多区博多駅前〇丁目〇〇ー〇〇 */
+    
+    position: absolute;
+    width: 366px;
+    height: 27px;
+    left: 34px;
+    top: 551px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)000-0000-0000 */
+    
+    position: absolute;
+    width: 366px;
+    height: 27px;
+    left: 35px;
+    top: 639px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)0000 */
+    
+    position: absolute;
+    width: 70px;
+    height: 27px;
+    left: 168px;
+    top: 494px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* Group 33 */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 377px;
+    top: 286px;
+    
+    
+    
+    /* Group 30 */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 377px;
+    top: 286px;
+    
+    
+    
+    /* eye-slash */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 377px;
+    top: 286px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 32.57%;
+    right: -0.01%;
+    top: 15.62%;
+    bottom: 29.76%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 28.11%;
+    right: 28.12%;
+    top: 28.11%;
+    bottom: 28.12%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0%;
+    right: 32.56%;
+    top: 29.76%;
+    bottom: 15.63%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 10.29%;
+    right: 10.28%;
+    top: 10.29%;
+    bottom: 10.29%;
+    
+    background: #A48C8C;
+    }
+    
+    /* ホームページ */
+    .home{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Rectangle 30 */
+    
+    position: absolute;
+    width: 372px;
+    height: 697px;
+    left: 32px;
+    top: 191px;
+    
+    background: #D9D9D9;
+    
+    
+    /* Home Page */
+    
+    position: absolute;
+    width: 199px;
+    height: 39px;
+    left: 32px;
+    top: 152px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* Group 24 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 70px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 70px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 115px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* ONLINE STORE */
+    
+    position: absolute;
+    width: 202px;
+    height: 21px;
+    left: 62px;
+    top: 267px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #757575;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* Group 23 */
+    
+    position: absolute;
+    width: 310px;
+    height: 26px;
+    left: 57px;
+    top: 212px;
+    
+    
+    
+    /* Rectangle 38 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 310px;
+    height: 26px;
+    left: 57px;
+    top: 212px;
+    
+    background: #D0CECE;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+    
+    /* search */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 336px;
+    top: 214px;
+    
+    background: #D0CECE;
+    
+    
+    /* icon */
+    
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    
+    background: #1D1B20;
+    
+    
+    /* Group 20 */
+    
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    left: 62px;
+    top: 490px;
+    
+    
+    
+    /* MY PAGE */
+    
+    position: absolute;
+    width: 125px;
+    height: 20px;
+    left: 62px;
+    top: 490px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #757575;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* person-fill */
+    
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 157px;
+    top: 492px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    
+    background: #757575;
+    
+    
+    /* Group 21 */
+    
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 60px;
+    top: 551px;
+    
+    
+    
+    /* SNAP */
+    
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 60px;
+    top: 551px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #757575;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* card-image */
+    
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    left: 122px;
+    top: 552px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 12.5%;
+    bottom: 12.5%;
+    
+    background: #757575;
+    
+    
+    /* Group 22 */
+    
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 60px;
+    top: 690px;
+    
+    
+    
+    /* NEWS */
+    
+    position: absolute;
+    width: 85px;
+    height: 20px;
+    left: 60px;
+    top: 690px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #757575;
+    
+    border: 1px solid #000000;
+    
+    
+    /* chat-left-text */
+    
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 127px;
+    top: 692px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 4.42%;
+    
+    background: #757575;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 18.75%;
+    right: 18.75%;
+    top: 18.75%;
+    bottom: 43.75%;
+    
+    background: #757575;
+    
+    
+    /* SHIPPING GUIDE */
+    
+    position: absolute;
+    width: 204px;
+    height: 26px;
+    left: 60px;
+    top: 779px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #757575;
+    
+    border: 1px solid #000000;
+    
+    
+    /* Group 15 */
+    
+    position: absolute;
+    width: 47px;
+    height: 24.53px;
+    left: 297px;
+    top: 318px;
+    
+    
+    
+    /* Line 10 */
+    
+    position: absolute;
+    width: 44px;
+    height: 0px;
+    left: 297px;
+    top: 338.85px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* SHIRT */
+    
+    position: absolute;
+    width: 45px;
+    height: 24.53px;
+    left: 299px;
+    top: 318px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 16 */
+    
+    position: absolute;
+    width: 35px;
+    height: 24.53px;
+    left: 303px;
+    top: 369.51px;
+    
+    
+    
+    /* Line 11 */
+    
+    position: absolute;
+    width: 33px;
+    height: 0px;
+    left: 303px;
+    top: 390.36px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* BAG */
+    
+    position: absolute;
+    width: 33px;
+    height: 24.53px;
+    left: 305px;
+    top: 369.51px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 19 */
+    
+    position: absolute;
+    width: 59px;
+    height: 24.53px;
+    left: 296px;
+    top: 421.02px;
+    
+    
+    
+    /* Line 12 */
+    
+    position: absolute;
+    width: 51px;
+    height: 0px;
+    left: 296px;
+    top: 440.64px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* GOODS */
+    
+    position: absolute;
+    width: 58px;
+    height: 24.53px;
+    left: 297px;
+    top: 421.02px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 13 */
+    
+    position: absolute;
+    width: 61px;
+    height: 24.53px;
+    left: 180px;
+    top: 318px;
+    
+    
+    
+    /* Line 7 */
+    
+    position: absolute;
+    width: 53px;
+    height: 0px;
+    left: 180px;
+    top: 338.85px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* OUTER */
+    
+    position: absolute;
+    width: 58px;
+    height: 24.53px;
+    left: 183px;
+    top: 318px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 12 */
+    
+    position: absolute;
+    width: 64px;
+    height: 24.53px;
+    left: 73px;
+    top: 369.51px;
+    
+    
+    
+    /* BOTTOM */
+    
+    position: absolute;
+    width: 64px;
+    height: 24.53px;
+    left: 73px;
+    top: 369.51px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 14 */
+    
+    position: absolute;
+    width: 51px;
+    height: 24.53px;
+    left: 180px;
+    top: 369.51px;
+    
+    
+    
+    /* Line 8 */
+    
+    position: absolute;
+    width: 51px;
+    height: 0px;
+    left: 180px;
+    top: 390.36px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* SHOES */
+    
+    position: absolute;
+    width: 48px;
+    height: 24.53px;
+    left: 183px;
+    top: 369.51px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 17 */
+    
+    position: absolute;
+    width: 68px;
+    height: 24.53px;
+    left: 71px;
+    top: 423.47px;
+    
+    
+    
+    /* JEWELRY */
+    
+    position: absolute;
+    width: 68px;
+    height: 24.53px;
+    left: 71px;
+    top: 423.47px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 18 */
+    
+    position: absolute;
+    width: 71px;
+    height: 24.53px;
+    left: 176px;
+    top: 421.02px;
+    
+    
+    
+    /* Line 9 */
+    
+    position: absolute;
+    width: 67px;
+    height: 0px;
+    left: 176px;
+    top: 441.87px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* PERFUME */
+    
+    position: absolute;
+    width: 68px;
+    height: 24.53px;
+    left: 179px;
+    top: 421.02px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 11 */
+    
+    position: absolute;
+    width: 43px;
+    height: 24.53px;
+    left: 81px;
+    top: 318px;
+    
+    
+    
+    /* TOPS */
+    
+    position: absolute;
+    width: 40px;
+    height: 24.53px;
+    left: 84px;
+    top: 318px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #000000;
+    
+    
+    
+    /* Line 4 */
+    
+    position: absolute;
+    width: 43px;
+    height: 0px;
+    left: 81px;
+    top: 338.85px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* Line 5 */
+    
+    position: absolute;
+    width: 64px;
+    height: 0px;
+    left: 70px;
+    top: 390.36px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* Line 6 */
+    
+    position: absolute;
+    width: 69px;
+    height: 0px;
+    left: 68px;
+    top: 445.55px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 44px;
+    left: 53px;
+    top: 910px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* - LOGOUT - */
+    
+    position: absolute;
+    width: 89px;
+    height: 24px;
+    left: 60px;
+    top: 864px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    /* または107% */
+    display: flex;
+    align-items: center;
+    
+    color: #757575;
+    
+    border: 1px solid #000000;
+    
+    
+    /* ・ [2024/9/3更新]　悪天候に伴う配送への影響について。 ・[2024/9/2更新]　なりすましにご注意ください。 */
+    
+    position: absolute;
+    width: 293px;
+    height: 55px;
+    left: 65px;
+    top: 717px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* または133% */
+    
+    color: #000000;
+    
+    
+    
+    /* ・ ヘルプ/よくある質問 ・サイトの機能に関するご意見・ご要望 ・サービス利用規約 */
+    
+    position: absolute;
+    width: 293px;
+    height: 55px;
+    left: 65px;
+    top: 805px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* または133% */
+    
+    color: #000000;
+    
+    
+    
+    /* image 1 */
+    
+    position: absolute;
+    width: 70px;
+    height: 94px;
+    left: 71px;
+    top: 587px;
+    
+    background: url(image.png);
+    
+    
+    /* image 2 */
+    
+    position: absolute;
+    width: 62px;
+    height: 94px;
+    left: 170px;
+    top: 587px;
+    
+    background: url(image.png);
+    
+    
+    /* Ellipse 1 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 348px;
+    top: 616px;
+    
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    
+    
+    /* > */
+    
+    position: absolute;
+    width: 8px;
+    height: 18px;
+    left: 356px;
+    top: 625px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #000000;
+    
+    
+    
+    /* > */
+    
+    position: absolute;
+    width: 8px;
+    height: 18px;
+    left: 366px;
+    top: 625px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #000000;
+    
+    
+    
+    /* image 3 */
+    
+    position: absolute;
+    width: 61px;
+    height: 94px;
+    left: 264px;
+    top: 588px;
+    
+    background: url(image.png);
+    }
+    
+    /* マイページ */
+    .mypage{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Rectangle 31 */
+    
+    position: absolute;
+    width: 407px;
+    height: 640px;
+    left: 15px;
+    top: 196px;
+    
+    background: #D9D9D9;
+    
+    
+    /* Group 25 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 67px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 67px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 112px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* My Page */
+    
+    position: absolute;
+    width: 167px;
+    height: 29px;
+    left: 30px;
+    top: 157px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* FAVORITE ITEM */
+    
+    position: absolute;
+    width: 156.61px;
+    height: 26.13px;
+    left: 30px;
+    top: 510.82px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.59);
+    transform: rotate(-0.33deg);
+    
+    
+    /* ORDER HISTORY */
+    
+    position: absolute;
+    width: 195.45px;
+    height: 26.13px;
+    left: 30px;
+    top: 561.82px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.59);
+    transform: rotate(-0.33deg);
+    
+    
+    /* Group 29 */
+    
+    position: absolute;
+    width: 377px;
+    height: 20px;
+    left: 30px;
+    top: 637px;
+    
+    
+    
+    /* MY SIZE */
+    
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 30px;
+    top: 637px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.59);
+    
+    
+    /* ▶ */
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 387px;
+    top: 637px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #757575;
+    
+    
+    /* Rectangle 26 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 870px;
+    
+    background: #D9D9D9;
+    
+    
+    /* MENU */
+    
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 27px;
+    top: 891px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Shopping cart
+    
+    Keywords: ecommerce, cart, purchase, store
+    */
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 384px;
+    top: 891px;
+    
+    
+    
+    /* Icon */
+    
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 8.33%;
+    
+    border: 2px solid #1E1E1E;
+    
+    
+    /* person */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 337px;
+    top: 889px;
+    
+    
+    
+    /* icon */
+    
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    background: #1D1B20;
+    
+    
+    /* UPDATE ACCOUNT */
+    
+    position: absolute;
+    width: 278px;
+    height: 16px;
+    left: 30px;
+    top: 704px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #565555;
+    
+    
+    /* DELETE ACCOUNT */
+    
+    position: absolute;
+    width: 238px;
+    height: 22px;
+    left: 30px;
+    top: 796px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #565555;
+    
+    
+    /* LOG OUT */
+    
+    position: absolute;
+    width: 119px;
+    height: 15px;
+    left: 30px;
+    top: 751px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #565555;
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 22px;
+    left: 54px;
+    top: 848px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* ACCOUNT */
+    
+    position: absolute;
+    width: 140.78px;
+    height: 26.13px;
+    left: 30px;
+    top: 226.82px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    /* または67% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.59);
+    transform: rotate(-0.33deg);
+    
+    
+    /* Group 31 */
+    
+    position: absolute;
+    width: 303px;
+    height: 194px;
+    left: 67px;
+    top: 272px;
+    
+    
+    
+    /* NAME : */
+    
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    left: 67px;
+    top: 276px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    /* または89% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* ADDRESS : */
+    
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 67px;
+    top: 322px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    /* または89% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* STEAGE : */
+    
+    position: absolute;
+    width: 87px;
+    height: 18px;
+    left: 67px;
+    top: 368px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    /* または89% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Group 28 */
+    
+    position: absolute;
+    width: 249px;
+    height: 52px;
+    left: 67px;
+    top: 414px;
+    
+    
+    
+    /* AVAILABLE POINT / */
+    
+    position: absolute;
+    width: 196px;
+    height: 18px;
+    left: 67px;
+    top: 414px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    /* または89% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* 　※ポイントの付与は、商品発送後1か月になります。 */
+    
+    position: absolute;
+    width: 249px;
+    height: 18px;
+    left: 67px;
+    top: 448px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    /* または160% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* 麻生　　太郎 */
+    
+    position: absolute;
+    width: 119px;
+    height: 24px;
+    left: 217px;
+    top: 272px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    /* または89% */
+    display: flex;
+    align-items: center;
+    
+    color: #A48C8C;
+    
+    
+    
+    /* - BASIC STAGE - */
+    
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 217px;
+    top: 365px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    display: flex;
+    align-items: center;
+    
+    color: #A48C8C;
+    
+    
+    
+    /* 0pt */
+    
+    position: absolute;
+    width: 42px;
+    height: 24px;
+    left: 328px;
+    top: 411px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    display: flex;
+    align-items: center;
+    
+    color: #A48C8C;
+    
+    
+    
+    /* house-door */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 287px;
+    top: 889px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.37%;
+    top: 6.24%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 68.75%;
+    right: 18.75%;
+    top: 12.5%;
+    bottom: 62.5%;
+    
+    background: #000000;
+    }
+    
+    /* TOPS一覧表示 */
+    .tops{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Rectangle 30 */
+    
+    position: absolute;
+    width: 372px;
+    height: 697px;
+    left: 32px;
+    top: 191px;
+    
+    background: #D9D9D9;
+    
+    
+    /* TOPS */
+    
+    position: absolute;
+    width: 199px;
+    height: 39px;
+    left: 32px;
+    top: 152px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* Group 24 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 70px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 70px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 115px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Group 23 */
+    
+    position: absolute;
+    width: 310px;
+    height: 26px;
+    left: 57px;
+    top: 212px;
+    
+    
+    
+    /* Rectangle 38 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 310px;
+    height: 26px;
+    left: 57px;
+    top: 212px;
+    
+    background: #D0CECE;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+    
+    /* search */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 336px;
+    top: 214px;
+    
+    background: #D0CECE;
+    
+    
+    /* icon */
+    
+    position: absolute;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+    
+    background: #1D1B20;
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 44px;
+    left: 53px;
+    top: 910px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Group 52 */
+    
+    position: absolute;
+    width: 233px;
+    height: 22px;
+    left: 36px;
+    top: 263px;
+    
+    
+    
+    /* < HOME PAGEに戻る */
+    
+    position: absolute;
+    width: 233px;
+    height: 22px;
+    left: 36px;
+    top: 263px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    /* または107% */
+    
+    color: #000000;
+    
+    
+    
+    /* Line 14 */
+    
+    position: absolute;
+    width: 137px;
+    height: 0px;
+    left: 46px;
+    top: 280px;
+    
+    border: 1px solid #000000;
+    
+    
+    /* image 5 */
+    
+    position: absolute;
+    width: 130px;
+    height: 166px;
+    left: 69px;
+    top: 321px;
+    
+    background: url(image.png);
+    
+    
+    /* image 4 */
+    
+    position: absolute;
+    width: 130px;
+    height: 166px;
+    left: 238px;
+    top: 321px;
+    
+    background: url(image.png);
+    
+    
+    /* Casper John イミテーション ウールヒュージシャツ */
+    
+    position: absolute;
+    width: 130px;
+    height: 47px;
+    left: 69px;
+    top: 500px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* [CLEL] [CLEL]Military Design Mountain Parka */
+    
+    position: absolute;
+    width: 130px;
+    height: 63px;
+    left: 69px;
+    top: 763px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* WYM LIDNM VINTAGE FADED ZIP PARKA */
+    
+    position: absolute;
+    width: 130px;
+    height: 55px;
+    left: 238px;
+    top: 776px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* または114% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* ADRER 「24AW」 extra quality heavy weight jacquard knit cardiga */
+    
+    position: absolute;
+    width: 130px;
+    height: 64px;
+    left: 238px;
+    top: 500px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    /* または133% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* Image (5) 1 */
+    
+    position: absolute;
+    width: 130px;
+    height: 166px;
+    left: 69px;
+    top: 583px;
+    
+    background: url(Image (5).jpg);
+    
+    
+    /* image 6 */
+    
+    position: absolute;
+    width: 130px;
+    height: 166px;
+    left: 238px;
+    top: 583px;
+    
+    background: url(image.png);
+    }
+    
+    /* カート内容表示画面 */
+    .cart{
+    position: relative;
+    width: 437px;
+    height: 944px;
+    
+    background: #D0CECE;
+    
+    
+    /* Group 40 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 882px;
+    
+    
+    
+    /* Rectangle 26 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 882px;
+    
+    background: #D9D9D9;
+    
+    
+    /* MENU */
+    
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 27px;
+    top: 903px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Shopping cart
+    
+    Keywords: ecommerce, cart, purchase, store
+    */
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 384px;
+    top: 903px;
+    
+    
+    
+    /* Icon */
+    
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 8.33%;
+    
+    border: 2px solid #1E1E1E;
+    
+    
+    /* person */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 331px;
+    top: 899px;
+    
+    
+    
+    /* icon */
+    
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    background: #1D1B20;
+    
+    
+    /* house-door */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 277px;
+    top: 899px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.37%;
+    top: 6.24%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 68.75%;
+    right: 18.75%;
+    top: 12.5%;
+    bottom: 62.5%;
+    
+    background: #000000;
+    
+    
+    /* Group 40 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 68px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 68px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 113px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Group 41 */
+    
+    position: absolute;
+    width: 269px;
+    height: 29px;
+    left: 27px;
+    top: 140px;
+    
+    
+    
+    /* CART */
+    
+    position: absolute;
+    width: 269px;
+    height: 29px;
+    left: 27px;
+    top: 140px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* Rectangle 41 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 195px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 商品番号　：222233334444 */
+    
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    left: 20px;
+    top: 214px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* または114% */
+    
+    color: #000000;
+    
+    
+    
+    /* WYM LIDNM ブルゾン　アウター ARTIFCIAL GRAIN SHORT BLOUSON ブラック　/　L ￥8,800　税込 数量　：　1 */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 127px;
+    top: 243px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #000000;
+    
+    
+    
+    /* Rectangle 41 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 380px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 商品番号　：1234567890 */
+    
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    left: 20px;
+    top: 398px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* または114% */
+    
+    color: #000000;
+    
+    
+    
+    /* WYM LIDNM セーター　ニットBULKY FINE WOOL KNIT メンズ チャコール　/　L ￥5,940　税込 数量　：　1 */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 127px;
+    top: 428px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #000000;
+    
+    
+    
+    /* Rectangle 41 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 20px;
+    top: 573px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 商品番号　：1200230045 */
+    
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    left: 30px;
+    top: 592px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* または114% */
+    
+    color: #000000;
+    
+    
+    
+    /* WYM LIDNM VINTAGE FADED ZIP PARKA グレー　/　L ￥5,500　税込 数量　：　1 */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 132px;
+    top: 621px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    /* または89% */
+    
+    color: #000000;
+    
+    
+    
+    /* Group 33 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: 34px;
+    top: 767px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: calc(50% - 380px/2 + 5.5px);
+    top: 767px;
+    
+    background: #725959;
+    border: 1px solid #A48C8C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 支払いへ進む */
+    
+    position: absolute;
+    width: 199px;
+    height: 32px;
+    left: 124px;
+    top: 793px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #F1F1F1;
+    
+    
+    
+    /* image 6 */
+    
+    position: absolute;
+    width: 82px;
+    height: 93px;
+    left: 34px;
+    top: 621px;
+    
+    background: url(image.png);
+    
+    
+    /* image 7 */
+    
+    position: absolute;
+    width: 86px;
+    height: 94px;
+    left: 30px;
+    top: 427px;
+    
+    background: url(image.png);
+    
+    
+    /* image 8 */
+    
+    position: absolute;
+    width: 86px;
+    height: 103px;
+    left: 30px;
+    top: 243px;
+    
+    background: url(image.png);
+    
+    
+    /* trash */
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 392px;
+    top: 321px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 31.25%;
+    right: 31.25%;
+    top: 34.38%;
+    bottom: 21.88%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 0%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* trash */
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 392px;
+    top: 506px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 31.25%;
+    right: 31.25%;
+    top: 34.38%;
+    bottom: 21.88%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 0%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* trash */
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 392px;
+    top: 701px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 31.25%;
+    right: 31.25%;
+    top: 34.38%;
+    bottom: 21.88%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 0%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* Frame 1 */
+    
+    position: absolute;
+    width: 14px;
+    height: 19px;
+    left: 111px;
+    top: 121px;
+    }
+    
+    /* 決済確認画面 */
+    .payment{
+    position: relative;
+    width: 437px;
+    height: 944px;
+    
+    background: #D0CECE;
+    
+    
+    /* Group 42 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 69px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 69px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 114px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Group 42 */
+    
+    position: absolute;
+    width: 269px;
+    height: 29px;
+    left: 34px;
+    top: 138px;
+    
+    
+    
+    /* Payment */
+    
+    position: absolute;
+    width: 269px;
+    height: 29px;
+    left: 34px;
+    top: 138px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 34px;
+    top: 220px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 64px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 36px;
+    top: 256px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 64px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 240px;
+    height: 32px;
+    left: 35px;
+    top: 292px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 208px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 175px;
+    height: 32px;
+    left: 34px;
+    top: 385px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 143px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    left: 35px;
+    top: 424px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 128px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* -　お届け日時　- */
+    
+    position: absolute;
+    width: 167.01px;
+    height: 19.35px;
+    left: 36px;
+    top: 184.8px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* -　お支払い方法　- */
+    
+    position: absolute;
+    width: 196.4px;
+    height: 20.26px;
+    left: 36px;
+    top: 347.98px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* -　カード情報登録　- */
+    
+    position: absolute;
+    width: 226.77px;
+    height: 20.26px;
+    left: 35px;
+    top: 484.15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* Group 42 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: 20px;
+    top: 777px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: calc(50% - 380px/2 - 8.5px);
+    top: 777px;
+    
+    background: #725959;
+    border: 1px solid #A48C8C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 注文確定 */
+    
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: 151px;
+    top: 802px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #F1F1F1;
+    
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 15px;
+    left: 58px;
+    top: 917px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Group 53 */
+    
+    position: absolute;
+    width: 407px;
+    height: 210px;
+    left: 15px;
+    top: 527px;
+    
+    
+    
+    /* Group 49 */
+    
+    position: absolute;
+    width: 407px;
+    height: 210px;
+    left: 15px;
+    top: 527px;
+    
+    
+    
+    /* Rectangle 42 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 210px;
+    left: 15px;
+    top: 527px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* カード番号 : */
+    
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 22px;
+    top: 560px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    
+    
+    /* 有効期限 : */
+    
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 22px;
+    top: 638px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    
+    
+    /* 月 */
+    
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    left: 211px;
+    top: 638px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    
+    
+    /* 年 */
+    
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    left: 345px;
+    top: 638px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    
+    
+    /* 名義人 : */
+    
+    position: absolute;
+    width: 123px;
+    height: 24px;
+    left: 22px;
+    top: 677px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    
+    
+    /* セキュリティコード : */
+    
+    position: absolute;
+    width: 205px;
+    height: 24px;
+    left: 19px;
+    top: 599px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    
+    
+    /* Rectangle 45 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 265px;
+    height: 31px;
+    left: 141px;
+    top: 553px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 46 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 265px;
+    height: 31px;
+    left: 106px;
+    top: 670px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Group 49 */
+    
+    position: absolute;
+    width: 279px;
+    height: 69px;
+    left: 131px;
+    top: 592px;
+    
+    
+    
+    /* Rectangle 46 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 186px;
+    height: 31px;
+    left: 224px;
+    top: 592px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 47 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 71px;
+    height: 31px;
+    left: 131px;
+    top: 630px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 48 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 84px;
+    height: 31px;
+    left: 256px;
+    top: 630px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    }
+    
+    /* パスワード再設定画面 */
+    .updatepassword{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Rectangle 31 */
+    
+    position: absolute;
+    width: 407px;
+    height: 370px;
+    left: 15px;
+    top: 239px;
+    
+    background: #D9D9D9;
+    
+    
+    /* Group 25 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 67px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 67px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 112px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Update Password */
+    
+    position: absolute;
+    width: 314px;
+    height: 29px;
+    left: 31px;
+    top: 161px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 44px;
+    left: 54px;
+    top: 910px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* EMAIL (ログインID)* */
+    
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 23px;
+    top: 343px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* 新しいパスワードを設定してください */
+    
+    position: absolute;
+    width: 339px;
+    height: 24px;
+    left: 47px;
+    top: 272px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* PASSWORD* */
+    
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 24px;
+    top: 434px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* Rectangle 19 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 24px;
+    top: 367px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 32 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 24px;
+    top: 458px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* ex) 123abc@gmail.com */
+    
+    position: absolute;
+    width: 332px;
+    height: 27px;
+    left: 31px;
+    top: 371px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* Group 33 */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 376px;
+    top: 461px;
+    
+    
+    
+    /* Group 30 */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 376px;
+    top: 461px;
+    
+    
+    
+    /* eye-slash */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 376px;
+    top: 461px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 32.57%;
+    right: -0.01%;
+    top: 15.62%;
+    bottom: 29.76%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 28.11%;
+    right: 28.12%;
+    top: 28.11%;
+    bottom: 28.12%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0%;
+    right: 32.56%;
+    top: 29.76%;
+    bottom: 15.62%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 10.29%;
+    right: 10.28%;
+    top: 10.29%;
+    bottom: 10.29%;
+    
+    background: #A48C8C;
+    
+    
+    /* button */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 112px;
+    height: 50px;
+    left: 166px;
+    top: 661px;
+    
+    background: #725959;
+    border-radius: 6px;
+    
+    
+    /* Button */
+    
+    width: 64px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 18px;
+    /* ボックスの高さと同一、または56% */
+    
+    /* Default/White */
+    color: #FFFFFF;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+    
+    /* マイサイズ変更画面 */
+    .mysize{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Group 40 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 870px;
+    
+    
+    
+    /* Rectangle 26 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 870px;
+    
+    background: #D9D9D9;
+    
+    
+    /* MENU */
+    
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 27px;
+    top: 891px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Shopping cart
+    
+    Keywords: ecommerce, cart, purchase, store
+    */
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 384px;
+    top: 891px;
+    
+    
+    
+    /* Icon */
+    
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 8.33%;
+    
+    border: 2px solid #1E1E1E;
+    
+    
+    /* person */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 331px;
+    top: 887px;
+    
+    
+    
+    /* icon */
+    
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    background: #1D1B20;
+    
+    
+    /* house-door */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 277px;
+    top: 887px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.37%;
+    top: 6.24%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 68.75%;
+    right: 18.75%;
+    top: 12.5%;
+    bottom: 62.5%;
+    
+    background: #000000;
+    
+    
+    /* Group 40 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 79px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 79px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 124px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Update My Size */
+    
+    position: absolute;
+    width: 284px;
+    height: 29px;
+    left: 38px;
+    top: 159px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* -　現在の登録情報　- */
+    
+    position: absolute;
+    width: 216.54px;
+    height: 19.35px;
+    left: 38px;
+    top: 214.8px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* -　登録情報変更　- */
+    
+    position: absolute;
+    width: 216.54px;
+    height: 19.35px;
+    left: 38px;
+    top: 423.27px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* Group 44 */
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 242px;
+    
+    
+    
+    /* Rectangle 41 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 242px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 身長　：　180cm 体重　：　〇〇kg 靴のサイズ　：　28cm 普段の洋服のサイズ　：　L */
+    
+    position: absolute;
+    width: 381px;
+    height: 133px;
+    left: 28px;
+    top: 255px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* Rectangle 41 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 464px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 身長　：　 体重　：　 靴のサイズ　：　 普段の洋服のサイズ　：　 */
+    
+    position: absolute;
+    width: 245px;
+    height: 133px;
+    left: 38px;
+    top: 477px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    
+    
+    
+    /* Rectangle 47 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 123px;
+    top: 487px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 48 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 123px;
+    top: 520px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 49 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 184px;
+    top: 553px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 50 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 266px;
+    top: 586px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* cm */
+    
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    left: 197px;
+    top: 496px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* kg */
+    
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    left: 197px;
+    top: 526px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* cm */
+    
+    position: absolute;
+    width: 54px;
+    height: 18px;
+    left: 261px;
+    top: 559px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* 上記の情報でマイサイズを変更します */
+    
+    position: absolute;
+    width: 413px;
+    height: 24px;
+    left: 12px;
+    top: 671px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #725959;
+    
+    
+    
+    /* Group 39 */
+    
+    position: absolute;
+    width: 358px;
+    height: 63px;
+    left: 42px;
+    top: 740px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 358px;
+    height: 63px;
+    left: calc(50% - 358px/2 + 2.5px);
+    top: 740px;
+    
+    background: #725959;
+    border: 1px solid #725959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 確　定 */
+    
+    position: absolute;
+    width: 107px;
+    height: 28px;
+    left: 168px;
+    top: 766px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #FFFFFF;
+    }
+    
+    /* 登録内容更新画面 */
+    .updateaccount{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Rectangle 31 */
+    
+    position: absolute;
+    width: 407px;
+    height: 694px;
+    left: 15px;
+    top: 173px;
+    
+    background: #D9D9D9;
+    
+    
+    /* Group 25 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 67px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 67px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 112px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Update Account */
+    
+    position: absolute;
+    width: 299px;
+    height: 29px;
+    left: 30px;
+    top: 130px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 44px;
+    left: 54px;
+    top: 910px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* EMAIL (ログインID)* */
+    
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 24px;
+    top: 194px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* PASSWORD* */
+    
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    left: 25px;
+    top: 259px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* NAME* */
+    
+    position: absolute;
+    width: 69px;
+    height: 24px;
+    left: 31px;
+    top: 323px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* YYYY/MM/DD* */
+    
+    position: absolute;
+    width: 142px;
+    height: 24px;
+    left: 30px;
+    top: 389px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* ADDRESS* */
+    
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 30px;
+    top: 459px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* NUMBER* */
+    
+    position: absolute;
+    width: 96px;
+    height: 24px;
+    left: 30px;
+    top: 604px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* GENDER */
+    
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 30px;
+    top: 678px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #725959;
+    
+    
+    
+    /* Rectangle 36 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 417px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 39 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 636px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 19 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 218px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 32 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 283px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 33 */
+    
+    position: absolute;
+    width: 389px;
+    height: 34px;
+    left: 25px;
+    top: 347px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Group 32 */
+    
+    position: absolute;
+    width: 389px;
+    height: 105px;
+    left: 25px;
+    top: 491px;
+    
+    
+    
+    /* - */
+    
+    position: absolute;
+    width: 12px;
+    height: 29px;
+    left: 122px;
+    top: 493px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* ボックスの高さと同一 */
+    
+    color: #725959;
+    
+    
+    
+    /* Rectangle 38 */
+    
+    position: absolute;
+    width: 389px;
+    height: 62px;
+    left: 25px;
+    top: 534px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 35 */
+    
+    position: absolute;
+    width: 88px;
+    height: 34px;
+    left: 25px;
+    top: 491px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Rectangle 37 */
+    
+    position: absolute;
+    width: 121px;
+    height: 34px;
+    left: 143px;
+    top: 491px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    
+    
+    /* Group 43 */
+    
+    position: absolute;
+    width: 98px;
+    height: 104px;
+    left: 30px;
+    top: 716px;
+    
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 70px;
+    height: 32px;
+    left: 30px;
+    top: 716px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 38px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    left: 32px;
+    top: 752px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 64px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* radios */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 84px;
+    height: 32px;
+    left: 31px;
+    top: 788px;
+    
+    
+    
+    /* icons */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 8px;
+    
+    width: 32px;
+    height: 32px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* radio_icons/radio_off */
+    
+    width: 16px;
+    height: 16px;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* defaultRadio */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    /* Default/White */
+    background: #FFFFFF;
+    /* Secondary/Light Color */
+    border: 1px solid #ABB5BE;
+    border-radius: 16px;
+    
+    
+    /* Label */
+    
+    width: 52px;
+    height: 28px;
+    
+    /* Body/ Base text */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* ボックスの高さと同一、または175% */
+    
+    /* Gray/800 */
+    color: #343A40;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    
+    /* button */
+    
+    /* オートレイアウト */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 24px;
+    gap: 8px;
+    
+    position: absolute;
+    width: 103px;
+    height: 50px;
+    left: 284px;
+    top: 796px;
+    
+    background: #725959;
+    border-radius: 6px;
+    
+    
+    /* Button */
+    
+    width: 55px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* ボックスの高さと同一、または112% */
+    
+    /* Default/White */
+    color: #FFFFFF;
+    
+    
+    /* オートレイアウト内部 */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+    
+    /* ex) 123abc@gmail.com */
+    
+    position: absolute;
+    width: 332px;
+    height: 27px;
+    left: 32px;
+    top: 222px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex) 麻生　太郎 */
+    
+    position: absolute;
+    width: 332px;
+    height: 27px;
+    left: 37px;
+    top: 351px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex) 2000/01/01 */
+    
+    position: absolute;
+    width: 332px;
+    height: 27px;
+    left: 37px;
+    top: 422px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)830 */
+    
+    position: absolute;
+    width: 63px;
+    height: 27px;
+    left: 38px;
+    top: 494px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)福岡県福岡市博多区博多駅前〇丁目〇〇ー〇〇 */
+    
+    position: absolute;
+    width: 366px;
+    height: 27px;
+    left: 34px;
+    top: 551px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)000-0000-0000 */
+    
+    position: absolute;
+    width: 366px;
+    height: 27px;
+    left: 35px;
+    top: 639px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* ex)0000 */
+    
+    position: absolute;
+    width: 70px;
+    height: 27px;
+    left: 168px;
+    top: 494px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    /* または112% */
+    display: flex;
+    align-items: center;
+    
+    color: rgba(162, 171, 181, 0.58);
+    
+    
+    
+    /* Group 33 */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 377px;
+    top: 286px;
+    
+    
+    
+    /* Group 30 */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 377px;
+    top: 286px;
+    
+    
+    
+    /* eye-slash */
+    
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    left: 377px;
+    top: 286px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 32.57%;
+    right: -0.01%;
+    top: 15.62%;
+    bottom: 29.76%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 28.11%;
+    right: 28.12%;
+    top: 28.11%;
+    bottom: 28.12%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0%;
+    right: 32.56%;
+    top: 29.76%;
+    bottom: 15.62%;
+    
+    background: #A48C8C;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 10.29%;
+    right: 10.28%;
+    top: 10.29%;
+    bottom: 10.29%;
+    
+    background: #A48C8C;
+    }
+    
+    /* お気に入り画面 */
+    .favoriteitem{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Rectangle 26 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 870px;
+    
+    background: #D9D9D9;
+    
+    
+    /* MENU */
+    
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 27px;
+    top: 891px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Shopping cart
+    
+    Keywords: ecommerce, cart, purchase, store
+    */
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 384px;
+    top: 891px;
+    
+    
+    
+    /* Icon */
+    
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 8.33%;
+    
+    border: 2px solid #1E1E1E;
+    
+    
+    /* person */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 331px;
+    top: 887px;
+    
+    
+    
+    /* icon */
+    
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    background: #1D1B20;
+    
+    
+    /* house-door */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 277px;
+    top: 887px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.37%;
+    top: 6.24%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 68.75%;
+    right: 18.75%;
+    top: 12.5%;
+    bottom: 62.5%;
+    
+    background: #000000;
+    
+    
+    /* Group 40 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 79px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 79px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 124px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Favorite Item */
+    
+    position: absolute;
+    width: 284px;
+    height: 29px;
+    left: 38px;
+    top: 159px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* image 10 */
+    
+    position: absolute;
+    width: 340px;
+    height: 287px;
+    left: 419px;
+    top: 560px;
+    
+    background: url(image.png);
+    
+    
+    /* Group 45 */
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 234px;
+    
+    
+    
+    /* Rectangle 42 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 234px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 商品番号：2302402500 Casper John シャツ Hard worker shirts/ハードワーカーズシャツ ホワイト　/　L ￥4,950　税込 */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 127px;
+    top: 262px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #000000;
+    
+    
+    
+    /* Image (9) 1 */
+    
+    position: absolute;
+    width: 88px;
+    height: 121px;
+    left: 29px;
+    top: 253px;
+    
+    background: url(Image (9).jpg);
+    
+    
+    /* heart-fill */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 388px;
+    top: 362px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0.02%;
+    right: -0.02%;
+    top: -0.01%;
+    bottom: 6.25%;
+    
+    background: #FF0000;
+    
+    
+    /* Group 46 */
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 426px;
+    
+    
+    
+    /* Rectangle 42 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 426px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* image 9 */
+    
+    position: absolute;
+    width: 86px;
+    height: 121px;
+    left: 29px;
+    top: 446px;
+    
+    background: url(image);
+    
+    
+    /* 商品番号：2302402501 Casper John シャツ Hard worker shirts/ハードワーカーズシャツ ブラック　/　L ￥4,950　税込 */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 132px;
+    top: 460px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #000000;
+    
+    
+    
+    /* heart-fill */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 388px;
+    top: 560px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0.02%;
+    right: -0.02%;
+    top: -0.01%;
+    bottom: 6.25%;
+    
+    background: #FF0000;
+    
+    
+    /* Group 47 */
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 618px;
+    
+    
+    
+    /* Rectangle 41 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 618px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* Image (11) 1 */
+    
+    position: absolute;
+    width: 86px;
+    height: 120px;
+    left: 29px;
+    top: 638px;
+    
+    background: url(Image (11));
+    
+    
+    /* 商品番号：2302402502 Casper John シャツ Hard worker shirts/ハードワーカーズシャツ ネイビー系　/　L ￥4,950　税込 */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 132px;
+    top: 646px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #000000;
+    
+    
+    
+    /* heart-fill */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 388px;
+    top: 746px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 0.02%;
+    right: -0.02%;
+    top: -0.01%;
+    bottom: 6.25%;
+    
+    background: #FF0000;
+    }
+    
+    /* 注文履歴表示画面 */
+    .orderhistory{
+    position: relative;
+    width: 437px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* Group 39 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 870px;
+    
+    
+    
+    /* Rectangle 26 */
+    
+    position: absolute;
+    width: 437px;
+    height: 62px;
+    left: 0px;
+    top: 870px;
+    
+    background: #D9D9D9;
+    
+    
+    /* MENU */
+    
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 27px;
+    top: 891px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Shopping cart
+    
+    Keywords: ecommerce, cart, purchase, store
+    */
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 384px;
+    top: 891px;
+    
+    
+    
+    /* Icon */
+    
+    position: absolute;
+    left: 4.17%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 8.33%;
+    
+    border: 2px solid #1E1E1E;
+    
+    
+    /* person */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 331px;
+    top: 887px;
+    
+    
+    
+    /* icon */
+    
+    position: absolute;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+    
+    background: #1D1B20;
+    
+    
+    /* house-door */
+    
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 277px;
+    top: 887px;
+    
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 9.38%;
+    right: 9.37%;
+    top: 6.24%;
+    bottom: 6.25%;
+    
+    background: #000000;
+    
+    
+    /* Vector */
+    
+    position: absolute;
+    left: 68.75%;
+    right: 18.75%;
+    top: 12.5%;
+    bottom: 62.5%;
+    
+    background: #000000;
+    
+    
+    /* Group 34 */
+    
+    position: absolute;
+    width: 397px;
+    height: 46.01px;
+    left: 20px;
+    top: 66px;
+    
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 134px;
+    top: 66px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 20px;
+    top: 111px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 22px;
+    left: 53px;
+    top: 852px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Order History */
+    
+    position: absolute;
+    width: 269px;
+    height: 29px;
+    left: 27px;
+    top: 136px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* -　発送前　- */
+    
+    position: absolute;
+    width: 136.94px;
+    height: 19.35px;
+    left: 25px;
+    top: 179.8px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* -　発送後　- */
+    
+    position: absolute;
+    width: 136.94px;
+    height: 19.35px;
+    left: 27px;
+    top: 389.8px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* Group 35 */
+    
+    position: absolute;
+    width: 124px;
+    height: 19px;
+    left: 157px;
+    top: 798px;
+    
+    
+    
+    /* view more... */
+    
+    position: absolute;
+    width: 124px;
+    height: 19px;
+    left: 157px;
+    top: 798px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    text-align: center;
+    
+    color: #A48C8C;
+    
+    
+    
+    /* Line 13 */
+    
+    position: absolute;
+    width: 122px;
+    height: 0px;
+    left: 157px;
+    top: 817px;
+    
+    border: 1px solid #A48C8C;
+    
+    
+    /* Rectangle 40 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 0px;
+    top: 217px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 注文日　：　2024.04.01 商品番号　：1000200030 */
+    
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    left: 26px;
+    top: 218px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* または114% */
+    
+    color: #000000;
+    
+    
+    
+    /* [CLEL] [CLEL]Military Design Mountain Parka ブルー系1(デニムブルー)　/　L ￥8,800　税込 数量　：　1 ￥8,800　税込 / コンビニ払い（支払い待ち） */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 127px;
+    top: 257px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #000000;
+    
+    
+    
+    /* Rectangle 40 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 429px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 注文日　：　2024.03.12 商品番号　：1111222233 */
+    
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    left: 26px;
+    top: 438px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* または114% */
+    
+    color: #000000;
+    
+    
+    
+    /* ADRER 「24AW」 extra quality heavy weight jacquard knit cardigan ブラック　/　L ￥6,930　税込 数量　：　1 ￥6,930　/ クレジットカード（一括払い） */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 127px;
+    top: 472px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    /* または133% */
+    
+    color: #000000;
+    
+    
+    
+    /* Rectangle 40 */
+    
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 407px;
+    height: 159px;
+    left: 15px;
+    top: 617px;
+    
+    background: #D9D9D9;
+    border: 1px solid rgba(117, 117, 117, 0.4);
+    
+    
+    /* 注文日　：　2024.02.20 商品番号　：4000300055 */
+    
+    position: absolute;
+    width: 193px;
+    height: 29px;
+    left: 26px;
+    top: 626px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* または114% */
+    
+    color: #000000;
+    
+    
+    
+    /* Casper John イミテーションウールヒュージシャツ ダークグレー　/　S ￥4,500　税込 数量　：　1 ￥4,500　/ クレジットカード（分割2回） */
+    
+    position: absolute;
+    width: 280px;
+    height: 103px;
+    left: 127px;
+    top: 665px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #000000;
+    
+    
+    
+    /* Image (5) 1 */
+    
+    position: absolute;
+    width: 85px;
+    height: 105px;
+    left: 27px;
+    top: 255px;
+    
+    background: url(Image (5).jpg);
+    
+    
+    /* image 4 */
+    
+    position: absolute;
+    width: 85px;
+    height: 103px;
+    left: 26px;
+    top: 477px;
+    
+    background: url(image.png);
+    
+    
+    /* image 5 */
+    
+    position: absolute;
+    width: 85px;
+    height: 105px;
+    left: 26px;
+    top: 663px;
+    
+    background: url(image.png);
+    }
+    
+    /* エラーメッセージ */
+    .errormesage{
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 131px;
+    top: 71px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 16px;
+    top: 116px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Group 37 */
+    
+    position: absolute;
+    width: 341px;
+    height: 162px;
+    left: 48px;
+    top: 262px;
+    
+    
+    
+    /* Rectangle 44 */
+    
+    position: absolute;
+    width: 341px;
+    height: 162px;
+    left: 48px;
+    top: 262px;
+    
+    background: #D9D9D9;
+    
+    
+    /* ⚠入力エラーがあります */
+    
+    position: absolute;
+    width: 341px;
+    height: 41px;
+    left: 48px;
+    top: 290px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    /* または67% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #A80202;
+    
+    
+    
+    /* ログインIDまたはパスワードが違います。 再度ログインしなおすか 新規登録を行ってください。 */
+    
+    position: absolute;
+    width: 292px;
+    height: 82px;
+    left: 75px;
+    top: 319px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    /* または107% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 33 */
+    
+    position: absolute;
+    width: 358px;
+    height: 63px;
+    left: 42px;
+    top: 498px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 358px;
+    height: 63px;
+    left: calc(50% - 358px/2 + 6px);
+    top: 498px;
+    
+    background: #725959;
+    border: 1px solid #725959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 再ログイン */
+    
+    position: absolute;
+    width: 178px;
+    height: 28px;
+    left: 132px;
+    top: 524px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 38 */
+    
+    position: absolute;
+    width: 358px;
+    height: 63px;
+    left: 42px;
+    top: 624px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 358px;
+    height: 63px;
+    left: calc(50% - 358px/2 + 6px);
+    top: 624px;
+    
+    background: #725959;
+    border: 1px solid #725959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 新規登録 */
+    
+    position: absolute;
+    width: 131px;
+    height: 28px;
+    left: 150px;
+    top: 659px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Error */
+    
+    position: absolute;
+    width: 114px;
+    height: 29px;
+    left: 48px;
+    top: 175px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+     /* 日時指定画面 */
+    .dayselct{
+    
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 131px;
+    top: 71px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 16px;
+    top: 116px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 17px;
+    top: 399px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 17px;
+    top: 615px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Specify Delivery Date */
+    
+    position: absolute;
+    width: 344px;
+    height: 29px;
+    left: 31px;
+    top: 151px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* -　配達時間を選択　- */
+    
+    position: absolute;
+    width: 212.68px;
+    height: 23.47px;
+    left: 31px;
+    top: 223.98px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    transform: rotate(-0.33deg);
+    
+    
+    /* Group 50 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 31px;
+    top: 281px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 31px;
+    top: 281px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 10 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 57px;
+    top: 296px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* 水 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 57px;
+    top: 326px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 50 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 225px;
+    top: 281px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 225px;
+    top: 281px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 12 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 251px;
+    top: 296px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* 金 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 251px;
+    top: 326px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 50 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 322px;
+    top: 281px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 322px;
+    top: 281px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 13 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 348px;
+    top: 296px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* 土 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 348px;
+    top: 326px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 50 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 128px;
+    top: 281px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 128px;
+    top: 281px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 11 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 154px;
+    top: 296px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* 木 */
+    
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 154px;
+    top: 326px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* ボックスの高さと同一、または80% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 176px;
+    top: 434px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 176px;
+    top: 434px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 14:00 ~ 16:00 */
+    
+    position: absolute;
+    width: 64px;
+    height: 38px;
+    left: 184px;
+    top: 443px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 41px;
+    top: 434px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 41px;
+    top: 434px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 午前中 */
+    
+    position: absolute;
+    width: 57px;
+    height: 38px;
+    left: 52px;
+    top: 441px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 109px;
+    top: 520px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 109px;
+    top: 520px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 18:00~ 20:00 */
+    
+    position: absolute;
+    width: 57px;
+    height: 38px;
+    left: 120px;
+    top: 527px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 251px;
+    top: 520px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 251px;
+    top: 520px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 19:00~ 21:00 */
+    
+    position: absolute;
+    width: 57px;
+    height: 38px;
+    left: 262px;
+    top: 527px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 311px;
+    top: 434px;
+    
+    
+    
+    /* Rectangle 51 */
+    
+    position: absolute;
+    width: 80.63px;
+    height: 51.68px;
+    left: 311px;
+    top: 434px;
+    
+    background: rgba(164, 140, 140, 0.68);
+    border-radius: 5px;
+    
+    
+    /* 16:00 ~ 18:00 */
+    
+    position: absolute;
+    width: 64px;
+    height: 38px;
+    left: 319px;
+    top: 443px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* または100% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 42 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: 17px;
+    top: 722px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: calc(50% - 380px/2 - 8px);
+    top: 722px;
+    
+    background: #725959;
+    border: 1px solid #A48C8C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 日時確定 */
+    
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: 148px;
+    top: 747px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #F1F1F1;
+    
+    
+    }
+    
+    /* 決済完了画面 */
+    .paymentfinish{
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 131px;
+    top: 71px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* Line 1 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 16px;
+    top: 116px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* Group 37 */
+    
+    position: absolute;
+    width: 341px;
+    height: 162px;
+    left: 48px;
+    top: 262px;
+    
+    
+    
+    /* Rectangle 44 */
+    
+    position: absolute;
+    width: 341px;
+    height: 162px;
+    left: 48px;
+    top: 262px;
+    
+    background: #D9D9D9;
+    
+    
+    /* お支払いが完了しました！ */
+    
+    position: absolute;
+    width: 341px;
+    height: 41px;
+    left: 48px;
+    top: 290px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    /* または67% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #1D1B20;
+    
+    border: 1px solid #FFFFFF;
+    
+    
+    /* Group 48 */
+    
+    position: absolute;
+    width: 292px;
+    height: 82px;
+    left: 75px;
+    top: 319px;
+    
+    
+    
+    /* 現金\コンビニ払いを選択された方には 登録されたメールアドレスに 払い込み表をお送りいたします。 */
+    
+    position: absolute;
+    width: 292px;
+    height: 82px;
+    left: 75px;
+    top: 319px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    /* または107% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    
+    /* Group 33 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: 48px;
+    top: 498px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: calc(50% - 341px/2 + 3.5px);
+    top: 498px;
+    
+    background: #725959;
+    border: 1px solid #725959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* ホームページ */
+    
+    position: absolute;
+    width: 194.31px;
+    height: 28px;
+    left: 124px;
+    top: 522px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* Group 38 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: 48px;
+    top: 624px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 341px;
+    height: 63px;
+    left: calc(50% - 341px/2 + 3.5px);
+    top: 624px;
+    
+    background: #725959;
+    border: 1px solid #725959;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* マイページ */
+    
+    position: absolute;
+    width: 161px;
+    height: 28px;
+    left: 140px;
+    top: 648px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #FFFFFF;
+    
+    
+    
+    /* THANK YOU！ */
+    
+    position: absolute;
+    width: 292px;
+    height: 29px;
+    left: 75px;
+    top: 175px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 16px;
+    /* または40% */
+    text-align: center;
+    
+    color: #A48C8C;
+    
+    border: 1px solid #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    /* アカウント削除画面 */
+    .deleteacount{
+    position: relative;
+    width: 430px;
+    height: 932px;
+    
+    background: #D0CECE;
+    
+    
+    /* 本当に削除しますか？ */
+    
+    position: absolute;
+    width: 245px;
+    height: 29px;
+    left: 91px;
+    top: 263px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 16px;
+    /* または67% */
+    
+    color: #725959;
+    
+    
+    
+    /* Group 9 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: 24px;
+    top: 307px;
+    
+    
+    
+    /* Rectangle 10 */
+    
+    position: absolute;
+    width: 380px;
+    height: 71px;
+    left: calc(50% - 380px/2 - 1px);
+    top: 307px;
+    
+    background: #282437;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+    
+    /* 削除 */
+    
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 174px;
+    top: 327px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #F1F1F1;
+    
+    
+    
+    /* Group 27 */
+    
+    position: absolute;
+    width: 397px;
+    height: 49.01px;
+    left: 17px;
+    top: 67px;
+    
+    
+    
+    /* Line 2 */
+    
+    position: absolute;
+    width: 397px;
+    height: 0px;
+    left: 17px;
+    top: 115px;
+    
+    border: 1px solid #A48C8C;
+    transform: rotate(0.15deg);
+    
+    
+    /* STYLICO */
+    
+    position: absolute;
+    width: 169px;
+    height: 23px;
+    left: 132px;
+    top: 67px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 16px;
+    /* または50% */
+    
+    color: #A48C8C;
+    
+    border: 1px solid #1D1B20;
+    
+    
+    /* delete account */
+    
+    position: absolute;
+    width: 310px;
+    height: 42px;
+    left: 59px;
+    top: 162px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 16px;
+    /* または44% */
+    text-align: center;
+    
+    color: #A48C8C;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+    /* 🄫STYLOCO ONLINE STORE ALL RIGHTS RESERVED. */
+    
+    position: absolute;
+    width: 331px;
+    height: 44px;
+    left: 50px;
+    top: 910px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* または123% */
+    
+    color: #A48C8C;
+    }
+    
