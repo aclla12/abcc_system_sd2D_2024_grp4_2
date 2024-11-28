@@ -6,7 +6,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/cart.css') }}" />
 </head>
 <body>
     <form action="#" method = "post">

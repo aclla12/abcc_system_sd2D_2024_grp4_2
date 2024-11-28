@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/tops.css') }}" />
 </head>
 <body>
     <h2 class="logo">STYLICO</h2>
