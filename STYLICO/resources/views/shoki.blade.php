@@ -7,6 +7,7 @@
     <title>Document</title>
     
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/shoki.css') }}"
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
@@ -18,7 +19,7 @@
 </form>
 <form action= {{ route('login') }} method="post">
     @csrf
-<input type = "submit" class="button1" name = "login" value = "ログイン">
+<input type = "submit" class="button2" name = "login" value = "ログイン">
 </form>
 </body>
 </html>
