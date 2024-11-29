@@ -13,7 +13,7 @@
 <h2 class="title">Home Page</h2>
 
 
-<form action = "#" method = "post">
+<form action = "#" class="search" method = "post">
 @csrf
 <fieldset>
     <input type="text" class="search" name = "search" >
@@ -26,41 +26,40 @@
 <form action = "tops" method = "post">@csrf
     <button type = "submit">TOPS</button>
         
-        <form action = "outer" method = "post">@csrf
+        <form action = "outer"  method = "post">@csrf
             <button type = "submit">OUTER</button>
                 
-                <form action = "shirt" method = "post">
+                <form action = "shirt"  method = "post">
                     @csrf
                     <button type = "submit">SHIRT</button>
                 </form>
         </form>
 </form><br><br>
 
-<form action = "bottom" method = "post">@csrf
+<form action = "bottom"  method = "post">@csrf
     <button type = "submit">BOTTOM</button>
         
-        <form action = "shoes" method = "post">@csrf
+        <form action = "shoes"  method = "post">@csrf
             <button type = "submit">SHOES</button>
                 
-                <form action = "bag" method = "post">@csrf
+                <form action = "bag"  method = "post">@csrf
                     <button type = "submit">BAG</button>
                 </form>
         </form>
 </form><br><br>
 
 
-<form action = "jewelry" method = "post">@csrf
+<form action = "jewelry"  method = "post">@csrf
     <button type = "submit">JEWELRY</button>
         
-        <form action = "perfume" method = "post">@csrf
+        <form action = "perfume"  method = "post">@csrf
             <button type = "submit">PERFUME</button>
                 
-                <form action = "goods" method = "post">@csrf
+                <form action = "goods"  method = "post">@csrf
                     <button type = "submit">GOODS</button>
                 </form>
         </form>
 </form><br><br>
-
 
 <form action={{ route('mypage') }} method = "post">@csrf
     <p><button type = "submit">MY PAGE☺</button></p>
