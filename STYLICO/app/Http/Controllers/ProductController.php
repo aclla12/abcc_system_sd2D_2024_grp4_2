@@ -10,9 +10,8 @@ class ProductController extends Controller
         return view('orderhistory');
     }
 
-    public function cartView(){
-        $count = 
-        return view('cart',['count' => $count]);
+    public function cartView($count){
+        return view('cart');
     }
 
     public function jewelry() {
