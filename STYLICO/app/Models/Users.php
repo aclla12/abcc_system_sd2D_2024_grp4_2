@@ -10,10 +10,7 @@ class STYLICO extends Model
 {
     use HasFactory;
 
-    const CREATE_AT = NULL;
-    const UPDATE_AT = NULL;
-
-    protected $table = "stylico";
+    protected $table = "user";
 
     protected $fillable = [
         //userカラム
@@ -26,25 +23,6 @@ class STYLICO extends Model
         'address_detail',
         'user_number',
         'user_gender',
-        'user_point',
-
-        //favoriteカラム
-        'favorite_id',
-        'user_id',
-        'product_id',
-
-        //cartカラム
-        'cart_id',
-        'user_id',
-        'product_id',
-        'amount',
-
-        //mysizeカラム
-        'user_id',
-        'height',
-        'weight',
-        'feet_size',
-        'clothes_size'
+        'user_point'
     ];
-
 }
