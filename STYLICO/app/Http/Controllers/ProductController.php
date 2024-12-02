@@ -4,13 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Models\Product;
+use App\Models\Cart;
+use App\Models\Favorite;
+use App\Models\sales_details;
+
 class ProductController extends Controller
 {
     public function orderhistoryView() {
         return view('orderhistory');
     }
 
-    public function cartView($count){
+    public function cartView(){
         return view('cart');
     }
 
