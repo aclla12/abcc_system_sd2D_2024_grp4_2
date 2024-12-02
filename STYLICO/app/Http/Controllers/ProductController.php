@@ -14,7 +14,7 @@ class ProductController extends Controller
         return view('cart');
     }
 
-    public function jewelry() {
+    public function jewelryView() {
         return view('jewelry');
     }
 
@@ -22,8 +22,8 @@ class ProductController extends Controller
         return view('favorite');
     }
 
-    public function jewelryView(){
-        return view('jewelry');
+    public function goodsView(){
+        return view('goods');
     }
 
     public function perfumeView(){
