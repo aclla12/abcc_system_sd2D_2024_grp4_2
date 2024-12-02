@@ -25,6 +25,11 @@
 
 
 <a href="updatepasswordView">パスワードを忘れた方へ→</a>
+<h5 class="pass">パスワード</h5>
+<input type="text" class="pass" name = "passid" ><br><br>
+<input type="submit" class="login" value="ログイン"><br><br>
+<input type="checkbox">次回から自動ログインする<br><br><br>
+<a href="#">パスワードを忘れた方へ→</a>
 </form>
 </body>
 </html>
