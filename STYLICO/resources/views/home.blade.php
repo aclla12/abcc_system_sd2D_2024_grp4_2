@@ -31,7 +31,7 @@
 </ul>
 
 <form action={{ route('mypage') }} method = "post">@csrf
-    <p><button type = "submit">MY PAGE☺</button></p>
+    <p><button type = "submit" class="mypage">MY PAGE☺</button></p>
 </form>
 
 
