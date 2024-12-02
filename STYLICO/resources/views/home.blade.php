@@ -13,12 +13,7 @@
 <h2 class="title">Home Page</h2>
 
 
-<form action = "#" class="search" method = "post">
-@csrf
-<fieldset>
-    <input type="text" class="search" name = "search" >
-</fieldset>
-</form>
+
 
 <h2>ONLINE STORE</h2>
 
@@ -48,7 +43,7 @@
 <h6>・サービス利用規約</h6>
 
 
-<form action="#">@csrf
+<form action={{ route('login') }} method="post">@csrf
     <p><button type = "submit">-LOGOUT-</button></p>
 </form>
 </body>

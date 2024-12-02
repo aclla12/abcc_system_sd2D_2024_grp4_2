@@ -32,3 +32,4 @@ Route::post('shoes', [ProductController::class, 'shoesView'])->name('shoes.post'
 Route::post('bag', [ProductController::class, 'bagView'])->name('bag.post');
 Route::post('paymentcompleted', [StylicoController::class, 'paymentcompleted'])->name('paymentcompleted.post');
 Route::post('deleteaccount', [StylicoController::class, 'deleteaccountView'])->name('deleteaccount');
+Route::post('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');
