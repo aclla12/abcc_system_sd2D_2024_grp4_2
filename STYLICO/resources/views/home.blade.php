@@ -16,13 +16,19 @@
 
 
 <h2>ONLINE STORE</h2>
+<ul>
+<li><a href="topsView">TOPS</a></li>
+<li><a href="outerView">OUTER</a></li>
+<li><a href="shirtView">SHIRT</a></li>
 
-<a href="topsView">TOPS</a>    <a href="outerView">OUTER</a>    <a href="shirtView">SHIRT</a><br>
+<li><a href="bottomView">BOTTOM</a></li>   
+<li><a href="shoesView">SHOES</a></li>
+<li><a href="bagView">BAG</a></li>
 
-<a href="bottomView">BOTTOM</a>   <a href="shoesView">SHOES</a>   <a href="bagView">BAG</a><br>
-
-<a href="jewelryView">JEWELRY</a>   <a href="perfumeView">PERFUME</a>   <a href="goodsView">GOODS</a>
-
+<li><a href="jewelryView">JEWELRY</a></li>   
+<li><a href="perfumeView">PERFUME</a></li>
+<li><a href="goodsView">GOODS</a></li>
+</ul>
 
 <form action={{ route('mypage') }} method = "post">@csrf
     <p><button type = "submit">MY PAGE☺</button></p>
