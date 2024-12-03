@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="{{ asset('css/cart.css') }}" />
 </head>
 <body>
-<div id = "app">
-    <button @click = "increment">+</button>
-    {{ count }}
-<   button @click = "decrement">-</button>
-</div>
+
     <form action="#" method = "post">
     <h2 class="logo">STYLICO</h2>
     <h2>CART</h2>

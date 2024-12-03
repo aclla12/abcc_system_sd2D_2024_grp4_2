@@ -10,15 +10,15 @@
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
-<h2 class="title">Login.</h2>
+<h2 class="login">Login.</h2>
 <form action={{ route('home') }} method="post">
     @csrf
-<h5>ログインID</h5>
-<input type = "text" name = "loginid" >
-<h5>パスワード</h5>
-<input type="text" name = "passid" ><br><br>
-<input type="submit" value="ログイン"><br><br>
-<input type="checkbox">次回から自動ログインする<br><br><br>
+<h5 class="login_id">ログインID</h5>
+<input type = "text" class="login_id" name = "loginid" >
+<h5 class="pass">パスワード</h5>
+<input type="text" class="pass" name = "passid" ><br><br>
+<input type="submit" class="login" value="ログイン"><br><br>
+<input type="checkbox" class="checkbox"><h5 class="checkbox">次回から自動ログインする</h5>
 <a href="#">パスワードを忘れた方へ→</a>
 </form>
 </body>
