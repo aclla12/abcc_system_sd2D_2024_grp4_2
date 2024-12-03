@@ -31,17 +31,19 @@
 </ul>
 
 <form action={{ route('mypage') }} method = "post">@csrf
-    <p><button type = "submit" class="mypage">MY PAGE☺</button></p>
+    <p><button type = "submit" class="mypage">MY PAGE☻</button></p>
 </form>
 
 
 <form action="#">@csrf
-    <p><button type = "submit">SNAP</button></p>
+    <p><button type = "submit" class="snap">SNAP</button></p>
 </form>
 
+<div class="news">
 <p>NEWS</p>
 <h6>・ [2024/9/3更新]　悪天候に伴う配送への影響について。</h6>
 <h6>・[2024/9/2更新]　なりすましにご注意ください。</h6>
+</div>
 
 <p>SHOPPING GUIDE</p>
 <h6>・ ヘルプ/よくある質問</h6>
