@@ -30,19 +30,22 @@
 <li><a href="goodsView">GOODS</a></li>
 </ul>
 
-<a href="mypagePostView">MY PAGE</a>
+<a href="mypagePostView" class="mypage">MY PAGE</a>
 
-<a href="snapView"></a>
+<a href="snapView" class="snap">SNAP</a>
 
+<div class="news">
 <p>NEWS</p>
 <h6>・ [2024/9/3更新]　悪天候に伴う配送への影響について。</h6>
 <h6>・[2024/9/2更新]　なりすましにご注意ください。</h6>
+</div>
 
+<div class="guide">
 <p>SHOPPING GUIDE</p>
 <h6>・ ヘルプ/よくある質問</h6>
 <h6>・サイトの機能に関するご意見・ご要望</h6>
 <h6>・サービス利用規約</h6>
-
+</div>
 
 <form action={{ route('login') }} method="post">@csrf
     <p><button type = "submit">-LOGOUT-</button></p>
