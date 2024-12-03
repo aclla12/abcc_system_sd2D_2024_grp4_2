@@ -10,7 +10,7 @@ class Account extends Model
 {
     use HasFactory;
 
-    protected $table = "user";
+    protected $table = "account";
     public $timestamps = false;
 
     protected $fillable = [
