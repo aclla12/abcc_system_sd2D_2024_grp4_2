@@ -2,15 +2,14 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class STYLICO extends Model
+class Account extends Model
 {
     use HasFactory;
 
-    protected $table = "user";
+    protected $table = "account";
 
     protected $fillable = [
         //userカラム

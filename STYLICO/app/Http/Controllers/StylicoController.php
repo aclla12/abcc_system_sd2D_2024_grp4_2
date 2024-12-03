@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
-use App\Models\User;
+use App\Models\Account;
 
 
 class StylicoController extends Controller
@@ -26,12 +26,12 @@ class StylicoController extends Controller
         'user_name' => $request->name,
         'user_birthday' => $request->birthday,
         'user_add' => $request->addnum,
-        'adress_detail' => $request->address,
+        'address_detail' => $request->address,
         'user_number' => $request->number,
         'user_gender' => $request->gender
     ];
 
-        User::create($updatedata);
+        Account::create($updatedata);
 
         return view('newaccount');
     }
