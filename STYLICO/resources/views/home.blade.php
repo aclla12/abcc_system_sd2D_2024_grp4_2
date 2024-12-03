@@ -47,8 +47,6 @@
 <h6>・サービス利用規約</h6>
 </div>
 
-<form action={{ route('login') }} method="post">@csrf
-    <p><button type = "submit">-LOGOUT-</button></p>
-</form>
+<a href="loginPostView">- LOGOUT -</a>
 </body>
 </html>
