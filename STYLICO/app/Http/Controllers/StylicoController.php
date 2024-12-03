@@ -77,7 +77,7 @@ class StylicoController extends Controller
 
     public function edit()
     {
-        $user = Auth::mysize();
+        $user = Auth::user();
         return view('mysize', compact('user'));
     }
 
