@@ -31,7 +31,7 @@ class StylicoController extends Controller
         'user_gender' => $request->gender
     ];
 
-        //::create($updatedata);
+        Account::create($updatedata);
        
 
         return view('newaccount');
