@@ -6,12 +6,8 @@ use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
-<<<<<<< HEAD
 use App\Models\Account;
 
-=======
-use App\Models\StylicoUser;
->>>>>>> 4b8593f0797d8c0850d071063da5289dc3627b37
 
 class StylicoController extends Controller
 {
