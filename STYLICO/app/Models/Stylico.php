@@ -13,8 +13,7 @@ class STYLICO extends Model
     const CREATE_AT = NULL;
     const UPDATE_AT = NULL;
 
-    protected $table = "stylico";
-
+    protected $table = "user";
     protected $fillable = [
         //userカラム
         'user_id',
@@ -26,25 +25,30 @@ class STYLICO extends Model
         'address_detail',
         'user_number',
         'user_gender',
-        'user_point',
+        'user_point'];
 
-        //favoriteカラム
+    protected $table = "favorite";
+    protected $fillable  =[
+         //favoriteカラム
         'favorite_id',
         'user_id',
-        'product_id',
+        'product_id'];
 
-        //cartカラム
-        'cart_id',
-        'user_id',
-        'product_id',
-        'amount',
+    protected $table = "cart";
+    protected $fillable = [
+         //cartカラム
+         'cart_id',
+         'user_id',
+         'product_id',
+         'amount',];
 
-        //mysizeカラム
+    protected $table = "mysize";
+    protected $fillable = [
+         //mysizeカラム
         'user_id',
         'height',
         'weight',
         'feet_size',
-        'clothes_size'
-    ];
+        'clothes_size'];
 
 }
