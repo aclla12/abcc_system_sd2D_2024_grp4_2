@@ -92,4 +92,8 @@ class StylicoController extends Controller
         return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
     }
 
+    public function snapView(){
+        return view('snap');
+    }
+
 }
