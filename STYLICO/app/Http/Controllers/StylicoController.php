@@ -77,21 +77,26 @@ class StylicoController extends Controller
 
     public function edit()
     {
-        $user = Auth::user();
+        $user = Auth::mysize();
         return view('mysize', compact('user'));
     }
 
-    public function update(Request $request)
-    {
+    public function update(Request $request){
         $request->validate([
             'height' => 'required|numeric|min:50|max:300',
             'weight' => 'required|numeric|min:20|max:500',
         ]);
-        $user = Auth::user();
-        $user->height = $request->input('height');
-        $user->weight = $request->input('weight');
-        return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
-    }
+        if(Auth::check()){
+            $user = Auth::mysize();
+            $user->height = $request->input('height');
+            $user->weight = $request->input('weight');
+            $user->save();
+            return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
+        }else{
+            return redirect()->route('login')->with('error','ログインが必要です');
+        }
+        } 
+    
 
     public function snapView(){
         return view('snap');
