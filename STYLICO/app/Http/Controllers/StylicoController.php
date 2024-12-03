@@ -26,17 +26,13 @@ class StylicoController extends Controller
         'user_name' => $request->name,
         'user_birthday' => $request->birthday,
         'user_add' => $request->addnum,
-        'address_detail' => $request->address,
+        'adress_detail' => $request->address,
         'user_number' => $request->number,
         'user_gender' => $request->gender
     ];
 
-<<<<<<< HEAD
-        Account::create($updatedata);
-=======
-        user::create($updatedata);
+        //::create($updatedata);
        
->>>>>>> 4b8593f0797d8c0850d071063da5289dc3627b37
 
         return view('newaccount');
     }
