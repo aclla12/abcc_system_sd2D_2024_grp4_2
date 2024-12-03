@@ -6,8 +6,12 @@ use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
+<<<<<<< HEAD
 use App\Models\Account;
 
+=======
+use App\Models\StylicoUser;
+>>>>>>> 4b8593f0797d8c0850d071063da5289dc3627b37
 
 class StylicoController extends Controller
 {
@@ -31,7 +35,12 @@ class StylicoController extends Controller
         'user_gender' => $request->gender
     ];
 
+<<<<<<< HEAD
         Account::create($updatedata);
+=======
+        user::create($updatedata);
+       
+>>>>>>> 4b8593f0797d8c0850d071063da5289dc3627b37
 
         return view('newaccount');
     }
@@ -90,6 +99,10 @@ class StylicoController extends Controller
         $user->height = $request->input('height');
         $user->weight = $request->input('weight');
         return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
+    }
+
+    public function snapView(){
+        return view('snap');
     }
 
 }

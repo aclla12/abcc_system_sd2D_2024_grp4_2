@@ -30,14 +30,9 @@
 <li><a href="goodsView">GOODS</a></li>
 </ul>
 
-<form action={{ route('mypage') }} method = "post">@csrf
-    <p><button type = "submit" class="mypage">MY PAGE☻</button></p>
-</form>
+<a href="mypagePostView" class="mypage">MY PAGE</a>
 
-
-<form action="#">@csrf
-    <p><button type = "submit" class="snap">SNAP</button></p>
-</form>
+<a href="snapView" class="snap">SNAP</a>
 
 <div class="news">
 <p>NEWS</p>
@@ -45,14 +40,13 @@
 <h6>・[2024/9/2更新]　なりすましにご注意ください。</h6>
 </div>
 
+<div class="guide">
 <p>SHOPPING GUIDE</p>
 <h6>・ ヘルプ/よくある質問</h6>
 <h6>・サイトの機能に関するご意見・ご要望</h6>
 <h6>・サービス利用規約</h6>
+</div>
 
-
-<form action={{ route('login') }} method="post">@csrf
-    <p><button type = "submit">-LOGOUT-</button></p>
-</form>
+<a href="loginPostView">- LOGOUT -</a>
 </body>
 </html>
