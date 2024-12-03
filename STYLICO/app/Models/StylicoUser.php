@@ -11,6 +11,7 @@ class STYLICO extends Model
     use HasFactory;
 
     protected $table = "user";
+    public $timestamps = false;
 
     protected $fillable = [
         //userカラム
