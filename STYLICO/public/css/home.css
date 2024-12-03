@@ -54,6 +54,7 @@ a{
     color: #000000;
 }
 a.mypage{
+    text-decoration: none;
     position: absolute;
     width: 130px;
     height: 20px;
@@ -72,6 +73,7 @@ a.mypage{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 a.snap{
+    text-decoration: none;
     position: absolute;
     width: 85px;
     height: 20px;
@@ -144,6 +146,28 @@ div.guide{
     left: 60px;
     top: 570px;
     }
+}
+a.logout{
+    text-decoration: none;
+    position: absolute;
+    width: 380px;
+    height: 24px;
+    left: 55px;
+    top: 900px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または107% */
+    display: flex;
+    align-items: center;
+    
+    color: #757575;
+    
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
     

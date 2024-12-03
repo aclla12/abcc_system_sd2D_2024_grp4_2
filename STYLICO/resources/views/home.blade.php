@@ -47,6 +47,6 @@
 <h6>・サービス利用規約</h6>
 </div>
 
-<a href="loginPostView">- LOGOUT -</a>
+<a href="loginPostView" class="logout">- LOGOUT -</a>
 </body>
 </html>
