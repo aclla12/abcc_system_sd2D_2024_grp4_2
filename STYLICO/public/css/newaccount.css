@@ -1,0 +1,28 @@
+div.email{
+    h5{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 25px;
+    top: 194px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 450px;
+    font-size: 15px;
+    line-height: 24px;
+    
+    color: #725959;
+    }
+    input{
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    left: 25px;
+    top: 245px;
+    
+    background: #FFFFFF;
+    border: 1px solid #725959;
+    border-radius: 5px;
+    }
+}
