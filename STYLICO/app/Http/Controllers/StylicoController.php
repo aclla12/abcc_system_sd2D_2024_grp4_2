@@ -84,11 +84,15 @@ class StylicoController extends Controller
         $request->validate([
             'height' => 'required|numeric|min:50|max:300',
             'weight' => 'required|numeric|min:20|max:500',
+            'shoe_size'=>'required|numeric|min:10|max:40',
+            'clothing_size'=>'required|numeric|in:XS,S,M,L,XL,XXL',
         ]);
         if(Auth::check()){
             $user = Auth::mysize();
             $user->height = $request->input('height');
             $user->weight = $request->input('weight');
+            $user->weight = $request->input('shoe_size');
+            $user->weight = $request->input('clothing_size');
             $user->save();
             return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
         }else{
