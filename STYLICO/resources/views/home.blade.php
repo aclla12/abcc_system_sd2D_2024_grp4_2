@@ -17,22 +17,22 @@
 
 <h2>ONLINE STORE</h2>
 <ul>
-<li><a href="topsView">TOPS</a></li>
-<li><a href="outerView">OUTER</a></li>
-<li><a href="shirtView">SHIRT</a></li>
+<li><a href="{{ route('tops.post') }}">TOPS</a></li>
+<li><a href="{{ route('outer.post') }}">OUTER</a></li>
+<li><a href="{{ route('shirt.post') }}">SHIRT</a></li>
 
-<li><a href="bottomView">BOTTOM</a></li>   
-<li><a href="shoesView">SHOES</a></li>
-<li><a href="bagView">BAG</a></li>
+<li><a href="{{ route('bottom.post') }}">BOTTOM</a></li>   
+<li><a href="{{ route('shoes.post') }}">SHOES</a></li>
+<li><a href="{{ route('bag.post') }}">BAG</a></li>
 
-<li><a href="jewelryView">JEWELRY</a></li>   
-<li><a href="perfumeView">PERFUME</a></li>
-<li><a href="goodsView">GOODS</a></li>
+<li><a href="{{ route('jeweley.post') }}">JEWELRY</a></li>   
+<li><a href="{{ route('perfume.post') }}">PERFUME</a></li>
+<li><a href="{{ route('goods.post') }}">GOODS</a></li>
 </ul>
 
 <a href="{{ route('mypage') }}" class="mypage">MY PAGE</a>
 
-<a href="snapView" class="snap">SNAP</a>
+<a href="{{ route('snap') }}" class="snap">SNAP</a>
 
 <div class="news">
 <p>NEWS</p>

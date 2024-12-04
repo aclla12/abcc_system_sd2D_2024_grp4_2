@@ -15,24 +15,23 @@ class StylicoController extends Controller
         return view('shoki');
     }
 
-    public function loginPostView() {
+    public function loginPostView(Request $request) {
+        $newdata = [
+            'login_id' => $request->email,
+            'user_pass' => $request->password,
+            'user_name' => $request->name,
+            'user_birthday' => $request->birthday,
+            'user_add' => $request->addnum,
+            'adress_detail' => $request->address,
+            'user_number' => $request->number,
+            'user_gender' => $request->gender
+        ];
+    
+            Account::create($newdata);
         return view('login');
     }
 
-    public function newaccountPostView(Request $request){
-    $updatedata = [
-        'login_id' => $request->email,
-        'user_pass' => $request->password,
-        'user_name' => $request->name,
-        'user_birthday' => $request->birthday,
-        'user_add' => $request->addnum,
-        'adress_detail' => $request->address,
-        'user_number' => $request->number,
-        'user_gender' => $request->gender
-    ];
-
-        Account::create($updatedata);
-       
+    public function newaccountPostView(){
 
         return view('newaccount');
     }
