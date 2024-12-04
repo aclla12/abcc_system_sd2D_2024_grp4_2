@@ -1,8 +1,7 @@
 
 body{
     position: relative;
-    width: 430px;
-    height: 932px;
+    
     
     background: #D0CECE; 
 
@@ -10,11 +9,7 @@ body{
 }
 
 h2.logo{
-    position: relative;
-    width: 380px;
-    height: 23px;
-    left: 150px;
-    top: 78px;
+    text-align: center;
     
     font-family: 'Inter';
     font-style: normal;
