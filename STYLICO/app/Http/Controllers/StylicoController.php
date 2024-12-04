@@ -75,13 +75,13 @@ class StylicoController extends Controller
         return view('datetime');
     }
 
-    public function edit()
+    public function editView()
     {
         $user = Auth::user();
         return view('mysize', compact('user'));
     }
 
-    public function update(Request $request){
+    public function updateView(Request $request){
         $request->validate([
             'height' => 'required|numeric|min:50|max:300',
             'weight' => 'required|numeric|min:20|max:500',
