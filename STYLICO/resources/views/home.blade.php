@@ -30,7 +30,7 @@
 <li><a href="goodsView">GOODS</a></li>
 </ul>
 
-<a href="mypagePostView" class="mypage">MY PAGE</a>
+<a href="{{ route('mypage') }}" class="mypage">MY PAGE</a>
 
 <a href="snapView" class="snap">SNAP</a>
 
