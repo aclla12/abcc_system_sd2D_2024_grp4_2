@@ -20,7 +20,7 @@
     </fieldset>
     </form>
 
-    <a href="#">ホームページに戻る</a><br>
+    <a href="{{ route('homepage') }}">ホームページに戻る</a><br>
 
     画像
     
