@@ -1,13 +1,11 @@
 
+/*背景画像*/
 body{
     position: relative;
-    
-    
-    background: #D0CECE; 
-
-    
+    background: #D0CECE;  
 }
 
+/*STYLICO*/
 h2.logo{
     text-align: center;
     
@@ -20,12 +18,12 @@ h2.logo{
     color: #A48C8C;
     -webkit-text-stroke: 1px #1D1B20;
 }
+
+/*タイトル*/
 h2.title{
-    position: absolute;
-    width: 199px;
-    height: 39px;
-    left: 30px;
-    top: 152px;
+    text-align: center;
+    position: relative;
+    top: 100px;
     
     font-family: 'Inter';
     font-style: normal;

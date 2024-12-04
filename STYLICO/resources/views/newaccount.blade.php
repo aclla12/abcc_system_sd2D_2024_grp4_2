@@ -50,8 +50,10 @@
 <p><input type="radio" name="gender" value="man">MAN</p>
 <p><input type="radio" name="gender" value="woman">WOMAN</p>
 <p><input type="radio" name="gender" value="other">OTHER</p>
-<button type = "submit" value = "signin">Sign in</button>
 </div>
+
+<button type = "submit" value = "signin">Sign in</button>
+
 </form>
 </body>
 </html>
