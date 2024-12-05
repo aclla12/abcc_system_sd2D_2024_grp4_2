@@ -35,8 +35,11 @@ class ProductController extends Controller
         return view('perfume');
     }
 
-    public function topsView(){
-        return view('tops');
+    public function topsView(int $id){
+
+        $image = Product::findOrFail($id); // 例: Eloquentモデル
+
+        return view('tops', ['Product_image' => $image]);
     }
 
     public function outerView(){
