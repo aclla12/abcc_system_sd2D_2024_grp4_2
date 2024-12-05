@@ -38,19 +38,6 @@ class StylicoController extends Controller
             return redirect()->route('login');
         }
         
-
-        // 入力値を取得
-         $validated = $request->validate([
-            'login_id' => 'required|string',
-            'user_pass' => 'required|string',
-        ]);
-
-        // データベースから該当ユーザーを取得
-        $account = Account::where('login_id', $validated)->first();
-
-        // ユーザーが存在し、パスワードが一致する場合
-        // if ($validated && password_verify($validated, $user_pass->password)) {}
-        // return response()->json(['result' => true], 200);
         return view('login');
     
     }
