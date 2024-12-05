@@ -14,14 +14,14 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">OUTER</h2>
 
-    <form action="#" method = "post">
+    {{--<form action="#" method = "post">
         @csrf
     <fieldset>
         <input type="text" name = "search" >
     </fieldset>
-    </form>
+    </form>--}}
 
-    <a href="#">ホームページに戻る</a><br>
+    <a href="{{ route('home')}}" method = "post">ホームページに戻る</a><br>
 
     画像
     
