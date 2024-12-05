@@ -188,7 +188,8 @@ div.gender{
         text-align: center;
         position: relative;
         top: 0px;
-        left: -50px;
+        left: -155px;
+        margin-bottom: 10px;
                             
         font-family: 'Inter';
         font-style: normal;
@@ -204,10 +205,12 @@ div.gender{
             margin: auto;
             width: 30px;
             height: 30px;
+            margin-bottom: 5px;
                                 
             background: #FFFFFF;
             border: 1px solid #725959;
             border-radius: 5px;
+
         }
     }
 }
