@@ -16,17 +16,28 @@ class StylicoController extends Controller
     }
 
     public function loginPostView(Request $request) {
-        $newdata = [
-            'login_id' => $request->email,
-            'user_pass' => $request->password,
-            'user_name' => $request->name,
-            'user_birthday' => $request->birthday,
-            'user_add' => $request->addnum,
-            'adress_detail' => $request->address,
-            'user_number' => $request->number,
-            'user_gender' => $request->gender
-        ];
-            Account::create($newdata);
+        $buttonName = $request->input('button');
+        $routeName = $request->route()->getName();
+
+        if($routeName === 'newaccount' && $buttonName === 'signin'){
+            $newdata = [
+                'login_id' => $request->email,
+                'user_pass' => $request->password,
+                'user_name' => $request->name,
+                'user_birthday' => $request->birthday,
+                'user_add' => $request->addnum,
+                'adress_detail' => $request->address,
+                'user_number' => $request->number,
+                'user_gender' => $request->gender
+            ];
+                Account::create($newdata);
+
+                return redirect()->route('login');
+
+        }elseif($routeName === 'shoki' && $buttonName === 'login'){
+            return redirect()->route('login');
+        }
+        
 
         // 入力値を取得
          $validated = $request->validate([
