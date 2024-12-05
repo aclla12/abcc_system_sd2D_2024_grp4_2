@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
     
+    <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/shoki.css') }}"/>
 </head>
