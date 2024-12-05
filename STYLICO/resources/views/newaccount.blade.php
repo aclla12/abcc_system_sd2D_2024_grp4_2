@@ -12,7 +12,7 @@
 <body>
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Sign-Up</h2>
-<form action= "{{route('login')}}" method = "post">
+<form action= "{{route('newaccount')}}" method = "post">
     @csrf
 
 <div class="email">
@@ -53,7 +53,7 @@
 <p><input type="radio" name="gender" value="other">OTHER</p>
 </div>
 
-<button type = "submit" value = "signin">Sign in</button>
+<input type = "submit" value = "sign in" name="signin"></button>
 
 </form>
 </body>
