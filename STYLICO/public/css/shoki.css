@@ -1,10 +1,8 @@
 
 h1{
-    position: absolute;
-    width: 292px;
-    height: 29px;
-    left: 110px;
-    top: 285px;
+    text-align: center;
+    position: relative;
+    top: 150px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -20,17 +18,18 @@ h1{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button1{
-     
+    display: block;
+    margin: auto;
+
     position: relative;
     background-color: #725959;
     box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
     border: #725959;
     color: #FFFFFF;
-    text-align: center;
+
     width: 341px;
     height: 63px;
-    left: 90px;
-    top: 498px;
+    top: 300px;
     border-radius: 10px;
 
     font-family: 'Inter';
@@ -38,8 +37,13 @@ h1{
     font-weight: 400;
     font-size: 32px;
     line-height: 16px;
+
+    
 }
 .button2{
+    display: block;
+    margin: auto;
+
     position: relative;
     background-color: #725959;
     box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
@@ -48,8 +52,7 @@ h1{
     text-align: center;
     width: 341px;
     height: 63px;
-    left: 90px;
-    top: 550px;
+    top: 330px;
     border-radius: 10px;
 
     font-family: 'Inter';
@@ -58,3 +61,4 @@ h1{
     font-size: 32px;
     line-height: 16px;
 }
+
