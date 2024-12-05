@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/login.css') }}" />
 </head>
@@ -17,7 +18,7 @@
 <input type = "text" class="login_id" name = "loginid" >
 <h5 class="pass">パスワード</h5>
 <input type="text" class="pass" name = "passid" ><br><br>
-<input type="submit" class="login" value="ログイン"><br><br>
+<input type="submit" class="login" value="ログイン" name="login"><br><br>
 <input type="checkbox" class="checkbox"><h5 class="checkbox">次回から自動ログインする</h5>
 <a href="#">パスワードを忘れた方へ→</a>
 </form>
