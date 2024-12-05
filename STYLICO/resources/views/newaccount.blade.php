@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/reset2.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/newaccount.css') }}" />
 </head>
@@ -53,7 +53,7 @@
 <p><input type="radio" name="gender" value="other">OTHER</p>
 </div>
 
-<input type = "submit" value = "sign in" name="signin"></button>
+<input type = "submit" value = "sign in" name="signin" class="btn">
 
 </form>
 </body>
