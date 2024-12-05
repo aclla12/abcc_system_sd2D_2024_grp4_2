@@ -12,7 +12,7 @@
 <body>
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Sign-Up</h2>
-<form action= "{{route('newaccount')}}" method = "post">
+<form action= "{{route('login')}}" method = "post">
     @csrf
 
 <div class="email">
