@@ -21,7 +21,7 @@
     </fieldset>
     </form>
 
-    <a href="{{ route('homepage') }}">ホームページに戻る</a><br>
+    <a href="{{ route('home') }}">ホームページに戻る</a><br>
 
     画像
     
