@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/home.css') }}" />
 </head>
+
 <body>
+
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Home Page</h2>
 
 
 
 
-<h2>ONLINE STORE</h2>
+<h2 class="store">ONLINE STORE</h2>
 <ul>
 <li><a href="{{ route('tops.post') }}" method = "get">TOPS</a></li>
 <li><a href="{{ route('outer.post') }}" method = "get">OUTER</a></li>

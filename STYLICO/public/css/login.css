@@ -1,9 +1,7 @@
 h2.login{
-    position: absolute;
-    width: 310px;
-    height: 42px;
-    left: 59px;
-    top: 162px;
+    text-align: center;
+    position: relative;
+    top: 150px;
     
     font-family: 'Inter';
     font-style: italic;
@@ -19,11 +17,12 @@ h2.login{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 h5.login_id{
-    position: absolute;
+    text-align: center;
+    position: relative;
+    left: 400px;
     width: 177px;
     height: 29px;
-    left: 37px;
-    top: 241px;
+    top: 185px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -46,11 +45,12 @@ input.login_id{
     border-radius: 10px;
 }
 h5.pass{
-    position: absolute;
+    text-align: center;
+    position: relative;
     width: 130px;
     height: 29px;
-    left: 38px;
-    top: 383px;
+    left: 425px;
+    top: 250px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -96,15 +96,17 @@ input.login{
     color: #F1F1F1;
 }
 input.checkbox{
-    position: absolute;
+    text-align: center;
+    position: relative;
     width: 281px;
     height: 37px;
-    left: -70px;
-    top: 655px;
+    left: 350px;
+    top: 315px;
     
 }
 h5.checkbox{
-    position: absolute;
+    text-align: center;
+    position: relative;
     width: 281px;font-family: 'Noto Sans JP';
     font-style: normal;
     font-weight: 400;
@@ -115,13 +117,14 @@ h5.checkbox{
     
     color: #000000;
     height: 37px;
-    left: 90px;
-    top: 635px;
+    left: 500px;
+    top: 250px;
 }
 a{
-    position: absolute;
+    text-align: center;
+    position: relative;
     width: 267.89px;
     height: 29.7px;
-    left: 25px;
-    top: 753px;
+    left: 540px;
+    top: 250px;
 }

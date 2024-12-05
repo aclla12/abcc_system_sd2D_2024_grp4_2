@@ -1,8 +1,8 @@
-h2{
+h2.store{
+    text-align: center;
     position: relative;
     width: 202px;
     height: 21px;
-    left: 50px;
     top: 230px;
     
     font-family: 'Inter';
