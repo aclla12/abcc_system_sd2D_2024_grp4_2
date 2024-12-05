@@ -23,7 +23,7 @@
 
     <a href="{{ route('home') }}">ホームページに戻る</a><br>
 
-    画像
+    <img src="{{ asset($image->image_path) }}" alt="Not Image">
     
 </body>
 </html>
