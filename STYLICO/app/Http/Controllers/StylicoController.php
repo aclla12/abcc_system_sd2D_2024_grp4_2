@@ -38,7 +38,7 @@ class StylicoController extends Controller
         }elseif($routeName === 'shoki' && $buttonName === 'login'){
             return redirect()->route('login');
         }
-    
+    return view('login');
     }
 
     public function newaccountPostView() {
