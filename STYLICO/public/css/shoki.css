@@ -2,7 +2,7 @@
 h1{
     text-align: center;
     position: relative;
-    top: 150px;
+    top: 170px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -29,7 +29,7 @@ h1{
 
     width: 341px;
     height: 63px;
-    top: 300px;
+    top: 400px;
     border-radius: 10px;
 
     font-family: 'Inter';
@@ -52,7 +52,7 @@ h1{
     text-align: center;
     width: 341px;
     height: 63px;
-    top: 330px;
+    top: 440px;
     border-radius: 10px;
 
     font-family: 'Inter';

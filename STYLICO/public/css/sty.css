@@ -8,9 +8,10 @@ body{
 
 /*STYLICO*/
 h2.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+
 
     font-family: 'Inter';
     font-style: normal;
@@ -26,7 +27,7 @@ h2.logo{
 h2.title{
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 150px;
     
     font-family: 'Inter';
     font-style: normal;
