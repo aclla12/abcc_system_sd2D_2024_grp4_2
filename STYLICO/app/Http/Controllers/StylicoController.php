@@ -38,10 +38,10 @@ class StylicoController extends Controller
         $account = Account::where('login_id', $validated)->first();
 
         // ユーザーが存在し、パスワードが一致する場合
-        if ($validated && password_verify($validated, $user_pass->password)) {
+        // if ($validated && password_verify($validated, $user_pass->password)) {}
         // return response()->json(['result' => true], 200);
         return view('login');
-    }
+    
     }
 
     public function newaccountPostView() {
