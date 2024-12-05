@@ -7,6 +7,8 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
 use App\Models\Account;
+use App\Models\Mysize;
+use App\Models\User;
 
 
 class StylicoController extends Controller
@@ -85,7 +87,7 @@ class StylicoController extends Controller
 
     public function editView()
     {
-        $user = Auth::user();
+        $user = session()->get('user_data');
         return view('mysize', compact('user'));
     }
 
@@ -96,18 +98,32 @@ class StylicoController extends Controller
             'shoe_size'=>'required|numeric|min:10|max:40',
             'clothing_size'=>'required|numeric|in:XS,S,M,L,XL,XXL',
         ]);
-        if(Auth::check()){
-            $user = Auth::mysize();
-            $user->height = $request->input('height');
+        $userId = session()->get('user_data.id');
+        if($userId){
+            $user =User::find($userId);
+            if($user){
+                $user->height = $request->input('height');
             $user->weight = $request->input('weight');
             $user->weight = $request->input('shoe_size');
             $user->weight = $request->input('clothing_size');
             $user->save();
+
+            session()->put('user_data',[
+                'id'=>$user->id,
+                'name'=>$user->name,
+                'height'=>$user->height,
+                'weight'=>$user->weight,
+                'shoe_size'=>$user->shoe_size,
+                'clothing_size'=>$user->clothing_size,
+            ]);
             return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
+        }
         }else{
             return redirect()->route('login')->with('error','ログインが必要です');
         }
-        } 
+    } 
+
+
     
 
     public function snapView(){
