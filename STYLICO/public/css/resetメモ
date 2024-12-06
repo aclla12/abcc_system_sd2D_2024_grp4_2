@@ -40,7 +40,8 @@ h4,
 button,
 input,
 label {
-    line-height: 1.1
+    line-height: 1.1;
+    display: block;
 }
  
 h1,
