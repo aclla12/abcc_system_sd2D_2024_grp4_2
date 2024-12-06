@@ -42,6 +42,7 @@ div.pass{
     }
         
     input{
+    text-align: center;
     display: block;
     margin: -5px 0px 0px 450px;
     width: 400px;
