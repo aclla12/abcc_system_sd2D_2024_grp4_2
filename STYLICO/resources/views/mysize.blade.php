@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>my Size</title>
 
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
@@ -18,19 +18,19 @@
             <div class="section-title">現在の登録情報</div>
             <div class="info-item">
                 <span>身長：</span>
-                <span>{{ $user->height ?? '---' }}cm</span>
+                <span>{{ session('user_data.height') ?? '---' }}cm</span>
             </div>
             <div class="info-item">
                 <span>体重：</span>
-                <span>{{ $user->weight ?? '---' }}kg</span>
+                <span>{{ session('user_data.weight') ?? '---' }}kg</span>
             </div>
             <div class="info-item">
                 <span>靴のサイズ：</span>
-                <span>{{ $user->shoe_size ?? '---' }}cm</span>
+                <span>{{ session('user_data.weight') ?? '---' }}cm</span>
             </div>
             <div class="info-item">
                 <span>普段の洋服のサイズ：</span>
-                <span>{{ $user->clothing_size ?? '---' }}</span>
+                <span>{{ session('user_dataclothing_size') ?? '---' }}</span>
             </div>
         </div>
     <h3>-登録情報変更-</h3>
@@ -57,4 +57,6 @@
                 <h3>上記の情報でマイサイズを変更します</h3>
                 <input type="submit" value="確定"><br><br>
             </form>
+            
+        </div>
 </body>

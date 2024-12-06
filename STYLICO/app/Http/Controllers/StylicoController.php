@@ -40,6 +40,20 @@ class StylicoController extends Controller
         }elseif($routeName === 'shoki' && $buttonName === 'login'){
             return redirect()->route('login');
         }
+
+        $crefentils =$request->only('email','password');//ここからmysizeの補助コード
+        if(Auth::attempt($crefentils)){
+            $user=Auth::user();
+            session()->put('user_data',[
+                'id'=>$user->id,
+                'name'=>$user->name,
+                'height' => $user->height,
+                'weight' => $user->weight,
+                'shoe_size' => $user->shoe_size,
+                'clothing_size' => $user->clothing_size,
+            ]);
+            return redirect()->route('mysize.edit')->with('success', 'ログインしました！');
+        }//ここまで
     return view('login');
     }
 
@@ -102,7 +116,7 @@ class StylicoController extends Controller
         if($userId){
             $user =User::find($userId);
             if($user){
-                $user->height = $request->input('height');
+            $user->height = $request->input('height');
             $user->weight = $request->input('weight');
             $user->weight = $request->input('shoe_size');
             $user->weight = $request->input('clothing_size');
@@ -117,14 +131,11 @@ class StylicoController extends Controller
                 'clothing_size'=>$user->clothing_size,
             ]);
             return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');
-        }
+            }
         }else{
             return redirect()->route('login')->with('error','ログインが必要です');
         }
     } 
-
-
-    
 
     public function snapView(){
         return view('snap');
