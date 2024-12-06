@@ -11,12 +11,12 @@
 <body>
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">My Page</h2>
-<h3>ACCOUNT</h3>
-<h5>NAME : </h5>
-<h5>ADDRESS : </h5>
-<h5>STEAGE : </h5>
-<h5>AVAILABLE POINT : </h5>
-<h6>※ポイントの付与は、商品発送１か月後になります。</h6>
+<h3 class="account">ACCOUNT</h3>
+<h5 class="name">NAME : </h5>
+<h5 class="add">ADDRESS : </h5>
+<h5 class="steage">STEAGE : </h5>
+<h5 class="point">AVAILABLE POINT : </h5>
+<h6 class="mess">※ポイントの付与は、商品発送１か月後になります。</h6>
 
 <form action="#">
 <button type = "submit" >FAVORITE ITEM</button>

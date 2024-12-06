@@ -9,7 +9,7 @@ h2.store{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 29px;
     
     color: #757575;
@@ -116,7 +116,7 @@ div.news{
     position: relative;
     width: 500px;
     height: 50px;
-    left: 60px;
+    left: 80px;
     top: 900px;
     font-size: 15px;
    }
@@ -145,7 +145,7 @@ div.guide{
     position: relative;
     width: 380px;
     height: 50px;
-    left: 55px;
+    left: 80px;
     top: 940px;
     font-size: 15px;
     }
