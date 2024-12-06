@@ -30,7 +30,7 @@
 <li><a href="{{ route('goods.post') }}" method = "get">GOODS</a></li>
 </ul>
 
-<a href="{{ route('mypage') }}" class="mypage">MY PAGE</a>
+<a href="{{ route('mypage') }}" class="mypage">MY PAGE ▶</a>
 
 <a href="{{ route('snap') }}" class="snap">SNAP</a>
 

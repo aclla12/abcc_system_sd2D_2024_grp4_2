@@ -2759,7 +2759,7 @@ body{
     
     color: #A48C8C;
     
-    border: 1px solid rgba(0, 0, 0, 0.59);
+    -webkit-text-stroke: 1px solid rgba(0, 0, 0, 0.59);
     transform: rotate(-0.33deg);
     
     

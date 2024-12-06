@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/mypage.css') }}" />
 </head>
@@ -18,6 +17,12 @@
 <h5>STEAGE : </h5>
 <h5>AVAILABLE POINT : </h5>
 <h6>※ポイントの付与は、商品発送１か月後になります。</h6>
+<h3 class="account">ACCOUNT</h3>
+<h5 class="name">NAME : </h5>
+<h5 class="add">ADDRESS : </h5>
+<h5 class="steage">STEAGE : </h5>
+<h5 class="point">AVAILABLE POINT : </h5>
+<h6 class="mess">※ポイントの付与は、商品発送１か月後になります。</h6>
 
 <li><a href="#" method = "get">FAVORITE ITEM</a></li>
 

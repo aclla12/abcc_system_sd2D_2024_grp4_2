@@ -42,6 +42,7 @@ div.pass{
     }
         
     input{
+    text-align: center;
     display: block;
     margin: -5px 0px 0px 450px;
     width: 400px;
@@ -226,7 +227,7 @@ input.btn{
     text-align: center;
     width: 200px;
     height: 63px;
-    top: 100px;
+    top: 60px;
     border-radius: 10px;
 
     font-family: 'Inter';
