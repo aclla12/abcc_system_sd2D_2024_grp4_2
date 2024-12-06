@@ -52,6 +52,7 @@ class StylicoController extends Controller
     }
 
     public function mypagePostView(){
+
         return view('mypage');
     }
 

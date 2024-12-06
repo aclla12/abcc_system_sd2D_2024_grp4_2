@@ -13,38 +13,24 @@
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">My Page</h2>
 <h3>ACCOUNT</h3>
-<h5>NAME : </h5>
+<h5>NAME :</h5>
 <h5>ADDRESS : </h5>
 <h5>STEAGE : </h5>
 <h5>AVAILABLE POINT : </h5>
 <h6>※ポイントの付与は、商品発送１か月後になります。</h6>
 
-<form action="#">
-<button type = "submit" >FAVORITE ITEM</button>
-</form>
+<li><a href="#" method = "get">FAVORITE ITEM</a></li>
 
-<form action= "#">
-@csrf
-<button type = "submit" >ORDER HISTORY</button>
-</form>
+<li><a href="#" method = "get">ORDER HISTORY</a></li>
 
-<form action={{ route('mysize.edit') }} method = "get">
-@csrf
-<button type = "submit" >MY SIZE</button>
-</form>
+<li><a href="{{ route('mysize.edit') }}" method = "get">MY SIZE</a></li>
 
-<form action={{ route('updateaccount') }} method = "post">
-@csrf
-<button type = "submit" >UPDATE ACCOUNT</button>
-</form>
+<li><a href="{{ route('updateaccount') }}" method = "get">UPDATE ACCOUNT</a></li>
 
-<form action="#">
-<button type = "submit" >LOGOUT</button>
-</form>
+<li><a href="#" method = "get">LOGOUT</a></li>
 
-<form action="{{ route('deleteaccount') }}" method = "post">
-<button type = "submit" >DELETE ACCOUNT</button>
-</form>
+<li><a href="{{ route('deleteaccount') }}" method = "get">DELETE ACCOUNT</a></li>
+
 
 MENU <form action={{ route('home') }} method = "post">
     @csrf

@@ -15,8 +15,6 @@
 <h2 class="title">Home Page</h2>
 
 
-
-
 <h2 class="store">ONLINE STORE</h2>
 <ul>
 <li><a href="{{ route('tops.post') }}" method = "get">TOPS</a></li>
