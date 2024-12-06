@@ -3,7 +3,8 @@ h2.store{
     position: relative;
     width: 202px;
     height: 21px;
-    top: 230px;
+    left: 55px;
+    top: 300px;
     
     font-family: 'Inter';
     font-style: italic;
@@ -29,6 +30,7 @@ form.search{
 }
 ul{
     display: flex;
+    text-align: center;
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
@@ -37,11 +39,10 @@ li{
     list-style-type: none;
     justify-content: space-around;
     flex: 0 0 33.33%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     
     position: relative;
-    top: 250px;
-    left: 25px;
+    top: 350px;
     
 
     font-family: 'Inter';
@@ -59,7 +60,7 @@ a.mypage{
     width: 130px;
     height: 20px;
     left: 55px;
-    top: 490px;
+    top: 700px;
     
     font-family: 'Inter';
     font-style: italic;
@@ -78,7 +79,7 @@ a.snap{
     width: 85px;
     height: 20px;
     left: 55px;
-    top: 551px;
+    top: 800px;
     
     font-family: 'Inter';
     font-style: italic;
@@ -97,7 +98,7 @@ div.news{
     width: 85px;
     height: 20px;
     left: 55px;
-    top: 690px;
+    top: 1100px;
     
     font-family: 'Inter';
     font-style: italic;
@@ -113,10 +114,11 @@ div.news{
    h6{
     margin: 0;
     position: relative;
-    width: 380px;
-    height: 20px;
+    width: 500px;
+    height: 50px;
     left: 60px;
-    top: 530px;
+    top: 900px;
+    font-size: 15px;
    }
 }
 div.guide{
@@ -125,7 +127,7 @@ div.guide{
     width: 204px;
     height: 26px;
     left: 55px;
-    top: 770px;
+    top: 1250px;
     
     font-family: 'Inter';
     font-style: italic;
@@ -142,9 +144,10 @@ div.guide{
     margin: 0;
     position: relative;
     width: 380px;
-    height: 20px;
-    left: 60px;
-    top: 570px;
+    height: 50px;
+    left: 55px;
+    top: 940px;
+    font-size: 15px;
     }
 }
 a.logout{
@@ -153,7 +156,8 @@ a.logout{
     width: 380px;
     height: 24px;
     left: 55px;
-    top: 900px;
+    top: 1500px;
+    padding-bottom: 50px;
     
     font-family: 'Inter';
     font-style: normal;
