@@ -11,12 +11,7 @@
 <body>
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">My Page</h2>
-<h3>ACCOUNT</h3>
-<h5>NAME :</h5>
-<h5>ADDRESS : </h5>
-<h5>STEAGE : </h5>
-<h5>AVAILABLE POINT : </h5>
-<h6>※ポイントの付与は、商品発送１か月後になります。</h6>
+
 <h3 class="account">ACCOUNT</h3>
 <h5 class="name">NAME : </h5>
 <h5 class="add">ADDRESS : </h5>
@@ -24,33 +19,36 @@
 <h5 class="point">AVAILABLE POINT : </h5>
 <h6 class="mess">※ポイントの付与は、商品発送１か月後になります。</h6>
 
-<li><a href="#" method = "get">FAVORITE ITEM</a></li>
+<li><a href="#" method = "get" class="favorite">FAVORITE ITEM</a></li>
 
-<li><a href="#" method = "get">ORDER HISTORY</a></li>
+<li><a href="#" method = "get" class="order">ORDER HISTORY</a></li>
 
-<li><a href="{{ route('mysize.edit') }}" method = "get">MY SIZE</a></li>
+<li><a href="{{ route('mysize.edit') }}" method = "get" class="size">MY SIZE ▶</a></li>
 
-<li><a href="{{ route('updateaccount') }}" method = "get">UPDATE ACCOUNT</a></li>
+<li><a href="{{ route('updateaccount') }}" method = "get" class="update">UPDATE ACCOUNT</a></li>
 
-<li><a href="#" method = "get">LOGOUT</a></li>
+<li><a href="#" method = "get" class="logout">LOGOUT</a></li>
 
-<li><a href="{{ route('deleteaccount') }}" method = "get">DELETE ACCOUNT</a></li>
+<li><a href="{{ route('deleteaccount') }}" method = "get" class="delete">DELETE ACCOUNT</a></li>
 
 
-MENU <form action={{ route('home') }} method = "post">
+<div class="footer">
+MENU 
+<form action={{ route('home') }} method = "post">
     @csrf
-        <button type = "submit">🏠</button>
-        </form>
-            <form action={{ route('mypage') }} method = "post">
-                @csrf
-                <button type = "submit">👤</button>
-            </form>
-                    <form action={{ route('cart') }} method = "post">
-                        @csrf
-                        <button type = "submit">🛒</button>
-                    </form>
-            </form>
-    </form>
+    <button type = "submit" class="home">🏠</button>
+</form>
+            
+<form action={{ route('mypage') }} method = "post">
+    @csrf
+    <button type = "submit">👤</button>
+</form>
+
+<form action={{ route('cart') }} method = "post">
+    @csrf
+    <button type = "submit">🛒</button>
+</form>
+</div>
 
 </body>
 </html>

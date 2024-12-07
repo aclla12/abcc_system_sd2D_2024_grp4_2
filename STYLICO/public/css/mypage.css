@@ -1,7 +1,7 @@
 h3.account{
     position: relative;
     width: 150px;
-    height: 26.13px;
+    height: 30px;
     left: 55px;
     top: 200px;
     
@@ -100,4 +100,88 @@ h6.mess{
     /* または160% */
     
     color: #111111;
+}
+li{
+    list-style-type: none;
+    justify-content: space-around;
+    flex: 0 0 33.33%;
+    padding-bottom: 30px;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 16px;
+}
+a{
+    text-decoration: none;
+    color: #A48C8C;
+    
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.59);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a.favorite{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 55px;
+    top: 550px;
+}
+a.order{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 55px;
+    top: 600px;
+}
+a.size{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 55px;
+    top: 650px;
+}
+a.update{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 55px;
+    top: 700px;
+}
+a.logout{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 55px;
+    top: 750px;
+}
+a.delete{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 55px;
+    top: 800px;
+    padding-bottom: 100px;
+}
+
+div.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.75);
+    
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+}
+form{
+    display: inline;
+    margin-left: 200px;
 }

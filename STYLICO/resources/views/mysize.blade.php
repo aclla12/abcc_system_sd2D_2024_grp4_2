@@ -7,13 +7,13 @@
 
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/mypage.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/mysize.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Update My Size</h2>
 <div class="container">
-    <h3>-現在の登録情報-</h3>
+    <h3 class="now">-現在の登録情報-</h3>
         <div class="section">
             <div class="section-title">現在の登録情報</div>
             <div class="info-item">
