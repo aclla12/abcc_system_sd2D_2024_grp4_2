@@ -49,7 +49,6 @@ class StylicoController extends Controller
                 'name'=>$user->name,
                 'height' => $user->height,
                 'weight' => $user->weight,
-                'shoe_size' => $user->shoe_size,
                 'clothing_size' => $user->clothing_size,
             ]);
             return redirect()->route('mysize.edit')->with('success', 'ログインしました！');
@@ -119,7 +118,6 @@ class StylicoController extends Controller
             if($user){
             $user->height = $request->input('height');
             $user->weight = $request->input('weight');
-            $user->weight = $request->input('shoe_size');
             $user->weight = $request->input('clothing_size');
             $user->save();
 
@@ -128,7 +126,6 @@ class StylicoController extends Controller
                 'name'=>$user->name,
                 'height'=>$user->height,
                 'weight'=>$user->weight,
-                'shoe_size'=>$user->shoe_size,
                 'clothing_size'=>$user->clothing_size,
             ]);
             return redirect()->route('mysize.edit')->with('success', '情報が更新されました！');

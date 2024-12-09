@@ -25,10 +25,6 @@
                 <span>{{ session('user_data.weight') ?? '---' }}kg</span>
             </div>
             <div class="info-item">
-                <span>靴のサイズ：</span>
-                <span>{{ session('user_data.weight') ?? '---' }}cm</span>
-            </div>
-            <div class="info-item">
                 <span>普段の洋服のサイズ：</span>
                 <span>{{ session('user_dataclothing_size') ?? '---' }}</span>
             </div>
@@ -45,10 +41,6 @@
                 <div class="form-group">
                     <label for="weight">体重：</label>
                     <input type="number" id="weight" name="weight" value="{{ old('weight', $user->weight ?? '') }}" placeholder="例: 70">
-                </div>
-                <div class="form-group">
-                    <label for="shoe_size">靴のサイズ：</label>
-                    <input type="number" id="shoe_size" name="shoe_size" value="{{ old('shoe_size', $user->shoe_size ?? '') }}" placeholder="例: 28">
                 </div>
                 <div class="form-group">
                     <label for="clothing_size">普段の洋服のサイズ：</label>
