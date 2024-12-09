@@ -33,5 +33,5 @@ Route::get('outer', [ProductController::class, 'outerView'])->name('outer.post')
 Route::get('shirt', [ProductController::class, 'shirtView'])->name('shirt.post');
 Route::get('bottom', [ProductController::class, 'bottomView'])->name('bottom.post');
 Route::post('paymentcompleted', [StylicoController::class, 'paymentcompleted'])->name('paymentcompleted.post');
-Route::post('deleteaccount', [StylicoController::class, 'deleteaccountView'])->name('deleteaccount');
+Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->name('deleteaccount');
 Route::post('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');

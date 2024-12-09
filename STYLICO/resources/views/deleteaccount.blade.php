@@ -15,7 +15,7 @@
 
     <h2 class="title">DELETE ACCOUNT</h2>
 
-    <form action={{ route('shoki') }} method = "post">
+    <form action={{ route('shoki') }} method = "get">
         @csrf
         本当に削除しますか？
         <button>削除</button>

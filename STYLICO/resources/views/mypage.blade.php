@@ -29,7 +29,7 @@
 
 <li><a href="#" method = "get" class="logout">LOGOUT</a></li>
 
-<li><a href="{{ route('deleteaccount') }}" method = "get" class="delete">DELETE ACCOUNT</a></li>
+<li><a href="{{ route('deleteaccount') }}" method = "post" class="delete">DELETE ACCOUNT</a></li>
 
 
 <div class="footer">
