@@ -14,22 +14,15 @@
     <h2 class="logo">STYLICO</h2>
     <h1>THANK YOU</h1>
 
-    <fieldset>
+    <div class="container">
+        <div class="message">
         <h3>お支払いが完了しました！</h3>
-        現金\コンビニ払いを選択された方には
-        登録されたメールアドレスに
-        払い込み表をお送りいたします
-    </fieldset>
-
-    <form action="home" method = "post">
-        @csrf
-        <button>ホームページ</button>
-    </form><br>
-
-
-    <form action="home" method = "post">
-        @csrf
-        <button>マイページ</button>
-    </form><br>
+            現金\コンビニ払いを選択された方には<br>
+            登録されたメールアドレスに<br>
+            払い込み表をお送りいたします
+        </div>
+        <a href="route{{('home')}}" class="button">ホームページ</a>
+        <a href="route{{('mypage')}}" class="button">マイページ</a>
+    </div>
 </body>
 </html>
