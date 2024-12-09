@@ -14,7 +14,7 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">Payment</h2>
 
-    <form action= "#" method = "post">
+    <form action={{route('paymentcompleted')}} method = "post">
     <p><h4>- お届け日時 -</h4></p>
     <p> <button type = "radio">通常配送</button></p>
     <form action={{ route('dates') }} method = "post">
