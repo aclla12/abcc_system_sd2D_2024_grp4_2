@@ -27,19 +27,13 @@ class ProductController extends Controller
         return view('favorite');
     }
 
-    public function goodsView(){
-        return view('goods');
-    }
-
-    public function perfumeView(){
-        return view('perfume');
-    }
-
-    public function topsView(int $id){
-
-        $image = Product::findOrFail($id); // 例: Eloquentモデル
-
-        return view('tops', ['Product_image' => $image]);
+    public function topsView(string $product_id) {
+        $product = Product::findOrFail($product_id);  
+        // バイナリデータ(0と1の集まり)をきれいにするさぎょう(めっちゃてきとう)
+        $base64Image = base64_encode($product->product_image);
+        // きれいにしたバイナリデータに、タグをつけてあげる(めっちゃてきとう)
+        $mimeType = 'image/jpeg';
+        return view('tops', compact('base64Image', 'mimeType'));
     }
 
     public function outerView(){
@@ -54,11 +48,5 @@ class ProductController extends Controller
         return view('bottom');
     }
 
-    public function shoesView(){
-        return view('shoes');
-    }
-
-    public function bagView(){
-        return view('bag');
-    }
+   
 }

@@ -23,7 +23,13 @@
 
     <a href="{{ route('home') }}">ホームページに戻る</a><br>
 
-    <img src="{{ asset($image->image_path) }}" alt="Not Image">
+    @if (isset($mimeType) && isset($base64Image))
+    <img src="data:{{ $mimeType }};base64,{{ $base64Image }}" alt="Image">
+    @else
+    <img src="" alt="not image" >
+    @endif
+
+    {{--<img src="{{ asset($image->image_path) }}" alt="Not Image">--}}
     
 </body>
 </html>
