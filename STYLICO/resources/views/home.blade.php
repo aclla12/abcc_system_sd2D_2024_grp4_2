@@ -25,7 +25,6 @@
 
 <a href="{{ route('mypage') }}" class="mypage">MY PAGE ▶</a>
 
-<a href="{{ route('snap') }}" class="snap">SNAP</a>
 
 <div class="news">
 <p>NEWS</p>
