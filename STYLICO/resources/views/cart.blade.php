@@ -22,7 +22,7 @@
     <script src = "https://cdn.jsdeliver.net/npm/vue@2.7.14/dist/vue.js"></script>
     <script src = "{{ asset('js/script.js')}}"></script>
     
-    <button type = "submit">支払いへ進む</button>
+    <button type = "submit" class="btn">支払いへ進む</button>
 </form>
 
 <div class="footer">
