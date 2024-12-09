@@ -53,7 +53,7 @@
 <h4>view more...</h4>
 
 
-MENU <form action="homepage" method = "post">
+MENU <form action="{{ route('home') }}" method = "post">
     @csrf
         <button type = "submit">🏠</button>
             <form action="mypage" method = "post">

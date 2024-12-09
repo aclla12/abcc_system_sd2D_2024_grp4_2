@@ -19,9 +19,9 @@
 <h5 class="point">AVAILABLE POINT : </h5>
 <h6 class="mess">※ポイントの付与は、商品発送１か月後になります。</h6>
 
-<li><a href="#" method = "get" class="favorite">FAVORITE ITEM</a></li>
+<li><a href="{{ route('favorite.get') }}" method = "get" class="favorite">FAVORITE ITEM</a></li>
 
-<li><a href="#" method = "get" class="order">ORDER HISTORY</a></li>
+<li><a href="{{ route('orderhistory') }}" method = "get" class="order">ORDER HISTORY</a></li>
 
 <li><a href="{{ route('mysize.edit') }}" method = "get" class="size">MY SIZE ▶</a></li>
 

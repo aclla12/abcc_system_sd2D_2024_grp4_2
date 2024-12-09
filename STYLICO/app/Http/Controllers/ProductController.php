@@ -23,7 +23,7 @@ class ProductController extends Controller
         return view('jewelry');
     }
 
-    public function favorite(){
+    public function favoriteView(){
         return view('favorite');
     }
 
