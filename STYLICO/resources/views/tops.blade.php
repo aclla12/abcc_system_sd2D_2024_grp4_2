@@ -23,8 +23,8 @@
 
     <a href="{{ route('home') }}">ホームページに戻る</a><br>
 
-    @if (isset($product_image))
-    <img src={{ $product_image }} alt="洋服の写真">
+    @if (isset($mimeType) && isset($base64Image))
+    <img src="data:{{ $mimeType }};base64,{{ $base64Image }}" alt="Image">
     @else
     <img src="" alt="not image" >
     @endif
