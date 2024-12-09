@@ -138,8 +138,4 @@ class StylicoController extends Controller
         }
     } 
 
-    public function snapView(){
-        return view('snap');
-    }
-
 }

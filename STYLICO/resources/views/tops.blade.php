@@ -23,7 +23,13 @@
 
     <a href="{{ route('home') }}">ホームページに戻る</a><br>
 
-    <img src="{{ asset($image->image_path) }}" alt="Not Image">
+    @if (isset($product_image))
+    <img src={{ $product_image }} alt="洋服の写真">
+    @else
+    <img src="" alt="not image" >
+    @endif
+
+    {{--<img src="{{ asset($image->image_path) }}" alt="Not Image">--}}
     
 </body>
 </html>

@@ -19,27 +19,19 @@ class ProductController extends Controller
         return view('cart');
     }
 
-    public function jewelryView() {
-        return view('jewelry');
-    }
-
     public function favorite(){
         return view('favorite');
     }
 
-    public function goodsView(){
-        return view('goods');
-    }
+    public function topsView(string $product_id){
 
-    public function perfumeView(){
-        return view('perfume');
-    }
+        $product_image = Product::findOrFail($product_id);
+        return view('tops', [
+            'product_image' => $product_image->product_image
+        ]);
 
-    public function topsView(int $id){
-
-        $image = Product::findOrFail($id); // 例: Eloquentモデル
-
-        return view('tops', ['Product_image' => $image]);
+        /*$image = Product::findOrFail($id); // 例: Eloquentモデル
+        return view('tops', ['Product_image' => $image]);*/
     }
 
     public function outerView(){
@@ -54,11 +46,5 @@ class ProductController extends Controller
         return view('bottom');
     }
 
-    public function shoesView(){
-        return view('shoes');
-    }
-
-    public function bagView(){
-        return view('bag');
-    }
+   
 }
