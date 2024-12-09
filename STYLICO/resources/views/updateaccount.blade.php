@@ -13,7 +13,7 @@
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Update Account</h2>
 
-<form action= {{route('login')}} method = "post">
+<form action= {{route('home')}} method = "post">
     @csrf
 <h5>EMAIL(ログインID)</h5>
 <p><input type="text" name="email"></p>

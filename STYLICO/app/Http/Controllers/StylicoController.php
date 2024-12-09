@@ -65,7 +65,6 @@ class StylicoController extends Controller
     }
 
     public function mypagePostView(){
-
         return view('mypage');
     }
 
@@ -78,6 +77,7 @@ class StylicoController extends Controller
     }
 
     public function updateaccountPostView() {
+        //入力画面を返却
         return view('updateaccount');
     }
 
