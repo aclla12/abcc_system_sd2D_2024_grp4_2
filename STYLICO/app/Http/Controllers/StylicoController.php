@@ -51,7 +51,7 @@ class StylicoController extends Controller
                 'weight' => $user->weight,
                 'clothing_size' => $user->clothing_size,
             ]);
-            return redirect()->route('mysize.edit')->with('success', 'ログインしました！');
+            return view('mypage');
         }//ここまで
     return view('login');
     }
