@@ -8,7 +8,7 @@ use App\Http\Controllers\ProductController;
 Route::get('/', function () {return view('welcome');});
 
 Route::get('shoki', [StylicoController::class,'getView'])->name('shoki');
-//Route::post('home', function () {return view('home');});
+
 Route::post('login', [StylicoController::class,'loginPostView'])->name('login');
 Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
 Route::post('home', [StylicoController::class, 'homepagePostView'])->name('home');
@@ -21,7 +21,14 @@ Route::post('mysize', [StylicoController::class, 'updateView'])->name('mysize.up
 Route::post('cart', [ProductController::class,'cartView'])->name('cart');
 Route::post('orderhistory', [ProductController::class,'orderhistoryView'])->name('orderhistory');
 Route::get('favorite', [ProductController::class,'favoriteView'])->name('favorite.get');
-Route::get('tops', [ProductController::class, 'topsView'])->name('tops.post');
+
+// 4つだす,ポケトレや掲示板の一覧表示を参考にする
+Route::get('tops/list', [ProductController::class, 'topsListView'])->name('topslist.post');
+Route::get('tops/{product_id}', [ProductController::class, 'topsView'])->name('tops.post');
+// Route::get('tops/{product_id}', function(string $product_id) {
+//     return 'hello' . $product_id;
+// });
+
 Route::get('outer', [ProductController::class, 'outerView'])->name('outer.post');
 Route::get('shirt', [ProductController::class, 'shirtView'])->name('shirt.post');
 Route::get('bottom', [ProductController::class, 'bottomView'])->name('bottom.post');

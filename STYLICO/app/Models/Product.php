@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
-    protected $tabel = "product";
+    protected $table = "product";
+    protected $primaryKey = "product_id";
 
     protected $fillable = [
         //productカラム

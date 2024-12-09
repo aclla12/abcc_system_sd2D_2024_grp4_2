@@ -17,7 +17,7 @@
 
 <h2 class="store">ONLINE STORE</h2>
 <ul>
-<li><a href="{{ route('tops.post') }}" method = "get">TOPS</a></li>
+<li><a href="{{ route('tops.post', ['product_id' => 'Bag_055_BLK']) }}" method = "get">TOPS</a></li>
 <li><a href="{{ route('outer.post') }}" method = "get">OUTER</a></li>
 <li><a href="{{ route('shirt.post') }}" method = "get">SHIRT</a></li>
 <li><a href="{{ route('bottom.post') }}" method = "get">BOTTOM</a></li>   
@@ -25,7 +25,7 @@
 
 <a href="{{ route('mypage') }}" class="mypage">MY PAGE ▶</a>
 
-<a href="{{ route('snap') }}" class="snap">SNAP</a>
+{{-- <a href="{{ route('snap') }}" class="snap">SNAP</a> --}}
 
 <div class="news">
 <p>NEWS</p>
