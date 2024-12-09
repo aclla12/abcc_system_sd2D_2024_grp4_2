@@ -21,8 +21,8 @@
             登録されたメールアドレスに<br>
             払い込み表をお送りいたします
         </div>
-        <a href="route{{('home')}}" class="button">ホームページ</a>
-        <a href="route{{('mypage')}}" class="button">マイページ</a>
+        <a href={{route('home')}} class="button">ホームページ</a>
+        <a href={{route('mypage')}} class="button">マイページ</a>
     </div>
 </body>
 </html>
