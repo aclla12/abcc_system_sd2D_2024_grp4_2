@@ -20,14 +20,7 @@
 <li><a href="{{ route('tops.post') }}" method = "get">TOPS</a></li>
 <li><a href="{{ route('outer.post') }}" method = "get">OUTER</a></li>
 <li><a href="{{ route('shirt.post') }}" method = "get">SHIRT</a></li>
-
 <li><a href="{{ route('bottom.post') }}" method = "get">BOTTOM</a></li>   
-<li><a href="{{ route('shoes.post') }}" method = "get">SHOES</a></li>
-<li><a href="{{ route('bag.post') }}" method = "get">BAG</a></li>
-
-<li><a href="{{ route('jeweley.post') }}" method = "get">JEWELRY</a></li>   
-<li><a href="{{ route('perfume.post') }}" method = "get">PERFUME</a></li>
-<li><a href="{{ route('goods.post') }}" method = "get">GOODS</a></li>
 </ul>
 
 <a href="{{ route('mypage') }}" class="mypage">MY PAGE ▶</a>
