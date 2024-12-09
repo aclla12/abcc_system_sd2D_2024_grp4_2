@@ -1,0 +1,14 @@
+h3{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 16px;
+    /* または67% */
+    
+    color: #725959;
+}

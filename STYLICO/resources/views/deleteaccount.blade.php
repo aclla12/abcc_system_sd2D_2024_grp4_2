@@ -17,7 +17,7 @@
 
     <form action={{ route('shoki') }} method = "get">
         @csrf
-        本当に削除しますか？
+       <h3> 本当に削除しますか？</h3>
         <button>削除</button>
     </form>
 </body>
