@@ -14,8 +14,8 @@
 <h2 class="title">Update My Size</h2>
 <div class="container">
     <h3 class="now">-現在の登録情報-</h3>
-        <div class="section">
-            <div class="section-title">現在の登録情報</div>
+        <div class="section1">
+            <div class="section-title"></div>
             <div class="info-item">
                 <span>身長：</span>
                 <span>{{ session('user_data.height') ?? '---' }}cm</span>
@@ -33,9 +33,9 @@
                 <span>{{ session('user_dataclothing_size') ?? '---' }}</span>
             </div>
         </div>
-    <h3>-登録情報変更-</h3>
-        <div class="section">
-            <div class="section-title">登録情報変更</div>
+    <h3 class="update">-登録情報変更-</h3>
+        <div class="section2">
+            <div class="section-title"></div>
             <form action="{{ route('mysize.update') }}" method="POST">
                 @csrf
                 <div class="form-group">
@@ -54,8 +54,8 @@
                     <label for="clothing_size">普段の洋服のサイズ：</label>
                     <input type="text" id="clothing_size" name="clothing_size" value="{{ old('clothing_size', $user->clothing_size ?? '') }}" placeholder="例: L">
                 </div>
-                <h3>上記の情報でマイサイズを変更します</h3>
-                <input type="submit" value="確定"><br><br>
+                <h3 class="mess">上記の情報でマイサイズを変更します</h3>
+                <input type="submit" value="確定" class="btn"><br><br>
             </form>
             
         </div>
