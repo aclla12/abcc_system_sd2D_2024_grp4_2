@@ -32,7 +32,7 @@
     <h3 class="update">-登録情報変更-</h3>
         <div class="section2">
             <div class="section-title"></div>
-            <form action="{{ route('mysize.update') }}" method="POST">
+            <form action="{{ route('mypage') }}" method="get">
                 @csrf
                 <div class="form-group">
                     <label for="height">身長：</label>
