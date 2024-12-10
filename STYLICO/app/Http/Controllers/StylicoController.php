@@ -139,7 +139,7 @@ class StylicoController extends Controller
         return view('cart');
     }
 
-    public function paymentView() {
+    public function paymentPostView() {
         return view('payment');
     }
 
