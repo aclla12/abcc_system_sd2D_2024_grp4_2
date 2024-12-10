@@ -143,4 +143,7 @@ class StylicoController extends Controller
         return view('payment');
     }
 
+    public function showDates(){
+        return view('datetime');
+    }
 }
