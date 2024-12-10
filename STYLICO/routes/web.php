@@ -15,7 +15,7 @@ Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostVie
 Route::get('mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 Route::get('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
 Route::post('payment',[StylicoController::class, 'paymentPostView'])->name('payment');
-Route::get('dates',[StylicoController::class,'showDates'])->name('dates');
+Route::get('datetime',[StylicoController::class,'showDates'])->name('datetime');
 Route::get('mysize', [StylicoController::class, 'editView'])->name('mysize.edit');
 Route::post('mysize', [StylicoController::class, 'updateView'])->name('mysize.update');
 Route::post('cart', [ProductController::class,'cartView'])->name('cart');
@@ -31,6 +31,6 @@ Route::get('tops/{product_id}', [ProductController::class, 'topsView'])->name('t
 Route::get('outer', [ProductController::class, 'outerView'])->name('outer.post');
 Route::get('shirt', [ProductController::class, 'shirtView'])->name('shirt.post');
 Route::get('bottom', [ProductController::class, 'bottomView'])->name('bottom.post');
-Route::post('paymentcompleted', [StylicoController::class, 'paymentcompleted'])->name('paymentcompleted.post');
+Route::post('paymentcompleted', [StylicoController::class, 'paymentcompletedpostView'])->name('paymentcompleted');
 Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->name('deleteaccount');
 Route::get('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');
