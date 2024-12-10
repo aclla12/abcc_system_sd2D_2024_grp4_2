@@ -23,11 +23,21 @@
 
     <a href="{{ route('home') }}">ホームページに戻る</a><br>
 
+   {{-- @foreach ($product as $product)
+        @if(isset($product->image_base64) && $product->image_base64)
+        <img src="{{ $product->image_base64}}" alt="{{ $product->product_name}}">
+        @else
+        <p>画像無し</p>
+        @endif
+    @endforeach--}}
+    
+    @foreach($product as $product)
     @if (isset($mimeType) && isset($base64Image))
     <img src="data:{{ $mimeType }};base64,{{ $base64Image }}" alt="Image">
     @else
     <img src="" alt="not image" >
     @endif
+    @endforeach
 
     {{--<img src="{{ asset($image->image_path) }}" alt="Not Image">--}}
     
