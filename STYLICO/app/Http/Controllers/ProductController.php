@@ -27,8 +27,8 @@ class ProductController extends Controller
         return view('favorite');
     }
 
-    public function topsView(string $product_id) {
-        $product = Product::findOrFail($product_id);  
+    public function topsListView() {
+        $product = Product::all();  
         // バイナリデータ(0と1の集まり)をきれいにするさぎょう(めっちゃてきとう)
         $base64Image = base64_encode($product->product_image);
         // きれいにしたバイナリデータに、タグをつけてあげる(めっちゃてきとう)

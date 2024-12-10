@@ -24,7 +24,7 @@ Route::get('favorite', [ProductController::class,'favoriteView'])->name('favorit
 
 // 4つだす,ポケトレや掲示板の一覧表示を参考にする
 Route::get('tops/list', [ProductController::class, 'topsListView'])->name('topslist.post');
-Route::get('tops/{product_id}', [ProductController::class, 'topsView'])->name('tops.post');
+//Route::get('tops/{product_id}', [ProductController::class, 'topsView'])->name('tops.post');
 // Route::get('tops/{product_id}', function(string $product_id) {
 //     return 'hello' . $product_id;
 // });
