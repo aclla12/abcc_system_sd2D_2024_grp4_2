@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/deleteaccount.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/deleteacount.css') }}" />
 </head>
 <body>
     <h2 class="logo">STYLICO</h2>
@@ -17,8 +17,8 @@
 
     <form action={{ route('shoki') }} method = "get">
         @csrf
-        本当に削除しますか？
-        <button>削除</button>
+       <h3> 本当に削除しますか？</h3>
+       <input type="submit" value="削除" name="delete">
     </form>
 </body>
 </html>

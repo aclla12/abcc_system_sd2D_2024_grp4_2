@@ -73,11 +73,13 @@ input.pass{
     border-radius: 10px;
 }
 input.login{
-    position: absolute;
+    display: block;
+    margin: auto;
+
+    position: relative;
     width: 360px;
     height: 70px;
-    left: calc(50.5% - 360px/2);
-    top: 550px;
+    top: 300px;
     
     background: #282437;
     border: 1px solid #000000;
