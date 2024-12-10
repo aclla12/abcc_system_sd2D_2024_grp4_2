@@ -135,4 +135,12 @@ class StylicoController extends Controller
         }
     } 
 
+    public function cartView() {
+        return view('cart');
+    }
+
+    public function paymentView() {
+        return view('payment');
+    }
+
 }
