@@ -11,7 +11,8 @@
 </head>
 <body>
 
-    <form action="#" method = "post">
+    <form action="{{ route('payment') }}" method = "post">
+        @csrf
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">CART</h2>
     <p><h6>商品番号</h6></p>

@@ -39,3 +39,5 @@
     画像画像画像画像
     画像画像画像画像<p>💗<p>
 </fieldset>
+
+<a href="{{ route('mypage') }}">マイページに戻る</a><br>
