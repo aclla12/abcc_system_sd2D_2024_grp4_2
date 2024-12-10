@@ -11,7 +11,7 @@ Route::get('shoki', [StylicoController::class,'getView'])->name('shoki');
 
 Route::post('login', [StylicoController::class,'loginPostView'])->name('login');
 Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
-Route::match('home', [StylicoController::class, 'homepagePostView'])->name('home');
+Route::post('home', [StylicoController::class, 'homepagePostView'])->name('home');
 Route::get('mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 Route::get('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
 Route::post('payment',[StylicoController::class, 'paymentPostView'])->name('payment');
