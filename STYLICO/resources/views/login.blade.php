@@ -19,7 +19,7 @@
 <input type="text" class="pass" name = "passid" ><br><br>
 <input type="submit" class="login" value="ログイン" name="login"><br><br>
 <input type="checkbox" class="checkbox"><h5 class="checkbox">次回から自動ログインする</h5>
-<a href="#">パスワードを忘れた方へ→</a>
+<a href="{{ route('updatepassword') }}">パスワードを忘れた方へ→</a>
 </form>
 </body>
 </html>
