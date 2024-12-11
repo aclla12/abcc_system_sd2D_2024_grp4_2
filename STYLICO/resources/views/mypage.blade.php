@@ -13,8 +13,9 @@
 <h2 class="title">My Page</h2>
 
 <h3 class="account">ACCOUNT</h3>
-<h5 class="name">NAME : </h5>
-<h5 class="add">ADDRESS : </h5>
+<h5 class="name">NAME :  {{ $user->user_name }}
+<h5 class="add">ADDRESS :  {{ $user->user_add}} {{ $user->address_detail}}
+</h5>
 <h5 class="steage">STEAGE : -BASIC STAGE-</h5>
 <h5 class="point">AVAILABLE POINT : 0pt</h5>
 <h6 class="mess">※ポイントの付与は、商品発送１か月後になります。</h6>
