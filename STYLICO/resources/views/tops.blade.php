@@ -31,13 +31,26 @@
         @endif
     @endforeach--}}
     
-    @foreach($product as $product)
+    @foreach($products as $product)
+    @if($product -> image_base64)
+    <img src="{{ $product->image_base64}}" alt="{{ $product -> product_name}}">
+    @else
+    <p>画像無し</p>
+    @endif
+    @endforeach
+
+    {{--@foreach
     @if (isset($mimeType) && isset($base64Image))
     <img src="data:{{ $mimeType }};base64,{{ $base64Image }}" alt="Image">
+    <p>{{$products->product_name}}</p>
     @else
     <img src="" alt="not image" >
     @endif
-    @endforeach
+    @endforeach--}}
+
+    <p>{{$products->product_name}}</p>
+
+    
 
     {{--<img src="{{ asset($image->image_path) }}" alt="Not Image">--}}
     

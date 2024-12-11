@@ -28,12 +28,16 @@ class ProductController extends Controller
     }
 
     public function topsListView() {
-        $product = Product::all();  
-        foreach($product as $product){
-            $base64Image = base64_encode($product->product_image);
-            $mimeType = 'image/jpeg';
+        $products = Product::all();
+  
+        foreach($products as $product){
+            /*$base64Image = base64_encode($products->product_image);
+            $mimeType = 'image/jpeg';*/
+            $product->image_base64 = $product ->product_image
+            ? 'data:image/jpeg.base64,' . base64_encode($product->product_image)
+            : null;
         }
-        return view('tops', compact('product','base64Image', 'mimeType'));
+        return view('tops', compact('products'));
 
         // バイナリデータ(0と1の集まり)をきれいにするさぎょう(めっちゃてきとう)
         //$base64Image = base64_encode($product->product_image);
