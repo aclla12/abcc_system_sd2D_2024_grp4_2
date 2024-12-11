@@ -52,6 +52,7 @@
 
 <h4>view more...</h4>
 
+<a href="{{ route('mypage') }}">マイページに戻る</a><br>
 
 MENU <form action="{{ route('home') }}" method = "post">
     @csrf

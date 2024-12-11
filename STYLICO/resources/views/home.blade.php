@@ -39,6 +39,6 @@
 <h6>・サービス利用規約</h6>
 </div>
 
-<a href="loginPostView" class="logout">- LOGOUT -</a>
+<a href="{{ route('login')}}" class="logout">- LOGOUT -</a>
 </body>
 </html>

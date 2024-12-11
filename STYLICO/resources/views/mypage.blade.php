@@ -14,7 +14,7 @@
 
 <h3 class="account">ACCOUNT</h3>
 <h5 class="name">NAME :  {{ $user->user_name }}
-<h5 class="add">ADDRESS :  {{ $user->user_add}} {{ $user->address_detail}}
+<h5 class="add">ADDRESS :  {{ $user->user_add }} {{ $user->address_detail }}
 </h5>
 <h5 class="steage">STEAGE : -BASIC STAGE-</h5>
 <h5 class="point">AVAILABLE POINT : 0pt</h5>
@@ -28,7 +28,7 @@
 
 <li><a href="{{ route('updateaccount') }}" method = "get" class="update">UPDATE ACCOUNT</a></li>
 
-<li><a href="#" method = "get" class="logout">LOGOUT</a></li>
+<li><a href="{{ route('login')}}" method = "get" class="logout">LOGOUT</a></li>
 
 <li><a href="{{ route('deleteaccount') }}" method = "post" class="delete">DELETE ACCOUNT</a></li>
 

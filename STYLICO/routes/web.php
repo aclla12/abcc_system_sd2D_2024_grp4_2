@@ -9,19 +9,19 @@ Route::get('/', function () {return view('welcome');});
 
 Route::get('shoki', [StylicoController::class,'getView'])->name('shoki');
 
-Route::post('login',[StylicoController::class,'loginPostView'])->name('login');
+Route::match(['GET', 'POST'],'login',[StylicoController::class,'loginPostView'])->name('login');
 
 Route::match(['GET','POST'],'newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
 
 Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostView'])->name('home');
 
-Route::get('mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
+Route::match(['GET','POST'],'mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 
 Route::get('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
 
-Route::post('payment',[StylicoController::class, 'paymentPostView'])->name('payment');
+Route::match(['GET','POST'],'payment',[StylicoController::class, 'paymentPostView'])->name('payment');
 
-Route::get('datetime',[StylicoController::class,'showDates'])->name('datetime');
+Route::match(['GET','POST'],'datetime',[StylicoController::class,'showDates'])->name('datetime');
 
 Route::get('mysize', [StylicoController::class, 'editView'])->name('mysize.edit');
 
@@ -45,7 +45,7 @@ Route::get('shirt', [ProductController::class, 'shirtView'])->name('shirt.post')
 
 Route::get('bottom', [ProductController::class, 'bottomView'])->name('bottom.post');
 
-Route::post('paymentcompleted', [StylicoController::class, 'paymentcompletedpostView'])->name('paymentcompleted');
+Route::match(['GET', 'POST'],'paymentcompleted', [StylicoController::class, 'paymentcompletedpostView'])->name('paymentcompleted');
 
 Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->name('deleteaccount');
 

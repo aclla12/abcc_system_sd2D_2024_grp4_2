@@ -142,8 +142,12 @@ class StylicoController extends Controller
         return view('cart');
     }
 
-    public function paymentView() {
+    public function paymentPostView() {
         return view('payment');
+    }
+
+    public function showDates() {
+        return view('datetime');
     }
 
 }

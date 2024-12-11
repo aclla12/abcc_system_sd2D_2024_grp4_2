@@ -22,6 +22,7 @@
         <div class="time">18:00 ~ 20:00</div>
         <div class="time">19:00 ~ 21:00</div>
       </div>
+      <button><a href="{{ route('payment')}}">完了</a></button>
     </div>
   
     <script>
