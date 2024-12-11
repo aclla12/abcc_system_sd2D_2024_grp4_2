@@ -27,15 +27,24 @@ class ProductController extends Controller
         return view('favorite');
     }
 
-    public function topsView(string $product_id) {
-        $product = Product::findOrFail($product_id);  
-        // バイナリデータ(0と1の集まり)をきれいにするさぎょう(めっちゃてきとう)
-        $base64Image = base64_encode($product->product_image);
-        // きれいにしたバイナリデータに、タグをつけてあげる(めっちゃてきとう)
-        $mimeType = 'image/jpeg';
-        return view('tops', compact('base64Image', 'mimeType'));
-    }
+    public function topsListView() {
+        $products = Product::all();
+  
+        foreach($products as $product){
+            /*$base64Image = base64_encode($products->product_image);
+            $mimeType = 'image/jpeg';*/
+            $product->image_base64 = $product ->product_image
+            ? 'data:image/jpeg.base64,' . base64_encode($product->product_image)
+            : null;
+        }
+        return view('tops', compact('products'));
 
+        // バイナリデータ(0と1の集まり)をきれいにするさぎょう(めっちゃてきとう)
+        //$base64Image = base64_encode($product->product_image);
+        // きれいにしたバイナリデータに、タグをつけてあげる(めっちゃてきとう)
+        // $mimeType = 'image/jpeg';
+        //return view('tops', compact('base64Image', 'mimeType'));
+    }
     public function outerView(){
         return view('outer');
     }

@@ -15,9 +15,11 @@
     <h2 class="title">Payment</h2>
 
     <form action={{route('paymentcompleted')}} method = "post">
+        @csrf
     <p><h4>- お届け日時 -</h4></p>
     <p> <button type = "radio">通常配送</button></p>
-    <form action={{ route('dates') }} method = "post">
+    <form action={{ route('datetime') }} method = "post">
+        @csrf
     <p> <button type = "radio">日時配送</button></p>
     </form>
     <p> <button type = "radio">即日配送</button></p>
