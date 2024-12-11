@@ -17,11 +17,31 @@ class StylicoController extends Controller
         return view('shoki');
     }
 
-    public function loginPostView() {
-
-         
-
-        /*$crefentils =$request->only('email','password');//ここからmysizeの補助コード
+    public function loginPostView(Request $request) {
+ 
+        $buttonName = $request->input('button');
+        $routeName = $request->route()->getName();
+ 
+        if($routeName === 'newaccount' && $buttonName === 'signin'){
+            $newdata = [
+                'login_id' => $request->email,
+                'user_pass' => $request->password,
+                'user_name' => $request->name,
+                'user_birthday' => $request->birthday,
+                'user_add' => $request->addnum,
+                'adress_detail' => $request->address,
+                'user_number' => $request->number,
+                'user_gender' => $request->gender
+            ];
+                Account::create($newdata);
+ 
+                return redirect()->route('login');
+ 
+        }elseif($routeName === 'shoki' && $buttonName === 'login'){
+            return redirect()->route('login');
+        }
+ 
+        $crefentils =$request->only('email','password');//ここからmysizeの補助コード
         if(Auth::attempt($crefentils)){
             $user=Auth::user();
             session()->put('user_data',[
@@ -32,45 +52,11 @@ class StylicoController extends Controller
                 'clothing_size' => $user->clothing_size,
             ]);
             return view('mypage');
-        }//ここまで*/
+        }//ここまで
+    return view('login');
     }
 
-    public function login(Request $request){
-         // バリデーション
-       $credentials = $request->validate([
-        'email' => ['required', 'email'],
-        'password' => ['required'],
-    ]);
-    // ログイン試行
-    if (Auth::attempt($credentials)) {
-        // セッションを再生成
-        $request->session()->regenerate();
-        // ログイン成功後のリダイレクト
-        return redirect()->intended('dashboard'); // 任意のリダイレクト先
-    }
-    // ログイン失敗時の処理
-    return back()->withErrors([
-        'email' => '提供された認証情報は記録と一致しません。',
-    ])->onlyInput('email');
-    }
-    
-
-    public function newaccountPostView(Request $request) {
-        
-        $newdata = [
-            'login_id' => $request->email,
-            'user_pass' => $request->password,
-            'user_name' => $request->name,
-            'user_birthday' => $request->birthday,
-            'user_add' => $request->addnum,
-            'adress_detail' => $request->address,
-            'user_number' => $request->number,
-            'user_gender' => $request->gender
-        ];
-            Account::create($newdata);
-
-            return view('home');
-    }
+    public function newaccountPostView() {}
     
     public function homepagePostView() {
         return view('home');
