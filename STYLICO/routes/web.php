@@ -9,8 +9,14 @@ Route::get('/', function () {return view('welcome');});
 
 Route::get('shoki', [StylicoController::class,'getView'])->name('shoki');
 
-Route::post('login', [StylicoController::class,'loginPostView'])->name('login');
-Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
+Route::get('login', function(){
+    return view('login');
+})->name('login');
+Route::post('login',[StylicoController::class,'login']);
+
+
+
+Route::match(['GET','POST'],'newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
 Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostView'])->name('home');
 Route::get('mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 Route::get('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
@@ -34,3 +40,5 @@ Route::get('bottom', [ProductController::class, 'bottomView'])->name('bottom.pos
 Route::post('paymentcompleted', [StylicoController::class, 'paymentcompletedpostView'])->name('paymentcompleted');
 Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->name('deleteaccount');
 Route::get('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');
+
+
