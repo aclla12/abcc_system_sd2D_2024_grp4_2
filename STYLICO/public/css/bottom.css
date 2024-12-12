@@ -56,3 +56,43 @@ a.home{
 hr{
     height: 5px;
 }
+div.search{
+    text-align: center;
+    margin: auto;
+input.c{
+    
+    position: relative;
+    top: -30px;
+    width: 500px;
+    border-radius: 10px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1200;
+    font-size: 25px;
+    line-height: 16px;
+    /* または40% */
+    
+    color: #111111;
+    
+}
+button{
+    position: relative;
+    background-color: #725959;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    border: #725959;
+    color: #FFFFFF;
+
+    width: 50px;
+    height: 30px;
+    top: -35px;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+
+}
+}
