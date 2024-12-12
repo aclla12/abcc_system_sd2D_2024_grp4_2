@@ -17,9 +17,8 @@
     <div class="container">
         <div class="message">
         <h3>お支払いが完了しました！</h3>
-            現金\コンビニ払いを選択された方には<br>
-            登録されたメールアドレスに<br>
-            払い込み表をお送りいたします
+            <h6>現金/コンビニ払いを選択された方には<br><br>
+            登録されたメールアドレスに払い込み表をお送りいたします</h6>
         </div>
         <input type="submit"  value="ホームページ" {{ route('home')}}><br><br>
         <input type="submit"  value="マイページ" {{ route('mypage')}}><br><br>

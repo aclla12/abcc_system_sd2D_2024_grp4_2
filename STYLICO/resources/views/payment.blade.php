@@ -45,19 +45,23 @@
         }
     </script>
 
+    <div class="pay">
     <p><h4>- お支払い方法 -</h4></p>
-    <p><input type="radio" name="choice2" value="opt1">現金/コンビニ払い</p>
-    <p><input type="radio" name="choice2" value="opt2">クレジットカード</p>
+    <p><input type="radio" name="pay" value="cash">現金/コンビニ払い</p>
+    <p><input type="radio" name="pay" value="card">クレジットカード</p>
+    </div>
 
-    <p><h4>- カード情報登録 -</h4></p>
+    <div class="card">
+    <h4>- カード情報登録 -</h4>
     <p>カード番号: <input type="text" name="cardno"></p>
     <p>セキュリティコード: <input type="text" name="securitycord"></p>
-    <p>有効期限: <input type="text" name="month">月 <input type="text" name="year"></p>
+    <p>有効期限: <input type="text" name="month"> 月 　<input type="text" name="year"> 年</p>
     <p>名義人: <input type="text" name="name"></p>
+    </div>
 
     <form action={{ route('paymentcompleted') }} method="post" >
         @csrf
-    <input type="submit" value="注文確定">
+    <input type="submit" value="注文確定" class="btn">
     </form>
       
 </body>
