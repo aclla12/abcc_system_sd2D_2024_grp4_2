@@ -14,13 +14,40 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">Payment</h2>
 
-    <p><h4 class="shipp">- お届け日時 -</h4></p>
+    {{--<p><h4 class="shipp">- お届け日時 -</h4></p>
     <p> <button type = "radio">通常配送</button></p>
     <form action={{ route('datetime') }} method = "post">
         @csrf
     </form>
     <p> <button type = "radio">日時配送</button></p>
     <p> <button type = "radio">即日配送</button></p>
+
+    --}}
+
+    <form id="navigationForm">
+        <h3>移動先を選択してください</h3>
+        <label>
+            <input type="radio">
+            通常配送
+        </label><br>
+        <label>
+            <input type="radio" name="destination" value="{{ route('datetime') }}">
+            日時指定配送
+        </label><br>
+        <label>
+            <input type="radio">
+            即日配送
+        </label><br>
+        <button type="button" onclick="navigate()">移動</button>
+    </form>
+    <script>
+        function navigate() {
+            // 選択されているラジオボタンの値を取得
+            const selectedValue = document.querySelector('input[name="destination"]:checked').value;
+            // そのURLへ移動
+            window.location.href = selectedValue;
+        }
+    </script>
 
     <p><h4>- お支払い方法 -</h4></p>
     <p><button type = "radio" class="pay">現金/コンビニ払い</button></p>
@@ -32,7 +59,7 @@
     <p>有効期限: <input type="text" name="month">月 <input type="text" name="year"></p>
     <p>名義人: <input type="text" name="name"></p>
 
-    <form action="{{ route('paymentcompleted') }}" >
+    <form action={{ route('paymentcompleted') }} method="post" >
     <input type="submit" value="注文確定">
     </form>
       
