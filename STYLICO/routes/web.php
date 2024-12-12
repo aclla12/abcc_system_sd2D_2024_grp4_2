@@ -11,13 +11,13 @@ Route::get('shoki', [StylicoController::class,'getView'])->name('shoki');
 
 Route::match(['GET', 'POST'],'login',[StylicoController::class,'loginPostView'])->name('login');
 
-Route::match(['GET','POST'],'newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
+Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
 
 Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostView'])->name('home');
 
 Route::match(['GET','POST'],'mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 
-Route::get('updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
+Route::match(['GET','POST'],'updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
 
 Route::match(['GET','POST'],'payment',[StylicoController::class, 'paymentPostView'])->name('payment');
 
@@ -34,11 +34,11 @@ Route::get('orderhistory', [ProductController::class,'orderhistoryView'])->name(
 Route::get('favorite', [ProductController::class,'favoriteView'])->name('favorite.get');
 
 // 4つだす,ポケトレや掲示板の一覧表示を参考にする
-Route::get('tops/list', [ProductController::class, 'topsListView'])->name('tops.post');
-//Route::get('tops/{product_id}', [ProductController::class, 'topsView'])->name('tops.post');
-/*Route::get('tops/{product_id}', function(string $product_id) {
-     return 'hello' . $product_id;
- });*/
+Route::get('/tops', [ProductController::class, 'topsListView'])->name('tops.post');
+// Route::get('tops/{product_id}', [ProductController::class, 'topsView'])->name('tops.post');
+// Route::get('tops/{product_id}', function(string $product_id) {
+//      return 'hello' . $product_id;
+//  });
 Route::get('outer', [ProductController::class, 'outerView'])->name('outer.post');
 
 Route::get('shirt', [ProductController::class, 'shirtView'])->name('shirt.post');
@@ -52,3 +52,6 @@ Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->na
 Route::get('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');
 
 
+Route::get('datetime', function () {
+    return view('datetime'); // maymentの日時指定の内容
+})->name('datetime');

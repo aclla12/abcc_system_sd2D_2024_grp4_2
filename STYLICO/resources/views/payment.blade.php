@@ -28,7 +28,8 @@
     <p>名義人: <input type="text" name="name"></p>
     </div>
 
-    <form action="{{ route('paymentcompleted') }}" >
+    <form action={{ route('paymentcompleted') }} method="post" >
+        @csrf
     <input type="submit" value="注文確定" class="btn">
     </form>
       

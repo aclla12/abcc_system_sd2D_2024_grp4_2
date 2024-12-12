@@ -6,9 +6,10 @@ h1{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 16px;
-    /* または50% */
+    /* または40% */
+    text-align: center;
     
     color: #A48C8C;
     
