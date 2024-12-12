@@ -1,6 +1,7 @@
-input.c{
-    display: block;
+div.search{
+    text-align: center;
     margin: auto;
+input.c{
     
     position: relative;
     top: 200px;
@@ -13,10 +14,29 @@ input.c{
     font-size: 25px;
     line-height: 16px;
     /* または40% */
-    text-align: right;
     
     color: #111111;
     
+}
+button{
+    position: relative;
+    background-color: #725959;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    border: #725959;
+    color: #FFFFFF;
+
+    width: 50px;
+    height: 30px;
+    top: 195px;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+
+}
 }
 h2.store{
     text-align: center;
@@ -104,7 +124,7 @@ div.news{
     width: 500px;
     height: 50px;
     left: 80px;
-    top: 600px;
+    top: 500px;
     font-size: 15px;
    }
 }
@@ -133,7 +153,7 @@ div.guide{
     width: 380px;
     height: 50px;
     left: 80px;
-    top: 700px;
+    top: 600px;
     font-size: 15px;
     }
 }
