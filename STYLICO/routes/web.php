@@ -1,28 +1,43 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 use App\Http\Controllers\StylicoController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/', function () {return view('welcome');});
 
-Route::get('shoki', [StylicoController::class,'getView'])->name('shoki');
+Route::get('/shoki', function (){
+    return view('shoki');
+});
 
-Route::match(['GET', 'POST'],'login',[StylicoController::class,'loginPostView'])->name('login');
+Route::get('login', function(){
+    return view('login');
+})->name('coutom-login');
 
-Route::post('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
+Route::post('authenticate',[AuthController::class, 'authenticate'])->name('authenticate');
 
-Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostView'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::match(['GET','POST'],'homepage',[StylicoController::class,'homepagePostView'])->name('homepage');
+
+//Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostView'])->name('home');
+
+Route::match(['GET','POST'],'datetime',[StylicoController::class,'showDates'])->name('datetime');
+Route::get('datetime', function () {
+return view('datetime'); // maymentの日時指定の内容
+})->name('datetime');
+
+Route::get('newaccount', [StylicoController::class,'newaccountPostView'])->name('newaccount');
 
 Route::match(['GET','POST'],'mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 
 Route::match(['GET','POST'],'updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
 
 Route::match(['GET','POST'],'payment',[StylicoController::class, 'paymentPostView'])->name('payment');
-
-Route::match(['GET','POST'],'datetime',[StylicoController::class,'showDates'])->name('datetime');
 
 Route::get('mysize', [StylicoController::class, 'editView'])->name('mysize.edit');
 
@@ -52,7 +67,9 @@ Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->na
 
 Route::get('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');
 
+Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('login', [LoginController::class, 'login']);
+Route::post('logout', [LoginController::class, 'logout'])->name('logout');
 
-Route::get('datetime', function () {
-    return view('datetime'); // maymentの日時指定の内容
-})->name('datetime');
+Auth::routes();
+

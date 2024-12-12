@@ -16,6 +16,9 @@ class CartController extends Controller
         //商品の在庫を確認
         $product = Product::findOrFail($productId);
 
+        //現在ログイン中のユーザーIDを取得
+        $userId = auth()->id();
+
         //カートにすでに同じ商品があるかチェック（ログイン中のユーザーを想定）
         $cartItem = Cart::where('product_id', $productId)->first();
 
