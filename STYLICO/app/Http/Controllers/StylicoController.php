@@ -35,7 +35,7 @@ class StylicoController extends Controller
             ];
                 Account::create($newdata);
  
-                return redirect()->route('login');
+                return redirect('home')->route('login');
  
         }elseif($routeName === 'shoki' && $buttonName === 'login'){
             return redirect()->route('login');
@@ -56,7 +56,9 @@ class StylicoController extends Controller
     return view('login');
     }
 
-    public function newaccountPostView() {}
+    public function newaccountPostView() {
+        return view('newaccount');
+    }
     
     public function homepagePostView() {
         return view('home');

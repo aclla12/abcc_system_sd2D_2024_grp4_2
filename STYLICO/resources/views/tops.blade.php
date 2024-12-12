@@ -23,36 +23,18 @@
 
     <a href="{{ route('home') }}">ホームページに戻る</a><br>
 
-   {{-- @foreach ($product as $product)
-        @if(isset($product->image_base64) && $product->image_base64)
-        <img src="{{ $product->image_base64}}" alt="{{ $product->product_name}}">
-        @else
-        <p>画像無し</p>
-        @endif
-    @endforeach--}}
-    
-    @foreach($products as $product)
-    @if($product -> image_base64)
-    <img src="{{ $product->image_base64}}" alt="{{ $product -> product_name}}">
+    @forelse($products as $product)
+    <h2>{{ $product->name }}</h2>
+    @if(!empty($product->image_data))
+        <img src="data:image/png;base64,{{ $product->image_data}}" alt="{{ $product->name}}">    
     @else
-    <p>画像無し</p>
+        <p>画像がありません</p>
     @endif
-    @endforeach
 
-    {{--@foreach
-    @if (isset($mimeType) && isset($base64Image))
-    <img src="data:{{ $mimeType }};base64,{{ $base64Image }}" alt="Image">
-    <p>{{$products->product_name}}</p>
-    @else
-    <img src="" alt="not image" >
-    @endif
-    @endforeach--}}
+    <p>{{ $product->product_name}}</p>
 
-    <p>{{$products->product_name}}</p>
-
-    
-
-    {{--<img src="{{ asset($image->image_path) }}" alt="Not Image">--}}
-    
+    @empty
+    <p>該当する商品がありません。</p>
+    @endforelse
 </body>
 </html>
