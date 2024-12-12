@@ -57,7 +57,7 @@ hr{
     height: 5px;
 }
 input.c{
-    text-align: center;
+    text-align: left;
     position: relative;
     top: -50px;
     border-radius: 10px;
@@ -65,7 +65,7 @@ input.c{
     left: 400px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 1200;
     font-size: 25px;
     line-height: 16px;
     /* または40% */
