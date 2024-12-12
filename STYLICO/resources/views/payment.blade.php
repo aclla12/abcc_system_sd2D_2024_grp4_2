@@ -16,9 +16,9 @@
 
     <p><h4>- お届け日時 -</h4></p>
     <form action={{ route('datetime') }} method = "post">@csrf
-    <p><input type="radio" name="choice" value="op1">通常配送</p>
-    <p><input type="radio" name="choice" value="op2">日時指定</p>
-    <p><input type="radio" name="choice" value="op3">即日配送（別途手数料あり）</p>
+    
+    
+
     </form>
 
     
@@ -26,23 +26,21 @@
     <form id="navigationForm">
         <h3>移動先を選択してください</h3>
         <label>
-            <input type="radio">
-            通常配送
-        </label><br>
+            <p><input type="radio" name="choice" value="op1" checked>通常配送</p>
+        </label>
         <label>
-            <input type="radio" name="destination" value="{{ route('datetime') }}">
-            日時指定配送
-        </label><br>
+            <p><input type="radio" name="choice" value="{{ route('datetime') }}">日時指定</p>
+        </label>
         <label>
-            <input type="radio">
+            <p><input type="radio" name="choice" value="op3">即日配送（別途手数料あり）</p>
             即日配送
-        </label><br>
+        </label>
         <button type="button" onclick="navigate()">移動</button>
     </form>
     <script>
         function navigate() {
             // 選択されているラジオボタンの値を取得
-            const selectedValue = document.querySelector('input[name="destination"]:checked').value;
+            const selectedValue = document.querySelector('input[name="choice"]:checked').value;
             // そのURLへ移動
             window.location.href = selectedValue;
         }
@@ -59,6 +57,7 @@
     <p>名義人: <input type="text" name="name"></p>
 
     <form action={{ route('paymentcompleted') }} method="post" >
+        @csrf
     <input type="submit" value="注文確定">
     </form>
       
