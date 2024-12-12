@@ -59,7 +59,7 @@ hr{
 input.c{
     display: block;
     margin: auto;
-    
+
     position: relative;
     top: -50px;
     width: 500px;
@@ -67,8 +67,8 @@ input.c{
     
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 1200;
-    font-size: 25px;
+    font-weight: 200;
+    font-size: 20px;
     line-height: 16px;
     /* または40% */
     text-align: right;

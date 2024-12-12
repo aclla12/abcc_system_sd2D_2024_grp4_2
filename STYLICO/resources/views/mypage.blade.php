@@ -45,7 +45,7 @@ MENU
     <button type = "submit">👤</button>
 </form>
 
-<form action={{ route('cart') }} method = "post">
+<form action={{ route('cart.add') }} method = "post">
     @csrf
     <button type = "submit">🛒</button>
 </form>
