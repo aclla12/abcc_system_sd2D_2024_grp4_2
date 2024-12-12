@@ -33,7 +33,6 @@
         </label>
         <label>
             <p><input type="radio" name="choice" value="op3">即日配送（別途手数料あり）</p>
-            即日配送
         </label>
         <button type="button" onclick="navigate()">移動</button>
     </form>
