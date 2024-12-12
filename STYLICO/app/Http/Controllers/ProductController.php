@@ -46,5 +46,18 @@ class ProductController extends Controller
         return view('bottom');
     }
 
-   
+    public function search(Request $request) {
+        // 検索クエリを取得
+        $search = $request->input('search');
+
+        // 商品を検索（部分一致）
+        $products = Product::query()
+            ->when($search, function ($query, $search) {
+                $query->where('product_name', 'like', '%' . $search . '%');
+            })
+            ->get();
+
+        // ビューに商品一覧と検索クエリを渡す
+        return view('products.index', compact('products', 'search'));
+    }
 }

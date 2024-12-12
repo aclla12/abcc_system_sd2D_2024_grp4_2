@@ -56,3 +56,5 @@ Route::get('updatepassword',[StylicoController::class, 'updatepasswordView'])->n
 Route::get('datetime', function () {
     return view('datetime'); // maymentの日時指定の内容
 })->name('datetime');
+
+Route::get('search', [ProductController::class, 'search'])->name('search.index');
