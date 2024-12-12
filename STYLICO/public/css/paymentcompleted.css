@@ -16,3 +16,25 @@ h1{
     -webkit-text-stroke: 1px #725959;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.button1{
+    display: block;
+    margin: auto;
+
+    position: relative;
+    background-color: #725959;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    border: #725959;
+    color: #FFFFFF;
+
+    width: 341px;
+    height: 63px;
+    top: 300px;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+    
+}
