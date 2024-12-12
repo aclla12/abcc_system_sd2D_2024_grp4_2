@@ -18,7 +18,7 @@ Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostVie
 
 Route::match(['GET','POST'],'mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 
-Route::match(['GET','POST'],'updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
+Route::match(['GET','POST'],'updateaccount', [StylicoController::class, 'updateaccountGetView'])->name('updateaccount'); //更新画面を表示する
 
 Route::match(['GET','POST'],'payment',[StylicoController::class, 'paymentPostView'])->name('payment');
 
