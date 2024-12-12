@@ -19,9 +19,9 @@ h2.login{
 h5.login_id{
     text-align: center;
     position: relative;
-    left: 585px;
     width: 177px;
     height: 29px;
+    left: 400px;
     top: 170px;
     
     font-family: 'Inter';
@@ -50,7 +50,7 @@ h5.pass{
     position: relative;
     width: 130px;
     height: 29px;
-    left: 607px;
+    left: 420px;
     top: 250px;
     
     font-family: 'Inter';
@@ -103,7 +103,7 @@ input.checkbox{
     position: relative;
     width: 281px;
     height: 37px;
-    left: 410px;
+    left: 340px;
     top: 315px;
     
 }
@@ -120,15 +120,13 @@ h5.checkbox{
     
     color: #000000;
     height: 37px;
-    left: 560px;
+    left: 500px;
     top: 250px;
 }
 a{
     text-align: center;
     position: relative;
-    width: 267.89px;
-    height: 29.7px;
-    left: 585px;
     top: 250px;
+    left: 530px;
     padding-bottom: 50px;
 }

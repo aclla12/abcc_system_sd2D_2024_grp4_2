@@ -56,3 +56,23 @@ a.home{
 hr{
     height: 5px;
 }
+input.c{
+    display: block;
+    margin: auto;
+    
+    position: relative;
+    top: -50px;
+    width: 500px;
+    border-radius: 10px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1200;
+    font-size: 25px;
+    line-height: 16px;
+    /* または40% */
+    text-align: right;
+    
+    color: #111111;
+    
+}

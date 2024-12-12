@@ -57,12 +57,14 @@ hr{
     height: 5px;
 }
 input.c{
-    text-align: center;
+    display: block;
+    margin: auto;
+    
     position: relative;
     top: -50px;
+    width: 500px;
     border-radius: 10px;
     
-    left: 400px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 1200;

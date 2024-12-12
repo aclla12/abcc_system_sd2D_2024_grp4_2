@@ -14,6 +14,13 @@
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Home Page</h2>
 
+<form action="{{route('search.index')}}" method = "post">
+        @csrf
+
+        <input type="text" value="🔍" class = "c">
+
+</form>
+
 
 <h2 class="store">ONLINE STORE</h2>
 <ul>

@@ -1,3 +1,23 @@
+input.c{
+    display: block;
+    margin: auto;
+    
+    position: relative;
+    top: 200px;
+    width: 500px;
+    border-radius: 10px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1200;
+    font-size: 25px;
+    line-height: 16px;
+    /* または40% */
+    text-align: right;
+    
+    color: #111111;
+    
+}
 h2.store{
     text-align: center;
     position: relative;
@@ -13,17 +33,6 @@ h2.store{
    
     -webkit-text-stroke: 1px #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-form.search{
-    box-sizing: border-box;
-   
-    position:relative;
-    width: 310px;
-    height: 26px;
-    left: 57px;
-    top: 212px;
-   
-    background: #D0CECE;
 }
 ul{
     display: flex;
@@ -45,7 +54,7 @@ li{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 20px;
 }
 a{
