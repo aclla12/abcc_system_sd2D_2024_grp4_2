@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/updatepassword.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/updatepasswaord.css') }}" />
 </head>
 <body>
 <h2 class="logo">STYLICO</h2>
@@ -18,13 +18,13 @@
     @csrf
 
 <p>EMAIL(ログインID)</p>
-<input type="text" name ="email">
+<input type="text" name ="email" class="b">
 
 <p>PASSWORD</p>
-<input type="text" name = "password">
+<input type="text" name = "password" class="b">
 
-<button type = "submit">完了</button>
+<input type = "submit" name = "pass" value="完了" class="a">
 </form>
-</body>
+</body> 
 </html>
 
