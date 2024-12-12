@@ -14,14 +14,7 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">Payment</h2>
 
-    <p><h4>- お届け日時 -</h4></p>
-    <form action={{ route('datetime') }} method = "post">@csrf
-    
-    
-
-    </form>
-
-    
+    <p><h4>- お届け日時 -</h4></p>  
 
     <form id="navigationForm">
         <h3>移動先を選択してください</h3>
