@@ -32,6 +32,7 @@
     @endif
 
     <p>{{ $product->product_name}}</p>
+    <p>¥{{ $product->product_price}}</p>
 
     @empty
     <p>該当する商品がありません。</p>

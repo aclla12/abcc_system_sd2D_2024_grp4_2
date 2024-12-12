@@ -15,10 +15,6 @@ class ProductController extends Controller
         return view('orderhistory');
     }
 
-    public function cartView(){
-        return view('cart');
-    }
-
     public function jewelryView() {
         return view('jewelry');
     }
