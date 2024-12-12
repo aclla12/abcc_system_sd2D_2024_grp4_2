@@ -20,8 +20,14 @@
             <h6>現金/コンビニ払いを選択された方には<br><br>
             登録されたメールアドレスに払い込み表をお送りいたします</h6>
         </div>
-        <input type="submit"  value="ホームページ" {{ route('home')}}><br><br>
-        <input type="submit"  value="マイページ" {{ route('mypage')}}><br><br>
+        <form action={{ route('home')}} method="post" >
+            @csrf
+        <input type="submit"  value="ホームページ" ><br><br>
+        </form>
+        <form action= {{ route('mypage')}} method="post" >
+            @csrf
+        <input type="submit"  value="マイページ"><br><br>
+        </form>
     </div>
 </body>
 </html>
