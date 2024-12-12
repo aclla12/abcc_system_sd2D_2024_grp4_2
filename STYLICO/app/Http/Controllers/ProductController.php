@@ -79,6 +79,10 @@ class ProductController extends Controller
             ->get();
 
         // ビューに商品一覧と検索クエリを渡す
-        return view('products.index', compact('products', 'search'));
+        return view('', compact('products', 'search'));
+    }
+
+    public function searchGetView() {
+        
     }
 }

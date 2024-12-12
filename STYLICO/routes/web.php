@@ -57,4 +57,7 @@ Route::get('datetime', function () {
     return view('datetime'); // maymentの日時指定の内容
 })->name('datetime');
 
+//　検索機能
 Route::get('search', [ProductController::class, 'search'])->name('search.index');
+// 検索結果
+Route::post('search.get',[ProductController::class, 'searchGetView'])->name('search.get');
