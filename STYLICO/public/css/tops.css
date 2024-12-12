@@ -57,7 +57,7 @@ hr{
     height: 5px;
 }
 input.c{
-    text-align: left;
+    text-align: center;
     position: relative;
     top: -50px;
     border-radius: 10px;
@@ -69,7 +69,7 @@ input.c{
     font-size: 25px;
     line-height: 16px;
     /* または40% */
-    text-align: center;
+    text-align: right;
     
     color: #111111;
     
