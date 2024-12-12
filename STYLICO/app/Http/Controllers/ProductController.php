@@ -68,21 +68,26 @@ class ProductController extends Controller
     }
 
     public function search(Request $request) {
-        // 検索クエリを取得
-        $search = $request->input('search');
-
-        // 商品を検索（部分一致）
-        $products = Product::query()
-            ->when($search, function ($query, $search) {
-                $query->where('product_name', 'like', '%' . $search . '%');
-            })
-            ->get();
-
-        // ビューに商品一覧と検索クエリを渡す
-        return view('', compact('products', 'search'));
+        $query = $request->input('query');
+        
+        // 検索結果を取得
+        $products = $this->searchGetView($query);
+        
+        // 検索結果を表示するビューを返す
+        return view('search_get', compact('products'));
     }
 
-    public function searchGetView() {
+    public function searchGetView($query) {
+
+        $products=Product::where('product_name', 'like', "%{$query}%")->get();
+
+        $products->map(function($product){
+            $product -> image_data = base64_encode($product->product_image);
+            return $product;
+        });
+
+        return $products;
         
     }
 }
+ 

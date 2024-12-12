@@ -60,4 +60,4 @@ Route::get('datetime', function () {
 //　検索機能
 Route::get('search', [ProductController::class, 'search'])->name('search.index');
 // 検索結果
-Route::post('search.get',[ProductController::class, 'searchGetView'])->name('search.get');
+Route::get('search_get',[ProductController::class, 'searchGetView'])->name('search.get');
