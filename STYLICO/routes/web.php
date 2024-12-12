@@ -52,3 +52,6 @@ Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->na
 Route::get('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');
 
 
+Route::get('datetime', function () {
+    return view('datetime'); // maymentの日時指定の内容
+})->name('datetime');
