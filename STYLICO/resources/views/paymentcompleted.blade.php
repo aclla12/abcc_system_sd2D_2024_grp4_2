@@ -20,8 +20,14 @@
             <h6>代引き発送となりますので<br><br>
             代金は商品到着後、配達員へお渡しください。</h6>
         </div>
-        <input type="submit"  value="ホームページ" {{ route('home')}}><br><br>
-        <input type="submit"  value="マイページ" {{ route('mypage')}}><br><br>
+        <form action={{ route('home')}} method="post" >
+            @csrf
+        <input type="submit"  value="ホームページ" ><br><br>
+        </form>
+        <form action= {{ route('mypage')}} method="post" >
+            @csrf
+        <input type="submit"  value="マイページ"><br><br>
+        </form>
     </div>
 </body>
 </html>
