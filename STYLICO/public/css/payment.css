@@ -1,8 +1,74 @@
+h4{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #A48C8C;
+    
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.59);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+div.date{
+    h3{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 16px;
+        /* または80% */
+        
+        color: #000000;
+    }
+    p{
+        text-align: center;
+        position: relative;
+        top: 250px;
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 16px;
+    }
+    button{
+        display: block;
+        margin: auto;
+
+        position: relative;
+        background-color: #725959;
+        box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+        border: #725959;
+        color: #FFFFFF;
+        text-align: center;
+        width: 150px;
+        height: 50px;
+        top: 255px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 16px;
+    }
+}
 div.pay{
     h4{
     text-align: center;
     position: relative;
-    top: 250px;
+    top: 300px;
     
     font-family: 'Inter';
     font-style: normal;
@@ -75,9 +141,9 @@ input.btn{
     text-align: center;
     width: 200px;
     height: 63px;
-    top: 500px;
+    top: 350px;
     border-radius: 10px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 
     font-family: 'Inter';
     font-style: italic;

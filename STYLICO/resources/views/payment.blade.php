@@ -22,7 +22,7 @@
     </form>
 
     
-
+    <div class="date">
     <form id="navigationForm">
         <h3>移動先を選択してください</h3>
         <label>
@@ -32,7 +32,7 @@
             <p><input type="radio" name="choice" value="{{ route('datetime') }}">日時指定</p>
         </label>
         <label>
-            <p><input type="radio" name="choice" value="op3">即日配送（別途手数料あり）</p>
+            <p><input type="radio" name="choice" value="op3">即日配送<br><br>　（別途手数料）</p>
         </label>
         <button type="button" onclick="navigate()">移動</button>
     </form>
@@ -44,19 +44,11 @@
             window.location.href = selectedValue;
         }
     </script>
+    </div>
 
     <div class="pay">
     <p><h4>- お支払い方法 -</h4></p>
-    <p><input type="radio" name="pay" value="cash">現金/コンビニ払い</p>
-    <p><input type="radio" name="pay" value="card">クレジットカード</p>
-    </div>
-
-    <div class="card">
-    <h4>- カード情報登録 -</h4>
-    <p>カード番号: <input type="text" name="cardno"></p>
-    <p>セキュリティコード: <input type="text" name="securitycord"></p>
-    <p>有効期限: <input type="text" name="month"> 月 　<input type="text" name="year"> 年</p>
-    <p>名義人: <input type="text" name="name"></p>
+    <p>代引き(現金のみ)</p>
     </div>
 
     <form action={{ route('paymentcompleted') }} method="post" >
