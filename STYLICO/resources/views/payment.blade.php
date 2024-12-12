@@ -14,26 +14,22 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">Payment</h2>
 
-    <p><h4 class="shipp">- お届け日時 -</h4></p>
-    <p> <button type = "radio">通常配送</button></p>
-    <form action={{ route('datetime') }} method = "post">
-        @csrf
-    </form>
-    <p> <button type = "radio">日時配送</button></p>
-    <p> <button type = "radio">即日配送</button></p>
-
+    <div class="pay">
     <p><h4>- お支払い方法 -</h4></p>
-    <p><button type = "radio" class="pay">現金/コンビニ払い</button></p>
-    <p><button type = "radio" class="pay">クレジットカード</button></p>
+    <p><input type="radio" name="pay" value="cash">現金/コンビニ払い</p>
+    <p><input type="radio" name="pay" value="card">クレジットカード</p>
+    </div>
 
-    <p><h4>- カード情報登録 -</h4></p>
+    <div class="card">
+    <h4>- カード情報登録 -</h4>
     <p>カード番号: <input type="text" name="cardno"></p>
     <p>セキュリティコード: <input type="text" name="securitycord"></p>
-    <p>有効期限: <input type="text" name="month">月 <input type="text" name="year"></p>
+    <p>有効期限: <input type="text" name="month"> 月 　<input type="text" name="year"> 年</p>
     <p>名義人: <input type="text" name="name"></p>
+    </div>
 
     <form action="{{ route('paymentcompleted') }}" >
-    <input type="submit" value="注文確定">
+    <input type="submit" value="注文確定" class="btn">
     </form>
       
 </body>
