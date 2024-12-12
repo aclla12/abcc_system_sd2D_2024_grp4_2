@@ -26,15 +26,15 @@ div.prduct{
 }
 div.prd{
     
-        text-align: center;
+        text-align: left;
         position: relative;
-        margin-top: -100px;
+        
         
             
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 20px;
         /* または80% */
     
@@ -52,4 +52,7 @@ a.home{
     font-weight: 900;
     font-size: 20px;
     line-height: 24px;
+}
+hr{
+    height: 5px;
 }
