@@ -35,7 +35,7 @@ Route::get('newaccount', [StylicoController::class,'newaccountPostView'])->name(
 
 Route::match(['GET','POST'],'mypage', [StylicoController::class, 'mypagePostView'])->name('mypage');
 
-Route::match(['GET','POST'],'updateaccount', [StylicoController::class, 'updateaccountPostView'])->name('updateaccount');
+Route::match(['GET','POST'],'updateaccount', [StylicoController::class, 'updateaccountGetView'])->name('updateaccount'); //更新画面を表示する
 
 Route::match(['GET','POST'],'payment',[StylicoController::class, 'paymentPostView'])->name('payment');
 
@@ -73,3 +73,11 @@ Route::post('logout', [LoginController::class, 'logout'])->name('logout');
 
 Auth::routes();
 
+Route::get('datetime', function () {
+    return view('datetime'); // maymentの日時指定の内容
+})->name('datetime');
+
+//　検索機能
+Route::get('search', [ProductController::class, 'search'])->name('search.index');
+// 検索結果
+Route::get('search_get',[ProductController::class, 'searchGetView'])->name('search.get');

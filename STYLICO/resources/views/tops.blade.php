@@ -14,15 +14,18 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">TOPS</h2>
 
-    <form action="#" method = "post">
+    <div class="search">
+    <form action="{{route('search.index')}}" method = "get">
         @csrf
-    <fieldset>
-        <input type="text" name = "search" >
-    </fieldset>
+        <input type="text" name="query" placeholder="検索キーワード" class="c">
+        <button type="submit">検索</button>
     </form>
+    </div>
 
-    <a href="{{ route('home') }}">ホームページに戻る</a><br>
+    
 
+    <div class="prduct">
+    <hr>
     @forelse($products as $product)
     <h2>{{ $product->name }}</h2>
     @if(!empty($product->image_data))
@@ -30,12 +33,20 @@
     @else
         <p>画像がありません</p>
     @endif
-
-    <p>{{ $product->product_name}}</p>
-    <p>¥{{ $product->product_price}}</p>
+    <div class="prd">
+    <p>{{ $product->product_name}}<br><br>
+    商品説明：{{$product->product_detail}}<br><br>
+    ¥{{ $product->product_price}}</p>
+    </div>
+    <hr>
 
     @empty
     <p>該当する商品がありません。</p>
     @endforelse
+    </div>
+
+    <a href="{{ route('home') }}" class="home">ホームページに戻る</a><br>
+
+    
 </body>
 </html>

@@ -8,19 +8,21 @@
 
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/sty.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/bottom.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/tops.css') }}" />
+
 </head>
 <body>
     <h2 class="logo">STYLICO</h2>
-    <h2 class="title">BOTTOM</h2>
+    <h2 class="title">検索結果</h2>
 
     <div class="search">
-    <form action="{{route('search.index')}}" method = "get">
+    <form action="{{route('search.index')}}" method="get">
         @csrf
-        <input type="text" name="query" placeholder="検索キーワード" class="c">
+        <input type="text" name="query" placeholder="検索ワード" class="c">
         <button type="submit">検索</button>
     </form>
     </div>
+
 
     <div class="prduct">
     <hr>
@@ -42,9 +44,8 @@
     <p>該当する商品がありません。</p>
     @endforelse
     </div>
-    
-    <a href="{{ route('home') }}" class="home">ホームページに戻る</a><br>
 
+    <a href="{{ route('home') }}" class="home">ホームページに戻る</a><br>
     
 </body>
 </html>
