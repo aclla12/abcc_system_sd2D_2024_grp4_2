@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    position: relative;
+    top: 170px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 16px;
+    /* または40% */
+    text-align: center;
+    
+    color: #A48C8C;
+    
+    -webkit-text-stroke: 1px #725959;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
