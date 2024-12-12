@@ -59,7 +59,7 @@ hr{
 input.c{
     text-align: center;
     position: relative;
-    top: 0px;
+    top: -50px;
     border-radius: 10px;
     
     left: 400px;
