@@ -14,11 +14,10 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">TOPS</h2>
 
-    <form action="{{route('search.index')}}" method = "post">
+    <form action="{{route('search.index')}}" method = "get">
         @csrf
-
-        <input type="text" value="🔍" class = "c">
-
+        <input type="text" name="query" placeholder="検索キーワード">
+        <button type="submit">検索</button>
     </form>
 
     

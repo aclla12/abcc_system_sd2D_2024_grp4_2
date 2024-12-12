@@ -14,11 +14,10 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">OUTER</h2>
 
-    <form action="#" method = "post">
+    <form action="{{route('search.index')}}" method = "get">
         @csrf
-    <fieldset>
-        <input type="text" name = "search" >
-    </fieldset>
+        <input type="text" name="query" placeholder="検索キーワード">
+        <button type="submit">検索</button>
     </form>
 
     <div class="prduct">

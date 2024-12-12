@@ -62,11 +62,11 @@ input.c{
     top: -50px;
     border-radius: 10px;
     
-    left: 400px;
+    left: 450px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 1200;
-    font-size: 25px;
+    font-weight: 200;
+    font-size: 20px;
     line-height: 16px;
     /* または40% */
     text-align: right;
