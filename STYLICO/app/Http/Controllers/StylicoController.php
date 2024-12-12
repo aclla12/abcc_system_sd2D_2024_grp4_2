@@ -18,10 +18,10 @@ class StylicoController extends Controller
     }
 
     public function loginPostView(Request $request) {
- 
+
         $buttonName = $request->input('button');
         $routeName = $request->route()->getName();
- 
+
         if($routeName === 'newaccount' && $buttonName === 'signin'){
             $newdata = [
                 'login_id' => $request->email,
@@ -34,13 +34,13 @@ class StylicoController extends Controller
                 'user_gender' => $request->gender
             ];
                 Account::create($newdata);
- 
+
                 return redirect('home')->route('login');
- 
+
         }elseif($routeName === 'shoki' && $buttonName === 'login'){
             return redirect()->route('login');
         }
- 
+
         $crefentils =$request->only('email','password');//ここからmysizeの補助コード
         if(Auth::attempt($crefentils)){
             $user=Auth::user();
@@ -65,7 +65,10 @@ class StylicoController extends Controller
     }
 
     public function mypagePostView(){
-        return view('mypage');
+
+        $user = Account::first();
+
+        return view('mypage',['user' => $user]);
     }
 
     public function errormassegeView() {
@@ -143,7 +146,8 @@ class StylicoController extends Controller
         return view('payment');
     }
 
-    public function showDates(){
+    public function showDates() {
         return view('datetime');
     }
+
 }
