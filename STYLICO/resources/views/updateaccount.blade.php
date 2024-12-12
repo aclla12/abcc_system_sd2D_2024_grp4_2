@@ -13,6 +13,12 @@
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Update Account</h2>
 
+<!-- 成功時メッセージの表示　-->
+
+@if (session('message'))
+<p>{{ session('message') }}</p>
+@endif
+
 <form action= {{route('home')}} method = "post">
     @csrf
     <div class="email">
@@ -54,7 +60,7 @@
 </div>
 
 <input type = "submit" value = "update" name="signin" class="btn">
-<button><a href="{{ route('mypage')}}">マイページに戻る</a></button>
+<a href="{{ route('mypage')}}">マイページに戻る</a>
 
 </form>
 </body>
