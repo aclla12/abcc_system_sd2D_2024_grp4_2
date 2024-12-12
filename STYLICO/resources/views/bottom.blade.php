@@ -31,8 +31,9 @@
         <p>画像がありません</p>
     @endif
     <div class="prd">
-    <p>{{ $product->product_name}}</p>
-    <p>¥{{ $product->product_price}}</p>
+    <p>{{ $product->product_name}}<br><br>
+    商品説明：{{$product->product_detail}}<br><br>
+    ¥{{ $product->product_price}}</p>
     </div>
     <hr>
 
