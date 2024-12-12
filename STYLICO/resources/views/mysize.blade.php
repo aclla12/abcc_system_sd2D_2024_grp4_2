@@ -49,6 +49,6 @@
                 <h3 class="mess">上記の情報でマイサイズを変更します</h3>
                 <input type="submit" value="確定" class="btn"><br><br>
             </form>
-            
+            <button><a href="{{ route('mypage')}}">マイページに戻る</a></button>
         </div>
 </body>

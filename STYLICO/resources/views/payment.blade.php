@@ -14,15 +14,14 @@
     <h2 class="logo">STYLICO</h2>
     <h2 class="title">Payment</h2>
 
-    {{--<p><h4 class="shipp">- お届け日時 -</h4></p>
-    <p> <button type = "radio">通常配送</button></p>
-    <form action={{ route('datetime') }} method = "post">
-        @csrf
+    <p><h4>- お届け日時 -</h4></p>
+    <form action={{ route('datetime') }} method = "post">@csrf
+    <p><input type="radio" name="choice" value="op1">通常配送</p>
+    <p><input type="radio" name="choice" value="op2">日時指定</p>
+    <p><input type="radio" name="choice" value="op3">即日配送（別途手数料あり）</p>
     </form>
-    <p> <button type = "radio">日時配送</button></p>
-    <p> <button type = "radio">即日配送</button></p>
 
-    --}}
+    
 
     <form id="navigationForm">
         <h3>移動先を選択してください</h3>
@@ -50,8 +49,8 @@
     </script>
 
     <p><h4>- お支払い方法 -</h4></p>
-    <p><button type = "radio" class="pay">現金/コンビニ払い</button></p>
-    <p><button type = "radio" class="pay">クレジットカード</button></p>
+    <p><input type="radio" name="choice2" value="opt1">現金/コンビニ払い</p>
+    <p><input type="radio" name="choice2" value="opt2">クレジットカード</p>
 
     <p><h4>- カード情報登録 -</h4></p>
     <p>カード番号: <input type="text" name="cardno"></p>
