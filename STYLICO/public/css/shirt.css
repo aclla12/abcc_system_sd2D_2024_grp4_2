@@ -1,0 +1,58 @@
+h2.title{
+    padding-bottom: 200px;
+}
+div.prduct{
+    img{
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+        
+    }
+    h2{
+    text-align: center;
+    position: relative;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    /* または80% */
+    
+    color: #000000;
+    }
+    
+    
+}
+div.prd{
+    
+        text-align: left;
+        position: relative;
+        
+        
+            
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        /* または80% */
+    
+        color: #000000;   
+    
+}
+a.home{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    
+    color: #000000;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+}
+hr{
+    height: 5px;
+}

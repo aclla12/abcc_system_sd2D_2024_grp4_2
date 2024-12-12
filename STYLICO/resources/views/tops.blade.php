@@ -33,8 +33,8 @@
         <p>画像がありません</p>
     @endif
     <div class="prd">
-    <p>{{ $product->product_name}}</p>
-    <p>¥{{ $product->product_price}}</p>
+    <p>{{ $product->product_name}}<br><br>
+    ¥{{ $product->product_price}}</p>
     </div>
     <hr>
 
@@ -42,7 +42,7 @@
     <p>該当する商品がありません。</p>
     @endforelse
     </div>
-    
+
     <a href="{{ route('home') }}" class="home">ホームページに戻る</a><br>
 
     

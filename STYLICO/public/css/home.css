@@ -1,28 +1,28 @@
 h2.store{
     text-align: center;
     position: relative;
-    top: 300px;
-    
+    top: 270px;
+   
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 29px;
-    
+   
     color: #757575;
-    
+   
     -webkit-text-stroke: 1px #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 form.search{
     box-sizing: border-box;
-    
+   
     position:relative;
     width: 310px;
     height: 26px;
     left: 57px;
     top: 212px;
-    
+   
     background: #D0CECE;
 }
 ul{
@@ -37,15 +37,15 @@ li{
     justify-content: space-around;
     flex: 0 0 50%;
     padding-bottom: 50px;
-    
+   
     position: relative;
     top: 350px;
-    
-
+   
+ 
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 20px;
 }
 a{
@@ -54,19 +54,19 @@ a{
 a.mypage{
     text-decoration: none;
     position: absolute;
-    width: 130px;
+    width: 600px;
     height: 20px;
     left: 55px;
     top: 700px;
-    
+   
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 24px;
-    
+   
     color: #757575;
-    
+   
     -webkit-text-stroke: 1px #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -76,16 +76,16 @@ div.news{
     width: 85px;
     height: 20px;
     left: 55px;
-    top: 900px;
-    
+    top: 800px;
+   
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
     font-size: 20px;
     line-height: 24px;
-    
+   
     color: #757575;
-    
+   
     -webkit-text-stroke: 1px #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    }
@@ -95,7 +95,7 @@ div.news{
     width: 500px;
     height: 50px;
     left: 80px;
-    top: 700px;
+    top: 600px;
     font-size: 15px;
    }
 }
@@ -105,16 +105,16 @@ div.guide{
     width: 204px;
     height: 26px;
     left: 55px;
-    top: 1100px;
-    
+    top: 1000px;
+   
     font-family: 'Inter';
     font-style: italic;
     font-weight: 900;
     font-size: 20px;
     line-height: 24px;
-    
+   
     color: #757575;
-    
+   
     -webkit-text-stroke: 1px #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
@@ -124,7 +124,7 @@ div.guide{
     width: 380px;
     height: 50px;
     left: 80px;
-    top: 800px;
+    top: 700px;
     font-size: 15px;
     }
 }
@@ -136,7 +136,7 @@ a.logout{
     left: 55px;
     top: 1400px;
     padding-bottom: 50px;
-    
+   
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -145,12 +145,14 @@ a.logout{
     /* または107% */
     display: flex;
     align-items: center;
-    
+   
     color: #757575;
-    
+   
     -webkit-text-stroke: 1px #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-
-    
+ 
+ 
+   
+ 
+ 

@@ -21,9 +21,28 @@
     </fieldset>
     </form>
 
-    <a href="#">ホームページに戻る</a><br>
+    <div class="prduct">
+    <hr>
+    @forelse($products as $product)
+    <h2>{{ $product->name }}</h2>
+    @if(!empty($product->image_data))
+        <img src="data:image/png;base64,{{ $product->image_data}}" alt="{{ $product->name}}">    
+    @else
+        <p>画像がありません</p>
+    @endif
+    <div class="prd">
+    <p>{{ $product->product_name}}</p>
+    <p>¥{{ $product->product_price}}</p>
+    </div>
+    <hr>
 
-    画像
+    @empty
+    <p>該当する商品がありません。</p>
+    @endforelse
+    </div>
+    
+    <a href="{{ route('home') }}" class="home">ホームページに戻る</a><br>
+
     
 </body>
 </html>
