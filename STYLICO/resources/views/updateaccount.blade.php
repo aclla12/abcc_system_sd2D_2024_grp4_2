@@ -54,6 +54,7 @@
 </div>
 
 <input type = "submit" value = "update" name="signin" class="btn">
+<button><a href="{{ route('mypage')}}">マイページに戻る</a></button>
 
 </form>
 </body>
