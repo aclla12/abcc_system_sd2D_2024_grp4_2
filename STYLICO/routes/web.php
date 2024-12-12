@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\StylicoController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CartController;
 
 Route::get('/', function () {return view('welcome');});
 
@@ -27,7 +28,7 @@ Route::get('mysize', [StylicoController::class, 'editView'])->name('mysize.edit'
 
 Route::post('mysize', [StylicoController::class, 'updateView'])->name('mysize.update');
 
-Route::post('cart', [ProductController::class,'cartView'])->name('cart');
+Route::post('/cart/add', [CartController::class,'add'])->name('cart.add');
 
 Route::get('orderhistory', [ProductController::class,'orderhistoryView'])->name('orderhistory');
 

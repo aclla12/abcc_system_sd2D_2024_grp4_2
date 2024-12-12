@@ -1,0 +1,78 @@
+h4{
+    text-align: center;
+    position: relative;
+    top: 170px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 374px;
+    font-size: 30px;
+    line-height: 16px;
+    /* または40% */
+    text-align: center;
+    
+    color: #111111;
+
+}
+
+p{
+    text-align: center;
+    position: relative;
+    top: 170px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    /* または40% */
+    text-align: center;
+    
+    color: #111111;
+    
+}
+input.b{
+    text-align: center;
+    position: relative;
+    top: 170px;
+    border-radius: 10px;
+    
+    left: 512px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 16px;
+    /* または40% */
+    text-align: center;
+    
+    color: #111111;
+    
+}
+
+
+
+input.a{
+    display: block;
+    margin: auto;
+
+    position: relative;
+    background-color: #725959;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+    border: #725959;
+    color: #FFFFFF;
+
+    width: 400px;
+    height: 70px;
+    top: 300px;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 16px;
+
+    margin-bottom: 350px;
+}
+

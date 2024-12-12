@@ -37,25 +37,53 @@
         const day = date.getDate();
         const weekDay = ['日', '月', '火', '水', '木', '金', '土'][date.getDay()];
   
-        const dateElement = document.createElement('button');
-        dateElement.classList.add('date');
-        dateElement.textContent = `${day} ${weekDay}`;
-        datesContainer.appendChild(dateElement);
-      }
-  
-      // クリックで選択状態にする
-      document.querySelectorAll('.date').forEach(dateButton => {
-        dateButton.addEventListener('click', () => {
-          document.querySelectorAll('.date').forEach(d => d.classList.remove('selected'));
+        const button = document.createElement('button');
+      button.classList.add('date');
+      button.textContent = `${day} ${weekDay}`;
+      datesContainer.appendChild(button);
+    }
+
+    // 選択を保持するための配列
+    const selectedDates = new Set();
+    const selectedTimes = new Set();
+
+    // 日付ボタンの選択状態管理
+    document.querySelectorAll('.date').forEach(dateButton => {
+      dateButton.addEventListener('click', () => {
+        const dateText = dateButton.textContent;
+        if (selectedDates.has(dateText)) {
+          selectedDates.delete(dateText);
+          dateButton.classList.remove('selected');
+        } else {
+          selectedDates.add(dateText);
           dateButton.classList.add('selected');
-        });
+        }
       });
-  
-      document.querySelectorAll('.time').forEach(time => {
-        timeButton.addEventListener('click', () => {
-          document.querySelectorAll('.time').forEach(t => t.classList.remove('selected'));
+    });
+
+    // 時間ボタンの選択状態管理
+    document.querySelectorAll('.time').forEach(timeButton => {
+      timeButton.addEventListener('click', () => {
+        const timeText = timeButton.textContent;
+        if (selectedTimes.has(timeText)) {
+          selectedTimes.delete(timeText);
+          timeButton.classList.remove('selected');
+        } else {
+          selectedTimes.add(timeText);
           timeButton.classList.add('selected');
-        });
+        }
+      });
+    });
+
+    // 完了ボタンの動作
+    document.getElementById('complete').addEventListener('click', () => {
+      if (selectedDates.size === 0 && selectedTimes.size === 0) {
+        alert("日付と時間を選択してください！");
+        return;
+      }
+      const selectedDatesArray = Array.from(selectedDates).join(', ');
+      const selectedTimesArray = Array.from(selectedTimes).join(', ');
+      alert(`選択された日付: ${selectedDatesArray}\n選択された時間: ${selectedTimesArray}`);
       });
     </script>
   </body>

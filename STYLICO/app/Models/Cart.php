@@ -13,7 +13,6 @@ class Cart extends Model
 
     protected $fillable = [
         //cartカラム
-        'cart_id',
         'user_id',
         'product_id',
         'amount'
