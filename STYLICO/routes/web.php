@@ -1,13 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
+
 
 use App\Http\Controllers\StylicoController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CartController;
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\Auth\LoginController;
 
 Route::get('/', function () {return view('welcome');});
 
@@ -15,14 +13,11 @@ Route::get('/shoki', function (){
     return view('shoki');
 });
 
-Route::get('login', function(){
-    return view('login');
-})->name('coutom-login');
+Route::match(['GET', 'POST'],'login',[StylicoController::class,'loginPostView'])->name('login');
 
-Route::post('authenticate',[AuthController::class, 'authenticate'])->name('authenticate');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::match(['GET','POST'],'homepage',[StylicoController::class,'homepagePostView'])->name('homepage');
+
+Route::match(['GET','POST'],'home',[StylicoController::class,'homepagePostView'])->name('home');
 
 //Route::match(['GET', 'POST'],'home', [StylicoController::class, 'homepagePostView'])->name('home');
 
@@ -67,11 +62,6 @@ Route::get('deleteaccount', [StylicoController::class, 'deleteaccountView'])->na
 
 Route::get('updatepassword',[StylicoController::class, 'updatepasswordView'])->name('updatepassword');
 
-Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
-Route::post('login', [LoginController::class, 'login']);
-Route::post('logout', [LoginController::class, 'logout'])->name('logout');
-
-Auth::routes();
 
 Route::get('datetime', function () {
     return view('datetime'); // maymentの日時指定の内容

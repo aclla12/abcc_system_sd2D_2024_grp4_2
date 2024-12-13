@@ -11,16 +11,16 @@
 <body>
 <h2 class="logo">STYLICO</h2>
 <h2 class="login">Login.</h2>
-<form action={{ route('authenticate') }} method="post">
+<form action={{ route('home') }} method="post">
     @csrf
 <div>
     <h5 class="login_id">ログインID</h5>
-    <input type = "email" class="login_id" name = "loginid" required>
+    <input type = "email" class="login_id" name = "loginid" >
 </div>
 
 <div>
     <h5 class="pass">パスワード</h5>
-    <input type="password" class="pass" name = "password" required>
+    <input type="password" class="pass" name = "password">
 </div>
 
 <br><br>
