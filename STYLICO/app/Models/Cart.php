@@ -17,4 +17,11 @@ class Cart extends Model
         'product_id',
         'amount'
     ];
+
+    public function user(){
+        return $this->belongsTo(Account::class);
+    }
+    public function product(){
+        return $this->belongsTo(Product::class);
+    }
 }
