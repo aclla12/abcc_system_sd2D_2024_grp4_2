@@ -20,7 +20,7 @@
 <input type = "submit"  name = "newaccount" value = "新規作成" class="button1"> <br><br>
 </form>
 
-<form action= {{route('login') }} method="post">
+<form action= {{route('login') }} method="get">
     @csrf
 <input type = "submit"  name = "login" value = "ログイン" class="button2">
 </form>

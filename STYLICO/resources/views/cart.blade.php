@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="{{ asset('css/cart.css') }}" />
 </head>
 <body>
+    @foreach ($products as $product)
+    <form method="POST" action="{{ route('cart.add') }}">
+       @csrf
+        <input type="hidden" name="product_id" value="{{ $product->id }}">
+        <button type="submit">{{ $product->name }}</button>
+    </form>
+    @endforeach
 
     <form action="{{ route('payment') }}" method = "post">
         @csrf
@@ -22,6 +29,10 @@
     <p><h6>数量: DBから数量</h6></p>
     <script src = "https://cdn.jsdeliver.net/npm/vue@2.7.14/dist/vue.js"></script>
     <script src = "{{ asset('js/script.js')}}"></script>
+
+    @if (session('success'))
+    <p style="color: green;">{{ session('success') }}</p>
+    @endif
     
     <button type = "submit" class="btn">支払いへ進む</button>
 </form>
