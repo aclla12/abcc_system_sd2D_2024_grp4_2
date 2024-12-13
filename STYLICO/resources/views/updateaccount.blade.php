@@ -13,10 +13,12 @@
 <h2 class="logo">STYLICO</h2>
 <h2 class="title">Update Account</h2>
 
-<!-- 成功時メッセージの表示　-->
+@if(session('success'))
+    <p style="color: green;">{{ session('success') }}</p>
+@endif
 
-@if (session('message'))
-<p>{{ session('message') }}</p>
+@if(session('error'))
+    <p style="color: red;">{{ session('error') }}</p>
 @endif
 
 <form action= {{route('home')}} method = "post">
