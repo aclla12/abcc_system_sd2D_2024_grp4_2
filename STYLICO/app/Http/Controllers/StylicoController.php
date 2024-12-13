@@ -79,10 +79,58 @@ class StylicoController extends Controller
         return view('updatepassword');
     }
 
-    // アカウント更新画面を返却
-    public function updateaccountGetView() {
+    // アカウント更新画面を表示
+    public function updateaccountGetView(int $user_id) {
 
-        return view('updateaccount');
+     $item = Account::where('user_id', $user_id)->first();
+
+     // データが見つからない場合の処理
+     if (!$item) {
+         return redirect()->back()->with('error', 'データが見つかりませんでした。');
+     }
+
+     return view('updateaccount', compact('item'));
+    }
+
+    public function updateaccountEdit(Request $request, $user_id)
+    {
+        // 入力値のバリデーション
+        $validated = $request->validate([
+            'user_id' => 'required|integer|exists:users,id', // 必須、数値、`users`テーブルに存在するID
+            'login_id' => 'required|string|max:255|unique:users,login_id', // 必須、一意、255文字以内
+            'user_pass' => 'required|string|min:8|max:255|confirmed', // 必須、8文字以上、255文字以内、パスワード確認が一致する
+            'user_name' => 'required|string|max:100', // 必須、100文字以内
+            'user_birthday' => 'required|date|before:today', // 必須、有効な日付、現在日以前
+            'user_add' => 'required|string|max:255', // 必須、255文字以内
+            'address_detail' => 'nullable|string|max:255', // 任意、255文字以内
+            'user_number' => 'required|string|digits:10', // 必須、10桁（電話番号）
+            'user_gender' => 'required|in:male,female,other', // 必須、指定された値のいずれか
+            'user_point' => 'required|integer|min:0', // 必須、整数、0以上
+        ]);
+
+        // データを取得
+        $item = Account::where('user_id', $user_id)->first();
+
+        // データが見つからない場合の処理
+        if (!$item) {
+            return redirect()->back()->with('error', 'データが見つかりませんでした。');
+        }
+
+        // データを更新
+        $item->user_id = $validated['user_id'];
+        $item->login_id = $validated['login_id'];
+        $item->user_pass = $validated['user_pass'];
+        $item->user_name = $validated['user_name'];
+        $item->user_birthday = $validated['user_bitrthday'];
+        $item->user_add = $validated['user_add'];
+        $item->address_detail = $validated['address_detail'];
+        $item->user_number = $validated['user_number'];
+        $item->user_gender = $validated['user_gender'];
+        $item->user_point = $validated['user_point'];
+        $item->save();
+
+        // 元の画面にリダイレクト
+        return redirect()->route('updateaccount', $user_id)->with('success', 'データが更新されました。');
     }
 
     public function paymentcompletedpostView() {

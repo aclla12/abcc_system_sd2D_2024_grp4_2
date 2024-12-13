@@ -26,7 +26,7 @@
 
 <li><a href="{{ route('mysize.edit') }}" method = "get" class="size">MY SIZE ▶</a></li>
 
-<li><a href="{{ route('updateaccount') }}" method = "get" class="update">UPDATE ACCOUNT</a></li>
+<li><a href="{{ route('updateaccount', $user->user_id) }}" method = "get" class="update">UPDATE ACCOUNT</a></li>
 
 <li><a href="{{ route('login')}}" method = "get" class="logout">LOGOUT</a></li>
 
